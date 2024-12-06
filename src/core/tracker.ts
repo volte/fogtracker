@@ -1,3 +1,6 @@
+import Rx from 'rxjs';
+import { produce } from 'immer';
+
 export type TrackerMetadata = Record<string, unknown>;
 
 export interface TrackerArea {
@@ -63,5 +66,27 @@ export interface TrackerState {
 }
 
 export class Tracker {
-  private _initTrackerState = () => {};
+  private _trackerStateSubject: Rx.BehaviorSubject<TrackerState>;
+
+  constructor(trackerState: TrackerState) {
+    this._trackerStateSubject = new Rx.BehaviorSubject<TrackerState>(trackerState);
+  }
+
+  public get trackerState$() {
+    return this._trackerStateSubject.asObservable();
+  }
+
+  public revealPort(portId: string, revealed: boolean) {
+    this._trackerStateSubject.next(
+      produce(this._trackerStateSubject.value, draft => {
+        const connections = draft.connections.filter(
+          connection =>
+            connection.type === 'port' && (connection.fromPortId === portId || connection.toPortId === portId)
+        );
+        for (const connection of connections) {
+          connection.revealed = revealed;
+        }
+      })
+    );
+  }
 }
