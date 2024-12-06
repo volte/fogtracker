@@ -8,7 +8,8 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@assets/*": ["./assets/*"],
     },
 
     /* Bundler mode */
