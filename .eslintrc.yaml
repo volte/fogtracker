@@ -3,10 +3,12 @@ extends:
   - plugin:@typescript-eslint/recommended
   - plugin:react/recommended
   - plugin:jest/recommended
+  - plugin:react-hooks/recommended
 parser: "@typescript-eslint/parser"
 plugins:
   - "@typescript-eslint"
   - jest
+  - react-refresh
 rules:
   no-shadow: off
   "@typescript-eslint/no-shadow":
@@ -18,8 +20,9 @@ rules:
     - warn
     - extensions:
         - .tsx
-  sort-imports: error
-  comma-dangle: error
+  comma-dangle:
+    - error
+    - always-multiline
 env:
   browser: true
   jest/globals: true

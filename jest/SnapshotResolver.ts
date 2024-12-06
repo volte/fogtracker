@@ -11,7 +11,7 @@ const snapshotResolver = {
       .slice(0, -snapshotExtension.length);
   },
 
-  testPathForConsistencyCheck: 'src/folder1/folder2/example.test.ts',
+  testPathForConsistencyCheck: 'src/folder1/folder2/example.test.ts'
 };
 
 export default snapshotResolver;
