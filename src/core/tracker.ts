@@ -1,4 +1,4 @@
-import Rx from 'rxjs';
+import * as Rx from 'rxjs';
 import { produce } from 'immer';
 
 export type TrackerMetadata = Record<string, unknown>;
@@ -33,7 +33,7 @@ export interface TrackerPort {
   id: string;
   areaId: string;
   name: string;
-  exitOnly: boolean;
+  isExitOnly: boolean;
   metadata?: TrackerMetadata;
 }
 
@@ -41,7 +41,7 @@ export interface TrackerInMapConnection {
   type: 'inMap';
   fromAreaId: string;
   toAreaId: string;
-  revealed: true;
+  isRevealed: true;
   condition?: TrackerCondition;
   metadata?: TrackerMetadata;
 }
@@ -50,13 +50,14 @@ export interface TrackerPortConnection {
   type: 'port';
   fromPortId: string;
   toPortId: string;
-  revealed: boolean;
+  isRevealed: boolean;
   metadata?: TrackerMetadata;
 }
 
 export type TrackerConnection = TrackerInMapConnection | TrackerPortConnection;
 
 export interface TrackerState {
+  isInitialized: boolean;
   flags: TrackerFlag[];
   areas: TrackerArea[];
   connections: TrackerConnection[];
@@ -66,14 +67,37 @@ export interface TrackerState {
 }
 
 export class Tracker {
-  private _trackerStateSubject: Rx.BehaviorSubject<TrackerState>;
+  public static readonly emptyState: TrackerState = {
+    isInitialized: false,
+    flags: [],
+    areas: [],
+    connections: [],
+    regions: [],
+    ports: [],
+  };
 
-  constructor(trackerState: TrackerState) {
-    this._trackerStateSubject = new Rx.BehaviorSubject<TrackerState>(trackerState);
+  private _trackerStateSubject: Rx.BehaviorSubject<TrackerState> = new Rx.BehaviorSubject<TrackerState>(
+    Tracker.emptyState
+  );
+
+  constructor() {
+    this.clear();
   }
 
   public get trackerState$() {
     return this._trackerStateSubject.asObservable();
+  }
+
+  public get trackerState() {
+    return this._trackerStateSubject.value;
+  }
+
+  public clear() {
+    this.setState(Tracker.emptyState);
+  }
+
+  public setState(trackerState: TrackerState) {
+    this._trackerStateSubject.next(trackerState);
   }
 
   public revealPort(portId: string, revealed: boolean) {
@@ -83,8 +107,9 @@ export class Tracker {
           connection =>
             connection.type === 'port' && (connection.fromPortId === portId || connection.toPortId === portId)
         );
+        console.log(connections);
         for (const connection of connections) {
-          connection.revealed = revealed;
+          connection.isRevealed = revealed;
         }
       })
     );

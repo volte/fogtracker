@@ -8,6 +8,6 @@ export interface InitializeTrackerStateOptions<GameData, CheatSheetData> {
 export interface GameDefinition {
   name: string;
   initializeTrackerState: (
-    options: InitializeTrackerStateOptions<unknown, unknown>
+    options: InitializeTrackerStateOptions<never, never>
   ) => TrackerState | Promise<TrackerState>;
 }

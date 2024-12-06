@@ -8,6 +8,7 @@
     "module": "ESNext",
     "strict": true,
     "skipLibCheck": true,
+    "esModuleInterop": true,
     "noUncheckedIndexedAccess": true,
     "paths": {
       "@/*": ["./src/*"],
@@ -25,5 +26,4 @@
     "jsx": "react-jsx"
   },
   "include": ["src"],
-
 }

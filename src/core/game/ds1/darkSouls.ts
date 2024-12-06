@@ -1,4 +1,4 @@
-import { GameDefinition, InitializeTrackerStateOptions } from '@/core/game/gameDefinition';
+import { InitializeTrackerStateOptions } from '@/core/game/gameDefinition';
 import { parseFogModCheatSheet } from '@/core/fogmodCheatSheet';
 import { parseFogModGameData } from '@/core/fogmodGameData';
 
@@ -9,10 +9,10 @@ const parseConditionString = (conditionString?: string): { flagIds: string[]; mo
     return undefined;
   }
   const flags = conditionString.split(' ');
-  if (['OR', 'AND'].includes(flags[0])) {
+  if (['OR', 'AND'].includes(flags[0]!)) {
     return {
       flagIds: flags.slice(1),
-      mode: flags[0].toLowerCase() as 'and' | 'or',
+      mode: flags[0]!.toLowerCase() as 'and' | 'or',
     };
   }
   return {
@@ -21,9 +21,9 @@ const parseConditionString = (conditionString?: string): { flagIds: string[]; mo
   };
 };
 
-export class DarkSoulsGameDefinition implements GameDefinition {
-  readonly name = 'Dark Souls';
-  initializeTrackerState = async (options: InitializeTrackerStateOptions<string, string>): Promise<TrackerState> => {
+export const darkSoulsGameDefinition = {
+  name: 'Dark Souls',
+  initializeTrackerState: async (options: InitializeTrackerStateOptions<string, string>): Promise<TrackerState> => {
     const gameData = parseFogModGameData(options.gameData);
     const cheatSheetData = parseFogModCheatSheet(options.cheatSheetData);
 
@@ -36,10 +36,11 @@ export class DarkSoulsGameDefinition implements GameDefinition {
     const getPortNameKey = ({ areaName, entrance }: { areaName: string; entrance: string }) =>
       `${areaName}:${entrance}`;
 
-    const regions = gameData.Regions?.map(region => ({
-      id: region.ID,
-      name: region.Name,
-    }));
+    const regions =
+      gameData.Regions?.map(region => ({
+        id: region.ID,
+        name: region.Name,
+      })) || [];
 
     for (const flag of gameData.Options) {
       const flagId = flag.Opt || flag.TrueOpt;
@@ -62,7 +63,7 @@ export class DarkSoulsGameDefinition implements GameDefinition {
         connections.push({
           fromAreaId: area.Name,
           toAreaId: areaTo.Area,
-          revealed: true,
+          isRevealed: true,
           condition: parseConditionString(areaTo.Cond),
           type: 'inMap',
         });
@@ -70,7 +71,7 @@ export class DarkSoulsGameDefinition implements GameDefinition {
           connections.push({
             fromAreaId: areaTo.Area,
             toAreaId: area.Name,
-            revealed: true,
+            isRevealed: true,
             condition: parseConditionString(areaTo.Cond),
             type: 'inMap',
           });
@@ -93,13 +94,13 @@ export class DarkSoulsGameDefinition implements GameDefinition {
         id: `${entrance.ID}_A`,
         areaId: entrance.ASide.Area,
         name: aSideAreaInfo?.EntranceInfo?.[entrance.ID]?.Name || entrance.Text,
-        exitOnly: false,
+        isExitOnly: false,
       });
       ports.push({
         id: `${entrance.ID}_B`,
         areaId: entrance.BSide.Area,
         name: bSideAreaInfo?.EntranceInfo?.[entrance.ID]?.Name || entrance.Text,
-        exitOnly: false,
+        isExitOnly: false,
       });
       portNameToIdMap.set(
         getPortNameKey({ areaName: entrance.ASide.Area, entrance: entrance.Text }),
@@ -112,19 +113,22 @@ export class DarkSoulsGameDefinition implements GameDefinition {
     }
 
     for (const warp of gameData.Warps || []) {
+      if (!warp.ASide || !warp.BSide) {
+        continue;
+      }
       const aSideAreaInfo = gameData.AreaInfo?.[warp.ASide.Area];
       const bSideAreaInfo = gameData.AreaInfo?.[warp.BSide.Area];
       ports.push({
         id: `${warp.ID}_A`,
         areaId: warp.ASide.Area,
         name: aSideAreaInfo?.WarpInfo?.[warp.ID]?.Name || warp.Text,
-        exitOnly: false,
+        isExitOnly: false,
       });
       ports.push({
         id: `${warp.ID}_B`,
         areaId: warp.BSide.Area,
         name: bSideAreaInfo?.WarpInfo?.[warp.ID]?.Name || warp.Text,
-        exitOnly: true,
+        isExitOnly: true,
       });
       portNameToIdMap.set(getPortNameKey({ areaName: warp.ASide.Area, entrance: warp.Text }), `${warp.ID}_A`);
       portNameToIdMap.set(getPortNameKey({ areaName: warp.BSide.Area, entrance: warp.Text }), `${warp.ID}_B`);
@@ -138,41 +142,49 @@ export class DarkSoulsGameDefinition implements GameDefinition {
       const toPortId = portNameToIdMap.get(
         getPortNameKey({ areaName: connection.toArea, entrance: connection.toEntrance })
       );
+
+      if (!fromPortId || !toPortId) {
+        console.warn('Could not find port for connection:', connection.originalLine);
+        continue;
+      }
+
       const fromPort = ports.find(port => port.id === fromPortId);
       const toPort = ports.find(port => port.id === toPortId);
 
-      if (fromPort && toPort) {
+      if (!fromPort || !toPort) {
+        console.warn('Could not find port for connection:', connection.originalLine);
+        continue;
+      }
+
+      connections.push({
+        fromPortId,
+        toPortId,
+        isRevealed: false,
+        type: 'port',
+        metadata: {
+          comment: connection.originalLine,
+        },
+      });
+      if (!toPort.isExitOnly) {
         connections.push({
-          fromPortId,
-          toPortId,
-          revealed: false,
+          fromPortId: toPortId,
+          toPortId: fromPortId,
+          isRevealed: false,
           type: 'port',
           metadata: {
             comment: connection.originalLine,
           },
         });
-        if (!toPort.exitOnly) {
-          connections.push({
-            fromPortId: toPortId,
-            toPortId: fromPortId,
-            revealed: false,
-            type: 'port',
-            metadata: {
-              comment: connection.originalLine,
-            },
-          });
-        }
-      } else {
-        console.warn('Could not find port for connection:', connection.originalLine);
       }
     }
 
     return {
+      isInitialized: true,
       flags,
       regions,
       areas,
       connections,
       ports,
     };
-  };
-}
+  },
+};
