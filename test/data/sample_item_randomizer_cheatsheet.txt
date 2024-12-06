@@ -1,0 +1,1925 @@
+(1010) -- Seigmeyer of Catarina gift in Anor Londo
+    Pierce Shield (100.00%)
+(1040) -- Seigmeyer of Catarina gift in Blighttown
+    Lord's Blade Waistcloth (100.00%)
+    Golem Helm (100.00%)
+(1050) -- Seigmeyer of Catarina gift in Lost Izalith if questline failed (and drop #1)
+    Divine Blessing (100.00%)
+(1060) -- Seigmeyer of Catarina gift in Firelink Shrine
+    Blood-Stained Skirt (100.00%)
+(1090) -- Gift from Gwynevere in Anor Londo
+    Lordvessel (100.00%)
+(1100) -- Ingward gift in New Londo Ruins (and drop)
+    Heavy Bolt x11 (100.00%)
+    Crown of the Dark Sun (100.00%)
+(1110) -- Laurentius gift in Firelink Shrine (if player is not a Pyromancer)
+    Priest's Hat (100.00%)
+(1120) -- Covenant reward for joining the Warriors of Sunlight (may not be given if player has Miracle: Lightning Spear)
+    Hawk Ring (100.00%)
+    Giant Gauntlets (100.00%)
+(1140) -- Petrus of Thorolund gift in Firelink Shrine
+    Gold Coin x3 (100.00%)
+    Sorcery: Homing Soulmass (100.00%)
+(1150) -- Lautrec of Carim gift in Firelink Shrine if freed in Undead Parish
+    Dragon Scale (100.00%)
+(1160) -- Covenant reward for joining the Forest Hunters (may not be given if player has Cat Covenant Ring)
+    Hello Carving (100.00%)
+    Armor of Artorias (100.00%)
+(1190) -- Patches gift in Catacombs if first spoken to after attempting to cross the trapped bridge
+    Witch Cloak (100.00%)
+(1200) -- Patches gift in Catacombs if first spoken to before attempting to cross the trapped bridge, returning and responding 'Yes'
+    Copper Coin x2 (100.00%)
+    Soul Spear (100.00%)
+(1210) -- Rhea of Thorolund gift in Tomb of the Giants after defeating Vince and Nico
+    Homeward Bone (100.00%)
+    Miracle: Heal (100.00%)
+(1220) -- Covenant reward for joining the Gravelord Servants (may not be given if player has Gravelord Sword)
+    Iron Bracelet (100.00%)
+(1240) -- Patches gift in Tomb of the Giants if you respond 'No' to his question after he pushes you into the pit
+    Blooming Purple Moss Clump x2 (100.00%)
+(1250) -- Seiglinde of Catarina gift in Ash Lake after completing her questline
+    Crystalline Armor (100.00%)
+(1260) -- Covenant reward for joining the Path of the Dragon (may not be given if player has Dragon Eye)
+    White Titanite Chunk (100.00%)
+(1280) -- Eingyi gift while infected with the Egg Parasite
+    Chain Armor (100.00%)
+(1290) -- Eignyi gift after infected with the Egg Parasite, if INT is 11 or more
+    Purging Stone (100.00%)
+    Mask of the Father (100.00%)
+(1300) -- Quelana of Izalith gift after defeating Bed of Chaos (and drop)
+    Purging Stone x2 (100.00%)
+(1310) -- Covenant reward for joining the Chaos Servants (may not be given if player has Pyromancy: Great Chaos Fireball)
+    Zweihander (100.00%)
+    Homeward (100.00%)
+(1350) -- Covenant reward for joining the Princess's Guard (may not be given if player has Ring of the Sun Princess)
+    Titanite Shard x2 (100.00%)
+    Pyromancy: Fireball (100.00%)
+(1360) -- Covenant reward for joining the Blades of the Darkmoon (may not be given if player has Blue Eye Orb)
+    Fang Boar Helm (100.00%)
+(1380) -- Covenant reward for joining the Darkwraiths (may not be given if player has Dark Hand)
+    Ivory Talisman (100.00%)
+(1500) -- Lord's Blade Ciaran gift in exchange for Soul of Artorias (and drop #1)
+    Green Titanite Shard x4 (100.00%)
+(1510) -- Hawkeye Gough gift after defeating Kalameet (and drop #1)
+    Fire Arrow x21 (100.00%)
+(1520) -- Elizabeth gift after defeating Manus (and drop)
+    Demon Titanite (100.00%)
+(2031) -- Anastasia's Corpse
+    Poison Throwing Knife x8 (100.00%)
+(2200) -- Reward for entering the Battle of Stoicism (not given if player has Purple Coward's Crystal)
+    Havel's Armor (100.00%)
+(2500) -- Gaping Dragon Boss Drop
+    Elite Knight Gauntlets (100.00%)
+    Smough's Armor (100.00%)
+(2510) -- Capra Demon Boss Drop
+    White Seance Ring (100.00%)
+(2520) -- Crossbreed Priscilla Boss Drop
+    Humanity (100.00%)
+(2530) -- Moonlight Butterfly Boss Drop
+    Titanite Chunk (100.00%)
+(2540) -- Great Grey Wolf Sif Boss Drop
+    Speckled Stoneplate Ring (100.00%)
+    Longsword (100.00%)
+(2550) -- Pinwheel Boss Drop #1
+    Titanite Slab (100.00%)
+    Velka's Talisman (100.00%)
+(2560) -- Gravelord Nito Boss Drop
+    Rotten Pine Resin x2 (100.00%)
+    Sorcery: Heavy Soul Arrow (100.00%)
+(2570) -- Chaos Witch Quelaag Boss Drop
+    Chain Leggings (100.00%)
+    Golem Gauntlets (100.00%)
+(2580) -- Bed of Chaos Boss Drop
+    Dried Finger (100.00%)
+    Great Combustion (100.00%)
+(2590) -- Iron Golem Boss Drop
+    Cage Key (100.00%)
+(2600) -- Dark Sun Gwyndolin Boss Drop
+    Basement Key (100.00%)
+(2610) -- Dragonslayer Ornstein and Executioner Smough shared Boss Drop
+    Uchigatana (100.00%)
+(2611) -- Dragonslayer Ornstein Boss Drop (only if killed last)
+    I'm sorry Carving (100.00%)
+(2621) -- Executioner Smough Boss Drop (only if killed last)
+    Witch Gloves (100.00%)
+    Bastard Sword (100.00%)
+(2630) -- Four Kings Boss Drop #1
+    Armor of Thorns (100.00%)
+(2640) -- Seath the Scaleless Boss Drop
+    Paladin Leggings (100.00%)
+    Sorcery: Magic Shield (100.00%)
+(2650) -- Gwyn, Lord of Cinder Boss Drop
+    Fire Keeper Soul (100.00%)
+(2661) -- Asylum Demon Boss Drop (only if killed on initial encounter)
+    Pyromancy: Power Within (100.00%)
+(2670) -- Centipede Demon Boss Drop (and tail/arm-cut)
+    Broken Pendant (100.00%)
+    Mask of the Child (100.00%)
+(2680) -- Sanctuary Guardian Boss Drop
+    Titanite Shard (100.00%)
+    Sorcery: Great Soul Arrow (100.00%)
+(2690) -- Knight Artorias Boss Drop
+    Wanderer Boots (100.00%)
+    Cleric Helm (100.00%)
+(2700) -- Manus, Father of the Abyss Boss Drop #1
+    Dingy Hood (100.00%)
+(2710) -- Kalameet Boss Drop
+    Crescent Axe (100.00%)
+(3000) -- Snuggly the Crow trade for Cracked Red Eye Orb
+    Helm of Favor (100.00%)
+(3010) -- Snuggly the Crow trade for Bloodred Moss Clump
+    Fire Keeper Soul (100.00%)
+(3020) -- Snuggly the Crow trade for Purple Moss Clump
+    Guardian Tail (100.00%)
+(3030) -- Snuggly the Crow trade for Blooming Purple Moss Clump
+    Egg Vermifuge x2 (100.00%)
+(3040) -- Snuggly the Crow trade for Egg Vermifuge
+    Gargoyle Tail Axe (100.00%)
+(3050) -- Snuggly the Crow trade for Dung Pie
+    Sorcery: Hush (100.00%)
+(3060) -- Snuggly the Crow trade for Humanity
+    Dragon Scale (100.00%)
+(3070) -- Snuggly the Crow trade for Prism Stone
+    Blue Titanite Chunk (100.00%)
+(3080) -- Snuggly the Crow trade for Sunlight Medal
+    Stone Helm (100.00%)
+(3090) -- Snuggly the Crow trade for Pendant
+    Red Titanite Slab (100.00%)
+(3100) -- Snuggly the Crow trade for Rubbish
+    Purple Moss Clump x4 (100.00%)
+(3120) -- Snuggly the Crow trade for Twin Humanities
+    Balder Shield (100.00%)
+(3130) -- Snuggly the Crow trade for Pyromancy Flame +0
+    Red Titanite Chunk (100.00%)
+(3140) -- Snuggly the Crow trade for ascended Pyromancy Flame +0
+    Brass Helm (100.00%)
+(3150) -- Snuggly the Crow trade for Skull Lantern
+    Repair Powder x2 (100.00%)
+(3160) -- Snuggly the Crow trade for Sunlight Maggot
+    Large Arrow x36 (100.00%)
+(3170) -- Snuggly the Crow trade for Xanthous Crown
+    Robe of the Channelers (100.00%)
+(3180) -- Snuggly the Crow trade for Sack
+    Elite Knight Armor (100.00%)
+(3190) -- Snuggly the Crow trade for Ring of the Sun Princess
+    Humanity x2 (100.00%)
+(3200) -- Snuggly the Crow trade for Soul of Manus
+    Twinkling Titanite (100.00%)
+(6001) -- Solaire of Astora drop
+    Pyromancy: Fire Surge (100.00%)
+(6010) -- Lady of the Darkmoon drop
+    Gough's Helm (100.00%)
+(6040) -- Griggs of Vinheim drop
+    Humanity x3 (100.00%)
+    Divine Blessing (100.00%)
+(6070) -- Rhea of Thorolund drop if killed by the player
+    Dragon Tooth (100.00%)
+(6071) -- Rhea of Thorolund drop in Undead Parish if killed by Petrus of Thorolund
+    Twin Humanities (100.00%)
+(6072) -- Rhea of Thorolund additional drop if killed by anyone
+    Black Iron Helm (100.00%)
+(6080) -- Petrus of Thorolund drop if he has killed Rhea of Thorolund
+    Fire Arrow x48 (100.00%)
+(6081) -- Petrus of Thorolund drop
+    White Titanite Chunk (100.00%)
+(6190) -- Andre of Astora shop item (and drop #1)
+    Humanity (100.00%)
+(6191) -- Andre of Astora drop #2
+    Dragon Head Stone (100.00%)
+    Dragon Eye (100.00%)
+(6230) -- Undead Merchant shop item (and drop #1)
+    Blue Tearstone Ring (100.00%)
+(6231) -- Undead Merchant shop item (and drop #2)
+    Green Titanite Shard (100.00%)
+(6232) -- Undead Merchant drop #3
+    Bottomless Box (100.00%)
+(6233) -- Undead Merchant shop item (and drop #4)
+    Large Arrow x13 (100.00%)
+(6281) -- Seigmeyer of Catarina drop #2
+    Steel Armor (100.00%)
+    Thorolund Talisman (100.00%)
+(6300) -- Lautrec of Carim drop
+    Tin Crystallization Ctlyst. (100.00%)
+(6310) -- Shiva of the East drop
+    Stone Armor (100.00%)
+(6320) -- Patches drop
+    Hornet Ring (100.00%)
+(6371) -- Oswald of Carim drop
+    Crystalline Helm (100.00%)
+(6420) -- Shiva of the East's ninja bodyguard drop
+    Wooden Shield (100.00%)
+    Miracle: Force (100.00%)
+(6530) -- Maneater Mildred drop
+    Rare Ring of Sacrifice (100.00%)
+    Pyromancy: Poison Mist (100.00%)
+(6550) -- Paladin Leeroy drop
+    Blue Titanite Chunk (100.00%)
+    Smough's Helm (100.00%)
+(6560) -- Kirk, Knight of Thorns drop #1
+    None (67.00%), Poison Throwing Knife x5 (33.00%) --> (100%) if 3rd
+(6561) -- Kirk, Knight of Thorns drop #2
+    None (67.00%), Miracle: Sunlight Blade (33.00%) --> (100%) if 3rd
+(6570) -- Xanthous King Jeremiah drop
+    Black Sorcerer Hat (100.00%)
+(6580) -- Havel the Rock drop
+    Catarina Gauntlets (100.00%)
+(6600) -- Undead Prince Ricard drop
+    Dusk Crown Ring (100.00%)
+(6620) -- Daughter of Chaos (in Lost Izalith) drop
+    Wanderer Hood (100.00%)
+(6741) -- Lord's Blade Ciaran drop #2
+    White Titanite Slab (100.00%)
+    Ring of Sacrifice x10 (100.00%)
+(7020) -- Hollow Knight Oscar of Astora Drop
+    Gold Coin (100.00%)
+(7030) -- Big Hat Logan drop (after hollowing in Duke's Archives)
+    Crystal Knight Shield (100.00%)
+(8000) -- Pharis the Archer (in Darkroot Garden) Drop
+    Sunlight Straight Sword (100.00%)
+(9010) -- Four Kings Boss Drop #2
+    Humanity x4 (100.00%)
+(9040) -- Manus, Father of the Abyss Boss Drop #2
+    Humanity x2 (100.00%)
+(1000000) -- Depths - Hidden in passage near Basilisks. Jump over gap.
+    Humanity (100.00%)
+(1000010) -- Depths - On the ground as you approach the Channeler's fog wall.
+    Orange Charred Ring (100.00%)
+(1000020) -- Depths - Surrounded by 5 rats; just after the locked bonfire room.
+    Shotel (100.00%)
+(1000030) -- Depths - In the flooded room. A Slime will fall on you.
+    Heavy Bolt x41 (100.00%)
+(1000040) -- Depths - In the room with the two hollows before the torch hollow area.
+    Humanity (100.00%)
+(1000050) -- Depths - In the corner of the room with many curse statues.
+    Sorcery: Great Magic Weapon (100.00%)
+(1000090) -- Depths - Above the Giant Rat area; fall down the chute by the Butcher.
+    Green Blossom x2 (100.00%)
+    Smough's Gauntlets (100.00%)
+(1000100) -- Depths - Near the Channeler, hidden in a side area past the two rats in crates.
+    Antiquated Skirt (100.00%)
+    Smough's Leggings (100.00%)
+(1000120) -- Depths - On the ground in the side passage to the Giant Rat area.
+    Standard Bolt x21 (100.00%)
+(1000140) -- Depths - In the corner of the Giant Rat area.
+    Scythe (100.00%)
+    Sorcery: Repair (100.00%)
+(1000170) -- Depths - Hidden room near Basilisks.
+    Havel's Gauntlets (100.00%)
+(1000180) -- Depths - On the ground in passage after approaching the pair of Basilisks behind bars.
+    Knight Shield (100.00%)
+    Helm of Artorias (100.00%)
+(1000190) -- Depths - Hidden in corner right before Gaping Dragon boss arena.
+    Black Sorcerer Boots (100.00%)
+(1000210) -- Depths - On the ground in the Gaping Dragon boss arena.
+    Pyromancy Flame (100.00%)
+(1000240) -- Depths - Leaning against the bars in the Giant Rat area.
+    Standard Arrow x19 (100.00%)
+(1000500) -- Depths - Chest near the Butcher.
+    Leather Armor (100.00%)
+(1010000) -- Undead Parish - In corner of lower floor of room with fog wall.
+    Gold Pine Resin x2 (100.00%)
+    Cleric Gauntlets (100.00%)
+(1010020) -- Lower Undead Burg - In side room of first ambush area.
+    Chester's Trousers (100.00%)
+    Sorcery: Great Soul Arrow (100.00%)
+(1010040) -- Undead Parish - Upper floor of church, down long passage.
+    Cat Covenant Ring (100.00%)
+(1010050) -- Undead Parish - On altar of church.
+    Homeward Bone (100.00%)
+    Watchtower Basement Key (100.00%)
+(1010070) -- Undead Burg - On small ledge near start of area, by breakable barrels.
+    Dung Pie (100.00%)
+(1010080) -- Undead Burg - On ground near hanging hollow ambush.
+    Green Blossom x2 (100.00%)
+(1010090) -- Undead Burg - On ledge outside room after jumping from roof of building.
+    Blue Eye Orb (100.00%)
+    Darkmoon Blade Covenant Ring (100.00%)
+(1010100) -- Undead Burg - At end of walkway after climbing ladder near start of area.
+    Leather Gloves (100.00%)
+(1010120) -- Undead Burg - On roof, reached by ladder after Undead Merchant.
+    Black Cleric Robe (100.00%)
+(1010130) -- Undead Burg - On ledge behind unlocked door near first bonfire.
+    Poison Arrow x50 (100.00%)
+(1010140) -- Undead Parish - On ground near portcullis.
+    Transient Curse x2 (100.00%)
+(1010160) -- Undead Burg - Guarded by Black Knight
+    Waistcloth of the Channelers (100.00%)
+(1010210) -- Undead Burg - On bridge guarded by Hellkite Dragon.
+    Skull Lantern (100.00%)
+(1010220) -- Undead Burg - On bridge guarded by Hellkite Dragon.
+    Eye of Death x3 (100.00%)
+    Pyromancy: Great Fireball (100.00%)
+(1010260) -- Undead Parish - On walkway with archers overlooking bonfire.
+    Titanite Shard (100.00%)
+    Pyromancy: Fire Whip (100.00%)
+(1010280) -- Undead Parish - On rafter in room with fog wall.
+    Greataxe (100.00%)
+    Fire Orb (100.00%)
+(1010300) -- Undead Parish - In small side area guarded by Balder Knight
+    Crystalline Leggings (100.00%)
+    Great Heal Excerpt (100.00%)
+(1010370) -- Lower Undead Burg - On corpse in barrel in alcove just before second ambush area.
+    Rapier (100.00%)
+(1010380) -- Lower Undead Burg - In side room of second ambush area.
+    Heavy Crossbow (100.00%)
+    Demon's Greataxe (100.00%)
+(1010400) -- Undead Burg - In hidden side room near start of area.
+    Fire Arrow x38 (100.00%)
+(1010430) -- Lower Undead Burg - Near door to the Depths.
+    Sniper Bolt x31 (100.00%)
+(1010440) -- Undead Burg - Behind stairs of room with fog wall near start of area.
+    Purple Moss Clump x3 (100.00%)
+(1010450) -- Undead Burg - In chest in room under firebomb throwers.
+    Key to New Londo Ruins (100.00%)
+(1010460) -- Undead Burg - In chest overlooking stairs to watchtower.
+    Gold Coin (100.00%)
+    Sorcery: Soul Arrow (100.00%)
+(1010470) -- Undead Burg - Near firebomb throwers.
+    Copper Coin (100.00%)
+    Indictment (100.00%)
+(1010480) -- Undead Burg - In crate after Taurus Demon
+    Club (100.00%)
+(1010490) -- Lower Undead Burg - Near cluster of torch hollows.
+    Black Knight Greataxe (100.00%)
+(1010500) -- Undead Parish - In side room of upper floor of church.
+    Homeward Bone (100.00%)
+(1010510) -- Lower Undead Burg - In locked room with Griggs.
+    Large Titanite Shard (100.00%)
+(1010520) -- Undead Parish - Outside front entrance to the church.
+    Pharis's Hat (100.00%)
+(1020000) -- Firelink Shrine - On corpse in well near bonfire.
+    Titanite Chunk (100.00%)
+(1020010) -- Firelink Shrine - In graveyard to the left as you enter.
+    Demon Titanite x2 (100.00%)
+    Pyromancy: Combustion (100.00%)
+(1020020) -- Firelink Shrine - In graveyard, in small circle of gravestones near edge.
+    Soul of Gwyn, Lord of Cinder (100.00%)
+(1020030) -- Firelink Shrine - Near middle of graveyard.
+    Cursebite Ring (100.00%)
+    Miracle: Magic Barrier (100.00%)
+(1020040) -- Firelink Shrine - On ledge on the outside of the aqueduct.
+    Logan's Catalyst (100.00%)
+(1020050) -- Firelink Shrine - On ledge above water area.
+    Twinkling Titanite (100.00%)
+(1020060) -- Firelink Shrine - On ledge near elevator.
+    Large Titanite Shard x2 (100.00%)
+(1020070) -- Firelink Shrine - In chest at edge of cliff above graveyard.
+    Large Magic Ember (100.00%)
+    Stone Greatsword (100.00%)
+(1020090) -- Firelink Shrine - Hidden in corner near graveyard stairs.
+    Ricard's Rapier (100.00%)
+(1020110) -- Firelink Shrine - In side passage near stairs to aqueduct.
+    Homeward Bone (100.00%)
+(1020120) -- Firelink Shrine - On cliff before stairs to aqueduct.
+    Black Leather Boots (100.00%)
+(1020130) -- Firelink Shrine - On bridge underneath aqueduct.
+    Fire Keeper Soul (100.00%)
+(1020140) -- Firelink Shrine - At end of aqueduct near rat.
+    Very Large Ember (100.00%)
+(1020150) -- Firelink Shrine - Near large group of skeletons in graveyard.
+    Standard Helm (100.00%)
+(1020160) -- Firelink Shrine - Near group of skeletons in graveyard.
+    Sunlight Medal x3 (100.00%)
+(1020170) -- Firelink Shrine - On cliff at the end of graveyard.
+    Green Titanite Shard x2 (100.00%)
+    Tower Kite Shield (100.00%)
+(1020180) -- Firelink Shrine - In middle chest in secret area below elevator.
+    Dragon Crest Shield (100.00%)
+(1020190) -- Firelink Shrine - In rightmost chest in secret area below elevator.
+    Twin Humanities (100.00%)
+    Sorcerer's Catalyst (100.00%)
+(1020200) -- Firelink Shrine - In leftmost chest in secret area below elevator.
+    Astora's Straight Sword (100.00%)
+(1020210) -- Firelink Shrine - On top of roof. Use elevator to access.
+    Purging Stone x2 (100.00%)
+(1100010) -- Painted World - On stairs near beginning of area.
+    Moonlight Arrow x36 (100.00%)
+    Pyromancy: Flash Sweat (100.00%)
+(1100020) -- Painted World - On small balcony of first building in area.
+    Repair Powder x2 (100.00%)
+(1100030) -- Painted World - In basement of first building in area.
+    Egg Vermifuge (100.00%)
+(1100040) -- Painted World - On ledge near archers, guarded by hanging hollow.
+    Weapon Smithbox (100.00%)
+(1100060) -- Painted World - On circular room ledge, accessed from the annex.
+    Standard Bolt x16 (100.00%)
+(1100070) -- Painted World - On upper floor of second building in area.
+    Gough's Great Arrow x8 (100.00%)
+    Ornstein's Helm (100.00%)
+(1100090) -- Painted World - On roof of building in annex, guarded by Crow Demons.
+    Humanity (100.00%)
+(1100100) -- Painted World - On ledge in basement of second building in area. Jump from the path behind the breakable boards in the annex to reach.
+    Green Titanite Shard x5 (100.00%)
+(1100120) -- Painted World - In center of large underground area, with Bonewheel Skeletons.
+    Prism Stone x20 (100.00%)
+(1100130) -- Painted World - In large underground area near illusory wall.
+    Large Arrow x27 (100.00%)
+    Sorcery: Heavy Soul Arrow (100.00%)
+(1100140) -- Painted World - At end of underground passages, guarded by a Bonewheel Skeleton.
+    Purple Coward's Crystal (100.00%)
+(1100150) -- Painted World - Appears at end of area if Xanthous King Jeremiah has been defeated.
+    Humanity x3 (100.00%)
+(1100160) -- Painted World - On small ledge overlooking main courtyard, accessible from stairs in courtyard.
+    Purging Stone x2 (100.00%)
+(1100170) -- Painted World - Hidden in corner of main courtyard, left of exit to circular room.
+    Black Flame (100.00%)
+    Oolacile Ivory Catalyst (100.00%)
+(1100190) -- Painted World - Hidden in corner of side area.
+    Feather Arrow x47 (100.00%)
+(1100200) -- Painted World - Far item on bridge guarded by Undead Dragon.
+    Gough's Great Arrow x3 (100.00%)
+(1100210) -- Painted World - Near item on bridge guarded by Undead Dragon.
+    Chaos Flame Ember (100.00%)
+(1100230) -- Painted World - On a corpse hanging from rope in corner of main courtyard. Cut rope to access.
+    Fire Arrow x32 (100.00%)
+(1100240) -- Painted World - On a corpse hanging from rope at start of area. Cut rope to access.
+    Divine Blessing x2 (100.00%)
+    Caestus (100.00%)
+(1100250) -- Painted World - On upper floor of second building in area.
+    Humanity (100.00%)
+(1100260) -- Painted World - On roof of first building in area.
+    Crimson Robe (100.00%)
+(1100280) -- Painted World - Near cliff in side area.
+    Green Titanite Shard x2 (100.00%)
+(1100290) -- Painted World - On walkway above main door. Guarded by hanging hollows.
+    Shadow Leggings (100.00%)
+(1100300) -- Painted World - On cliff in side area.
+    Twinkling Titanite (100.00%)
+    Golem Armor (100.00%)
+(1100310) -- Painted World - On cliff in side area.
+    Holy Robe (100.00%)
+    Twin Humanities (100.00%)
+(1100320) -- Painted World - Hidden behind breakable boards in the annex.
+    Guardian Armor (100.00%)
+    Eye of Death x3 (100.00%)
+(1100330) -- Painted World - At top of broken circular path in circular room.
+    Throwing Knife x9 (100.00%)
+(1100340) -- Painted World - Hidden in corner of area near outside of circular tower. Area must be fallen into.
+    Blue Titanite Chunk (100.00%)
+(1100350) -- Painted World - On ledge underneath broken circular path in circular room.
+    Brass Armor (100.00%)
+    Gold Pine Resin x3 (100.00%)
+(1100370) -- Painted World - In large open area in annex.
+    Homeward Bone (100.00%)
+    Bellowing Dragoncrest Ring (100.00%)
+(1100500) -- Painted World - In exterior basement area below second building in area.
+    Porcelain Mask (100.00%)
+    Ornstein's Armor (100.00%)
+(1200010) -- Darkroot Garden - Lower section, at the base of a tree in a side passage.
+    Lightning Bolt x32 (100.00%)
+    Battle Axe (100.00%)
+(1200020) -- Darkroot Basin - On a ledge near the switchback leading from the Basin into the Garden.
+    Knight Leggings (100.00%)
+(1200030) -- Darkroot Garden - Behind a rock on the thin path between the bonfire and Undead Parish.
+    Dagger (100.00%)
+    Armor of the Glorious (100.00%)
+(1200040) -- Darkroot Basin - In the center of the large area leading to the Hydra.
+    Large Titanite Shard (100.00%)
+(1200060) -- Darkroot Garden - On a ledge overlooking the thin path between the bonfire and Undead Parish. Accessible from the lower Garden.
+    Silver Coin x3 (100.00%)
+    Demon Great Machete (100.00%)
+(1200070) -- Darkroot Garden - Surrounded by a group of enemies in the lower Garden.
+    Large Titanite Shard x3 (100.00%)
+    Robe of the Great Lord (100.00%)
+(1200080) -- Darkroot Garden - In a far corner of the upper Garden.
+    Brigand Trousers (100.00%)
+(1200120) -- Darkroot Garden - In the upper Garden, just before the Giant Felines.
+    Divine Blessing (100.00%)
+(1200140) -- Darkroot Garden - At the top of the crumbling ruins accessed from the Moonlight Butterfly arena.
+    Dragonslayer Arrow x5 (100.00%)
+(1200141) -- Darkroot Garden - At the top of the crumbling ruins accessed from the Moonlight Butterfly arena.
+    Demon Titanite (100.00%)
+(1200142) -- Darkroot Garden - At the top of the crumbling ruins accessed from the Moonlight Butterfly arena.
+    Bequeathed Lord Soul Shard (100.00%)
+(1200150) -- Darkroot Basin - At the far end of the flooded basin; summon Dusk of Oolacile to make this item appear.
+    Charcoal Pine Resin x2 (100.00%)
+    Crystal Shield (100.00%)
+(1200160) -- Darkroot Garden - Behind the large gravestone in Sif's arena.
+    Embraced Armor of Favor (100.00%)
+(1200170) -- Darkroot Garden - In the small circular room on the path from the upper Garden to the lower Garden.
+    Dragon Scale (100.00%)
+(1200180) -- Darkroot Garden - Hidden in a corner near the ledge in the lower Garden.
+    Elite Knight Helm (100.00%)
+(1200190) -- Darkroot Basin - On a ledge accessible from the Basin by climbing a long ladder.
+    Humanity (100.00%)
+(1200200) -- Darkroot Basin - At the bottom of the switchback leading from the Basin into the Garden.
+    Twinkling Titanite (100.00%)
+(1200210) -- Darkroot Basin - Near Dusk of Oolacile's summon sign.
+    Large Titanite Shard (100.00%)
+    Gauntlets of Artorias (100.00%)
+(1200500) -- Darkroot Garden - In the center of a pool of water in the upper Garden, surrounded by Mushroom People.
+    Titanite Catch Pole (100.00%)
+(1200510) -- Darkroot Garden - Behind the tower leading from Alvina to the large area preceding Sif's arena.
+    Soul of Quelaag (100.00%)
+(1210010) -- Oolacile Sanctuary - Behind some rubble at little ways from the bonfire.
+    Xanthous Waistcloth (100.00%)
+(1210020) -- Royal Wood - Behind the elevator tower protected by several enemies.
+    Maiden Robe (100.00%)
+    Shotel (100.00%)
+(1210030) -- Royal Wood - On the ledge near several Scarecrows clipping trees. Picking this item up will attract the attention of the Scarecrows.
+    Gold Pine Resin x2 (100.00%)
+(1210040) -- Royal Wood - On the edge of the clearing just before the bridge where Kalameet appears.
+    Gold Pine Resin x3 (100.00%)
+(1210050) -- Royal Wood - On a ledge overlooking the bridge where Kalameet appears.
+    Gravelord Sword (100.00%)
+(1210060) -- Royal Wood - Up a side path after dropping down from a large slope protected by a couple of Scarecrows.
+    Gargoyle's Shield (100.00%)
+(1210070) -- Royal Wood - Over a gap in the side of the area. A careful jump is required.
+    Standard Bolt x50 (100.00%)
+    Humanity x13 (100.00%)
+(1210080) -- Royal Wood - In a small clearing near the ledge overlooking the bridge where Kalameet appears.
+    Key to Depths (100.00%)
+(1210090) -- Royal Wood - On a ledge that looks into the chasm between the two halves of the Wood.
+    Grant (100.00%)
+    Gauntlets of the Vanquisher (100.00%)
+(1210110) -- Oolacile Township - On the roof after the first bonfire.
+    Dung Pie (100.00%)
+    Sorcery: Great Heavy Soul Arrow (100.00%)
+(1210160) -- Oolacile Township - On a ledge on the outside of a crumbling house.
+    Sewer Chamber Key (100.00%)
+    Magic Weapon (100.00%)
+(1210190) -- Oolacile Township - On the stairs leading nowhere on the outside of the large corrupted house.
+    Gough's Leggings (100.00%)
+(1210210) -- Oolacile Township - In the first room of the large corrupted house.
+    Humanity (100.00%)
+(1210220) -- Royal Wood - On the ground in the center of Kalameet's arena.
+    Miracle: Soothing Sunlight (100.00%)
+(1210230) -- Royal Wood - On the ground in the center of Kalameet's arena.
+    Short Bow (100.00%)
+(1210240) -- Royal Wood - On the ground in the center of Kalameet's arena.
+    Covetous Silver Serpent Ring (100.00%)
+(1210250) -- Royal Wood - At the edge of Kalameet's arena, overlooking a chasm.
+    Gauntlets of the Channelers (100.00%)
+(1210260) -- Oolacile Township - In a side room on the roof of a large building.
+    Spider Shield (100.00%)
+    Magic Weapon (100.00%)
+(1210270) -- Chasm of the Abyss - In the first open area, behind a group of enemies.
+    Red Tearstone Ring (100.00%)
+(1210280) -- Chasm of the Abyss - At the end of a thin ledge with several Humanity Sprites.
+    Brigand Hood (100.00%)
+    Sorcery: Fall Control (100.00%)
+(1210290) -- Chasm of the Abyss - Down the ramp before Manus's arena, hidden in a side tunnel.
+    Estoc (100.00%)
+(1210300) -- Chasm of the Abyss - Immediately before Manus's arena, guarded by several Humanity Sprites.
+    Alluring Skull x4 (100.00%)
+(1210330) -- Chasm of the Abyss - Next to the Bloathead Sorcerer overlooking the large area with many Humanity Sprites.
+    Warrior's Round Shield (100.00%)
+(1210340) -- Chasm of the Abyss - On the ledge after dropping down from the large area with many Humanity Sprites.
+    Blooming Purple Moss Clump x3 (100.00%)
+(1210350) -- Royal Wood - At the top of the elevator tower that leads down to Marvellous Chester.
+    Mask of the Father (100.00%)
+    Leggings of Artorias (100.00%)
+(1210390) -- Royal Wood - At the top of the ramp leading down to Kalameet's arena.
+    Blue Titanite Slab (100.00%)
+(1210400) -- Royal Wood - At the top of a large slope protected by a couple of Scarecrows.
+    Lord Soul (100.00%)
+    Lingering Dragoncrest Ring (100.00%)
+(1210430) -- Oolacile Township - Hidden in a corner after descending a set of stairs near the end of the area.
+    Bloodred Moss Clump x4 (100.00%)
+(1210440) -- Chasm of the Abyss - Underneath the end of the shattered pillar used as a ramp.
+    Bloodred Moss Clump x4 (100.00%)
+(1210450) -- Royal Wood - In a hidden path near Hawkeye Gough's room.
+    Pyromancy: Fire Tempest (100.00%)
+    Canvas Talisman (100.00%)
+(1210460) -- Oolacile Township - On a ledge on the outside of the upper floor of the large corrupted house.
+    White Titanite Chunk (100.00%)
+(1210470) -- Royal Wood - Hidden in a far corner of the path leading to Kalameet's arena.
+    Bloodred Moss Clump x3 (100.00%)
+(1210500) -- Royal Wood - In a pool of large water surrounded by enemies.
+    Rare Ring of Sacrifice (100.00%)
+    Giant's Halberd (100.00%)
+(1210510) -- Oolacile Township - On the upper floor of the large corrupted house. Requires a jump, or opening an illusory wall with a light source.
+    Twin Humanities (100.00%)
+    Sorcery: Aural Decoy (100.00%)
+(1210520) -- Oolacile Township - In a crumbling house, behind an illusory wall that requires a light source to open.
+    Green Blossom (100.00%)
+(1210540) -- Oolacile Township - In a room with two Bloathead Sorcerers in a crumbling house.
+    Catarina Armor (100.00%)
+(1210550) -- Royal Wood - Hidden along the wall of Kalameet's arena.
+    Xanthous Crown (100.00%)
+(1211000) -- Oolacile Township - On a corpse dangling from a high platform in the large corrupted house.
+    Humanity x7 (100.00%)
+    Sorcery: Magic Shield (100.00%)
+(1300000) -- Catacombs - In a nook in the room before the first rotating bridge.
+    Dark Orb (100.00%)
+(1300010) -- Catacombs - In a side room guarded by three skeletons and two spike statues. Just off the spiral staircase room.
+    Fire Keeper Soul (100.00%)
+    Uchigatana (100.00%)
+(1300020) -- Catacombs - At the end of the room with the high ceiling past the Giant Skeleton, in an open coffin.
+    Humanity x10 (100.00%)
+    Thorolund Talisman (100.00%)
+(1300030) -- Catacombs - At the end of the coffin room, beyond the Prowling Demon.
+    Covenant of Artorias (100.00%)
+(1300070) -- Catacombs - In a side room off the looping path where the second Necromancer flees.
+    Twin Humanities (100.00%)
+(1300100) -- Catacombs - On a small ledge in the pit leading down to Vamos.
+    Enchanted Ember (100.00%)
+(1300110) -- Catacombs - On a ledge above the third switch. Drop down from path above.
+    Humanity x2 (100.00%)
+(1300140) -- Catacombs - Above the room with the ladder and crumbling pits that lead down to the Black Knight.
+    Tattered Cloth Manchette (100.00%)
+(1300150) -- Catacombs - Near the Black Knight on a small ledge.
+    Server (100.00%)
+(1300190) -- Catacombs - On a small ledge near the summon sign for Paladin Leeroy.
+    Shadow Mask (100.00%)
+(1300210) -- Catacombs - On a ledge overlooking the passage into the Tomb of the Giants. Enter from the Tomb of the Giants.
+    Knight Gauntlets (100.00%)
+    Miracle: Karmic Justice (100.00%)
+(1300220) -- Catacombs - On an upper ledge near the summon sign for Paladin Leeroy.
+    Humanity (100.00%)
+(1300230) -- Catacombs - In a hidden room up a ladder from the room overlooking the room after the second rotating bridge. Access from a side passage near the Giant Skeleton.
+    Orange Guidance Soapstone (100.00%)
+(1300240) -- Catacombs - Behind some pots near the switch for the first rotating bridge.
+    Soul of Smough (100.00%)
+(1300250) -- Catacombs - In a small side room guarded by a spike statue, off the room with the spiral staircase.
+    Chester's Gloves (100.00%)
+    Pyromancy: Fireball (100.00%)
+(1310000) -- Tomb of the Giants - After the first slide, near a side slide.
+    Black Iron Armor (100.00%)
+(1310010) -- Tomb of the Giants - On a ledge overlooking the ladder into Pinwheel's arena. Access from the first large coffin room.
+    Black Leather Gloves (100.00%)
+(1310020) -- Tomb of the Giants - On a small ledge after taking the side slide after the first slide.
+    Blue Titanite Chunk (100.00%)
+    Bracelet of the Great Lord (100.00%)
+(1310030) -- Tomb of the Giants - In the pit that Patches kicks you into.
+    Mail Breaker (100.00%)
+(1310040) -- Tomb of the Giants - In the second large coffin room, with many skeleton enemies.
+    Green Titanite Shard x2 (100.00%)
+(1310050) -- Tomb of the Giants - In the pit that Patches kicks you into.
+    Blue Titanite Slab (100.00%)
+(1310070) -- Tomb of the Giants - At the edge of the first large coffin room, near the ladder.
+    Fire Keeper Soul (100.00%)
+(1310080) -- Tomb of the Giants - On a small side ledge in the first large coffin room.
+    Crown of Dusk (100.00%)
+    Giant Armor (100.00%)
+(1310090) -- Tomb of the Giants - In the pit that Patches kicks you into.
+    Sorcerer Cloak (100.00%)
+    Pyromancy: Undead Rapport (100.00%)
+(1310100) -- Tomb of the Giants - Up a small ramp in the pit that Patches kicks you into.
+    Maiden Hood (100.00%)
+    Warpick (100.00%)
+(1310110) -- Tomb of the Giants - On the edge of the large area just after the fog wall, near the Skeleton Archer.
+    Painting Guardian Waistcloth (100.00%)
+(1310120) -- Tomb of the Giants - Up the narrow path near the Black Knight.
+    Gold Pine Resin x3 (100.00%)
+(1310140) -- Tomb of the Giants - Surrounded by a circle of Bone Towers, on an area that must be jumped to.
+    Silver Knight Helm (100.00%)
+(1310160) -- Tomb of the Giants - In an alcove near a group of three Skeleton Beasts.
+    Divine Blessing (100.00%)
+(1310180) -- Tomb of the Giants - On a ledge near the ladder that leads to the Golden Fog Gate.
+    Partizan (100.00%)
+(1310200) -- Tomb of the Giants - In a side depression after entering the area before Gravelord Nito's arena.
+    Alluring Skull x3 (100.00%)
+(1310220) -- Tomb of the Giants - At the end of a long tunnel off the area before Gravelord Nito's arena.
+    Catarina Helm (100.00%)
+    Caduceus Kite Shield (100.00%)
+(1310230) -- Tomb of the Giants - Around a corner just before the fog gate to Gravelord Nito's arena.
+    Sorcery: Hush (100.00%)
+    Washing Pole (100.00%)
+(1310240) -- Tomb of the Giants - In Gravelord Nito's arena. Appears after you defeat Paladin Leeroy.
+    Dark Silver Tracer (100.00%)
+(1310290) -- Tomb of the Giants - In the water in the area before Gravelord Nito's arena.
+    Miracle: Gravelord Sword Dance (100.00%)
+    Sorcery: Homing Soulmass (100.00%)
+(1310300) -- Tomb of the Giants - On a small large accessible by falling out of the first large coffin room.
+    Dragon Scale (100.00%)
+    Sorcery: Soul Arrow (100.00%)
+(1310500) -- Tomb of the Giants - At the end of the second large coffin room, guarded by several enemies.
+    Guardian Tail (100.00%)
+(1320000) -- Great Hollow - At the entrance from Blighttown, before the two illusory walls.
+    Gold-Hemmed Black Hood (100.00%)
+    Sorcery: Hidden Body (100.00%)
+(1320020) -- Great Hollow - In the center of the hollow trunk. Jump from an upper branch to access.
+    Blacksmith Hammer (100.00%)
+(1320040) -- Great Hollow - At the end of a branch that wraps around the main trunk. Overlooks the area with three Basilisks.
+    Guardian Helm (100.00%)
+    Moonlight Gloves (100.00%)
+(1320050) -- Great Hollow - Around a corner near the area with three Basilisks.
+    Soul of a Great Hero (100.00%)
+(1320060) -- Great Hollow - On a lower branch accessible by dropping down from a branch above the false floor.
+    Ring of Favor and Protection (100.00%)
+(1320070) -- Great Hollow - On a branch, nestled against the outside wall, accessible from dropping down from a branch above the false floor.
+    Lord Soul (100.00%)
+    Claw (100.00%)
+(1320080) -- Great Hollow - In the middle of a branch accessible by dropping down from a branch above the false floor. Requires a precise jump.
+    Reinforced Club (100.00%)
+(1320090) -- Great Hollow - On a branch, accessible by dropping through a hole in the false floor.
+    Bequeathed Lord Soul Shard (100.00%)
+(1320100) -- Great Hollow - On a branch, accessible by dropping through a hole in the false floor near the outside wall.
+    Lloyd's Talisman x3 (100.00%)
+(1320110) -- Great Hollow - On a path leading down to the mushrooms from the platform below the false floor.
+    Gargoyle Helm (100.00%)
+    Pyromancy: Firestorm (100.00%)
+(1320120) -- Great Hollow - On a mushroom off the main path.
+    Painting Guardian Gloves (100.00%)
+(1320140) -- Ash Lake - On the other side of the Great Hollow tree from the first bonfire.
+    Wanderer Manchette (100.00%)
+(1320150) -- Ash Lake - In the hollow trunk lying on the side of the dune.
+    Tattered Cloth Robe (100.00%)
+    Great Heal Excerpt (100.00%)
+(1320160) -- Ash Lake - Behind a dune near the water's edge, just after the Man Eater Shells.
+    Shortsword (100.00%)
+(1320170) -- Ash Lake - Hidden on a branch on the outside of the small tree containing Basilisks and Mushrooms.
+    Dragon Scale x2 (100.00%)
+(1320180) -- Great Hollow - Just before the second illusory wall at the entrance from Blighttown.
+    Gough's Great Arrow x21 (100.00%)
+(1320190) -- Great Hollow - On an upper branch, accessible by dropping down from a branch leading to the upper part of the area with three Basilisks.
+    Spiked Shield (100.00%)
+    Sorcery: Hidden Weapon (100.00%)
+(1400020) -- Blighttown - In a side area after entering from the Depths.
+    Black Iron Greatshield (100.00%)
+    Balder Helm (100.00%)
+(1400040) -- Blighttown - After sliding down a small slope, near the rickety bridge that can be bypassed, near the entrance from the Depths.
+    Calamity Ring (100.00%)
+(1400050) -- Blighttown - After climbing down a ladder near the rickety bridge that can be bypassed, near the entrance from the Depths.
+    Rare Ring of Sacrifice (100.00%)
+(1400060) -- Blighttown - After walking over the unavoidable rickety bridge found by climbing down a ladder just before the first bonfire.
+    Crest Key (100.00%)
+(1400080) -- Blighttown - At the end of a small walkway found by climbing down a ladder just before the first bonfire.
+    Large Ember (100.00%)
+    East Wood Grain Ring (100.00%)
+(1400090) -- Blighttown - In a small covered area just below the small slope after the avoidable rickety bridge.
+    Homeward Bone x6 (100.00%)
+(1400100) -- Blighttown - On a ledge after the small covered area. Jump from this ledge to reach the first bonfire.
+    Sorcerer Gauntlets (100.00%)
+(1400130) -- Blighttown - Just past the Parasitic Wall Hugger.
+    Transient Curse x4 (100.00%)
+(1400140) -- Blighttown - In the middle of the cluster of walkways near the Parasitic Wall Hugger.
+    Guardian Tail (100.00%)
+(1400150) -- Blighttown - In a corner of the platform found by descending the ladder after the first bonfire, past the Fire Dogs.
+    Lightning Bolt x21 (100.00%)
+(1400160) -- Blighttown - At the end of a horizontal stone pillar just after the first bonfire.
+    Lord's Blade Gloves (100.00%)
+    Seek Guidance (100.00%)
+(1400180) -- Blighttown - On a small platform in the large circular room.
+    Iron Helm (100.00%)
+(1400190) -- Blighttown - At the end of the walkway beyond the long slippery branch. Can also be reached by dropping down from the Valley of Drakes entrance.
+    Hand Axe (100.00%)
+(1400210) -- Blighttown - On a small ledge in the area with several Blowdart Snipers.
+    Twin Humanities (100.00%)
+(1400230) -- Blighttown - On Quelana of Izalith's island
+    Repairbox (100.00%)
+(1400250) -- Blighttown - In the corner of the swamp, guarded by two Infested Barbarians who wield boulders.
+    Copper Coin (100.00%)
+(1400260) -- Blighttown - On an island near the ramp leading to the elevator.
+    Residence Key (100.00%)
+(1400270) -- Blighttown - Hidden in a corner in the swamp, directly across from the bonfire in the large recessed area.
+    Elite Knight Leggings (100.00%)
+    Sorcery: Crystal Magic Weapon (100.00%)
+(1400280) -- Blighttown - In plain sight, just before the large recessed area, across from the bonfire.
+    Holy Trousers (100.00%)
+(1400290) -- Blighttown - In the swamp below the ramp to the Great Hollow.
+    Xanthous Gloves (100.00%)
+    Crystal Greatsword (100.00%)
+(1400300) -- Blighttown - In the corner behind the large tree, just past where Seigmeyer of Catarina stands.
+    Plank Shield (100.00%)
+(1400310) -- Blighttown - On the ramps that lead from the swamp into the wooden section to the Depths.
+    Sunlight Shield (100.00%)
+(1400320) -- Blighttown - In the swamp, in a corner beneath the ramps. Take a left from the swamp bonfire.
+    Elizabeth's Mushroom x3 (100.00%)
+(1400340) -- Blighttown - On the roof of a wooden structure near the entrance from the Depths. Requires a running jump to reach.
+    Crystalline Gauntlets (100.00%)
+(1400350) -- Blighttown - In a corner below the area with many Blowdart Snipers, guarded by several fire dogs.
+    Homeward Bone (100.00%)
+    Rite of Kindling (100.00%)
+(1400360) -- Blighttown - Deep in a corner behind the large tree in the swamp.
+    Black Knight Sword (100.00%)
+(1400370) -- Quelaag's Domain - At the end of a long passage. Appears after defeating Dark Knight Kirk three times.
+    Charcoal Pine Resin x3 (100.00%)
+(1400500) -- Blighttown - Right at the entrance from Valley of Drakes, just before the first ladder.
+    Rotten Pine Resin x2 (100.00%)
+    Fire Orb (100.00%)
+(1400510) -- Blighttown - In the large circular room behind the swamp bonfire.
+    Composite Bow (100.00%)
+(1400520) -- Blighttown - At the end of the walkway beyond the long slippery branch. Can also be reached by dropping down from the Valley of Drakes entrance.
+    Key to the Seal (100.00%)
+(1410000) -- Lost Izalith - In the swamp pit with several Chaos Eaters.
+    Humanity x4 (100.00%)
+(1410010) -- Lost Izalith - On a raised platform in the room with the swamp pit.
+    Traveling Boots (100.00%)
+(1410020) -- Lost Izalith - In the swamp pit with several Chaos Eaters.
+    Mystery Key (100.00%)
+    Miracle: Force (100.00%)
+(1410030) -- Lost Izalith - In the swamp pit with several Chaos Eaters.
+    Moonlight Greatsword (100.00%)
+(1410050) -- Demon Ruins - On the hardened lava just before the first Capra Demon.
+    Grass Crest Shield (100.00%)
+    Miracle: Heal (100.00%)
+(1410060) -- Demon Ruins - On a small piece of hardened lava. Requires a jump over / run through lava to reach.
+    Great Club (100.00%)
+(1410080) -- Demon Ruins - Near the first bonfire.
+    Titanite Slab (100.00%)
+(1410090) -- Demon Ruins - Hidden near the stairs that lead down from the area with several Capra Demons.
+    White Titanite Slab (100.00%)
+    Humanity x3 (100.00%)
+(1410100) -- Demon Ruins - At the end of the side passage guarded by several Burrowing Rockworms.
+    Humanity (100.00%)
+(1410140) -- Demon Ruins - Near the Golden Fog Gate, next to a Capra Demon.
+    Humanity (100.00%)
+(1410160) -- Demon Ruins - On a ledge of the room that leads to the Chaos Servant Covenant door.
+    Pyromancy Flame (100.00%)
+(1410180) -- Demon Ruins - In Ceaseless Discharge's arena, on an altar.
+    Ring of the Sun's Firstborn (100.00%)
+(1410230) -- Demon Ruins - In a corner after Demon Firesage's arena, just before the elevator to Quelaag's Domain.
+    Dragon Scale (100.00%)
+    Oolacile Ivory Catalyst (100.00%)
+(1410250) -- Demon Ruins - On a side ledge after the second bonfire, in the room leading to Centipede Demon's arena.
+    Large Arrow x16 (100.00%)
+    Talisman (100.00%)
+(1410270) -- Demon Ruins - In Centipede Demon's arena, on a patch of hardened lava.
+    Hard Leather Armor (100.00%)
+(1410310) -- Lost Izalith - On a tendril of hardened lava near the first square tower in the Bounding Demon area.
+    Demon Titanite (100.00%)
+(1410320) -- Lost Izalith - On a small patch of hardened lava near the start of the Bounded Demon area.
+    Divine Blessing (100.00%)
+    Ornstein's Leggings (100.00%)
+(1410330) -- Lost Izalith - Hidden in a corner in the Bounding Demon area. Requires a very long run through lava.
+    Poison Throwing Knife x8 (100.00%)
+(1410340) -- Lost Izalith - Hidden in a corner in the Bounding Demon area. Requires a very long run through lava.
+    Souvenir of Reprisal (100.00%)
+(1410360) -- Lost Izalith - On a ledge of the broken floor section above the second square tower in the Bounding Demon area.
+    Miracle: Tranquil Walk of Peace (100.00%)
+(1410380) -- Lost Izalith - Hidden on a ledge in the main area just before the Bed of Chaos.
+    Throwing Knife x10 (100.00%)
+    Giant Leggings (100.00%)
+(1410390) -- Lost Izalith - Hidden in a corner just before the large staircase with the single Chaos Eater.
+    Occult Club (100.00%)
+(1410400) -- Lost Izalith - Hidden on a roof in the main area just before the Bed of Chaos.
+    Guardian Soul (100.00%)
+    Sorcery: Resist Curse (100.00%)
+(1410410) -- Lost Izalith - At the end of a passage in the swamp area.
+    Dung Pie (100.00%)
+(1410500) -- Lost Izalith - Inside the first square tower in the Bounding Demon area.
+    Dragon King Greataxe (100.00%)
+    Balder Armor (100.00%)
+(1410510) -- Demon Ruins - Just before the large staircase leading from the first bonfire to the Golden Fog Gate. Where the Centipede Demon is hanging.
+    Witch Hat (100.00%)
+(1410520) -- Lost Izalith - Hidden around the corner just past the entrance to the Bed of Chaos arena.
+    Soul of Artorias (100.00%)
+(1410530) -- Demon Ruins - In a large pool of unhardened lava, guarded by several Taurus Demons.
+    Red Titanite Chunk (100.00%)
+    Divine Blessing (100.00%)
+(1500000) -- Sen's Fortress - At the end of the large straight ball ramp near Seigmeyer of Catarina, in the small room.
+    Annex Key (100.00%)
+(1500010) -- Sen's Fortress - In the corner of the entrance area with the arrow trap.
+    Miracle: Vow of Silence (100.00%)
+    Sorcery: Chameleon (100.00%)
+(1500020) -- Sen's Fortress - Just past the second set of swinging blades. Guarded by an arrow trap.
+    Hard Leather Boots (100.00%)
+(1500040) -- Sen's Fortress - In the tower guarded by Undead Prince Ricard.
+    Humanity x3 (100.00%)
+    Steel Gauntlets (100.00%)
+(1500060) -- Sen's Fortress - In the central area with the cell doors, accessible by dropping off the ball spiral staircase onto the small platform.
+    Dark Wood Grain Ring (100.00%)
+(1500070) -- Sen's Fortress - In the corner of the room that the ball spiral staircase leads into.
+    Ring of the Evil Eye (100.00%)
+(1500080) -- Sen's Fortress - At the end of a passage just after the blades after exiting the ball mechanism room.
+    Pursuers (100.00%)
+    Crystal Straight Sword (100.00%)
+(1500090) -- Sen's Fortress - In a corner of the roof of the Fortress, guarded by a Balder Knight.
+    Six-Eyed Helm of the Channelers (100.00%)
+(1500100) -- Sen's Fortress - In the tower guarded by Undead Prince Ricard.
+    Green Titanite Shard x3 (100.00%)
+(1500150) -- Sen's Fortress - At the end of the walkway found at the bottom of Crestfallen Merchant's tower.
+    Cast Light (100.00%)
+    Mace (100.00%)
+(1500300) -- Sen's Fortress - On a small ledge, accessible by dropping off the side of large straight ball ramp near Seigmeyer of Catarina.
+    Spider Shield (100.00%)
+    Ornstein's Gauntlets (100.00%)
+(1500310) -- Sen's Fortress - On a small platform. Drop off the ball spiral staircase
+    Twin Humanities (100.00%)
+    Helm of the Wise (100.00%)
+(1500320) -- Sen's Fortress - At the edge of the platform above the single Prowling Demon who guards items.
+    Charcoal Pine Resin (100.00%)
+(1500330) -- Sen's Fortress - Found by climbing the ladder out of the Prowling Demon area.
+    Hammer of Vamos (100.00%)
+    Talisman (100.00%)
+(1500350) -- Sen's Fortress - In the Prowling Demon area, behind the single Prowling Demon in its own small side area.
+    Iaito (100.00%)
+(1500360) -- Sen's Fortress - In the Prowling Demon area, behind the single Prowling Demon in its own small side area.
+    Soul of Sif (100.00%)
+(1500400) -- Sen's Fortress - On the roof of the Fortress, near the broken wall where you can drop down to the bonfire.
+    Ring of the Sun Princess (100.00%)
+(1500410) -- Sen's Fortress - On the roof of the Fortress just before the path leading to the Berenike Knight.
+    Titanite Shard x4 (100.00%)
+    Crescent Axe (100.00%)
+(1500420) -- Sen's Fortress - In the locked cage behind the breakable wall.
+    Peculiar Doll (100.00%)
+(1500440) -- Sen's Fortress - On the roof of the Fortress, accessible by dropping down from the large walkway.
+    Large Titanite Shard x2 (100.00%)
+(1510000) -- Anor Londo - Found in the remains of the chandelier in the painting room, after cutting it down from above.
+    Large Divine Ember (100.00%)
+(1510030) -- Anor Londo - In the circular area before Dark Sun Gwyndolin's arena.
+    Egg Vermifuge (100.00%)
+(1510040) -- Anor Londo - On the ledge near the Giant Blacksmith's room, guarded by a Batwing Demon.
+    Ring of Favor and Protection (100.00%)
+(1510050) -- Anor Londo - On the rampart past one of the Silver Knight Archers on the roof.
+    Red Titanite Chunk (100.00%)
+(1510060) -- Anor Londo - On the ledge on the outside of the cathedral. Accessible by dropping through the broken window on the second floor.
+    Black Iron Gauntlets (100.00%)
+(1510070) -- Anor Londo - In the corner of the painting room near the large painting, guarded by a single Painting Guardian.
+    Core of an Iron Golem (100.00%)
+    Soul Spear (100.00%)
+(1510080) -- Anor Londo - Found on the upper area of the Dragonslayer Ornstein and Executioner Smough's arena, after invading Knight Lautrec of Carim.
+    Hard Leather Gauntlets (100.00%)
+(1510510) -- Anor Londo - Hidden behind the bottom of the tower with the screw elevator.
+    Darkmoon Seance Ring (100.00%)
+(1510520) -- Anor Londo - On a ledge in the painting room. Requires a jump to reach.
+    Humanity (100.00%)
+(1510530) -- Anor Londo - In the hidden room behind the fireplace.
+    Red Titanite Chunk (100.00%)
+(1510540) -- Anor Londo - In the hidden room behind the fireplace.
+    Sorcerer Hat (100.00%)
+(1510560) -- Anor Londo - In the hidden room behind the fireplace.
+    Sorcerer Boots (100.00%)
+    Miracle: Great Heal (100.00%)
+(1510570) -- Anor Londo - In the hidden room behind the fireplace.
+    Whip (100.00%)
+(1510580) -- Anor Londo - In the room with many dragon trophies, guarded by a Silver Knight.
+    Poison Arrow x32 (100.00%)
+(1510590) -- Anor Londo - In the room with many dragon trophies, guarded by a Silver Knight.
+    Dark Fog (100.00%)
+    Anklet of the Great Lord (100.00%)
+(1510600) -- Anor Londo - In the room guarded by three Silver Knights. Seigmeyer of Catarina is trapped in the next room.
+    Dark Ember (100.00%)
+(1510610) -- Anor Londo - Behind the Giant Blacksmith.
+    Dragonslayer Arrow x17 (100.00%)
+(1510620) -- Anor Londo - In the Darkmoon Tomb, accessible by defeating Dark Sun Gwyndolin.
+    Gargoyle's Halberd (100.00%)
+    Bloodbite Ring (100.00%)
+(1510650) -- Anor Londo - In the Darkmoon Tomb, accessible by defeating Dark Sun Gwyndolin.
+    Dragonslayer Arrow x10 (100.00%)
+(1510660) -- Anor Londo - In the Darkmoon Tomb, accessible by defeating Dark Sun Gwyndolin.
+    Homeward Bone x3 (100.00%)
+    Giant Shield (100.00%)
+(1510670) -- Anor Londo - In the room that leads to the walkway to the Duke's Archives, guarded by two Sentinels.
+    Black Sorcerer Gauntlets (100.00%)
+    Cleric Leggings (100.00%)
+(1510680) -- Anor Londo - In the room that leads to the walkway to Sen's Fortress, guarded by two Sentinels.
+    Blighttown Key (100.00%)
+(1510690) -- Anor Londo - In a room across from the bonfire, guarded by a single Silver Knight.
+    Sorcery: White Dragon Breath (100.00%)
+    Large Leather Shield (100.00%)
+(1510700) -- Anor Londo - Anor Londo - On the floor with mimics of the area with many rooms, in the room overlooking the Prowling Demon.
+    Sorcery: Strong Magic Shield (100.00%)
+(1600000) -- New Londo Ruins - Just around the corner outside the elevator to Firelink Shrine.
+    Dingy Gloves (100.00%)
+    Sorcery: Soul Arrow (100.00%)
+(1600020) -- New Londo Ruins - In a corner in the area before the bridge to the Ruins.
+    Morning Star (100.00%)
+(1600030) -- New Londo Ruins - In a small room accessible by a flooded bridge, guarded by a few ghosts.
+    Archive Tower Giant Cell Key (100.00%)
+    Miracle: Wrath of the Gods (100.00%)
+(1600040) -- New Londo Ruins - Hidden on a body in a pot looking over the flooded ruins.
+    Sorcerer's Catalyst (100.00%)
+(1600060) -- New Londo Ruins - On a ledge on the top floor of the main building.
+    Large Flame Ember (100.00%)
+(1600070) -- New Londo Ruins - On a ledge on the top floor of the main building, guarded by a Banshee, just past the fog gate.
+    Help me! Carving (100.00%)
+(1600090) -- New Londo Ruins - On a covered ledge, just after the first fog wall.
+    Sage Robe (100.00%)
+(1600100) -- New Londo Ruins - In the small square tower after exiting Ingward's building.
+    Demon Titanite x2 (100.00%)
+(1600110) -- New Londo Ruins - At the end of a passage on the first floor of Ingward's building.
+    Divine Ember (100.00%)
+(1600120) -- New Londo Ruins - On the path from Ingward's building to the elevator leading to the lower Ruins.
+    Twinkling Titanite (100.00%)
+(1600130) -- New Londo Ruins - On the roof of Ingward's building. Jump from the nearby ledge.
+    Small Leather Shield (100.00%)
+    Steel Leggings (100.00%)
+(1600140) -- New Londo Ruins - On a ledge on the outside of the first floor of Ingward's building.
+    Pyromancy: Chaos Fire Whip (100.00%)
+(1600150) -- New Londo Ruins - On a high ledge near Ingward's building.
+    Shadow Garb (100.00%)
+(1600160) -- New Londo Ruins - On a high ledge overlooking Valley of Drakes above the large gate.
+    White Titanite Chunk (100.00%)
+    Mask of the Mother (100.00%)
+(1600170) -- Valley of Drakes - Outside the door leading to New Londo Ruins, across from the entrance to Blighttown.
+    Winged Spear (100.00%)
+(1600180) -- Valley of Drakes - Guarded by the Undead Dragon.
+    Armor of the Sun (100.00%)
+    Poisonbite Ring (100.00%)
+(1600190) -- Valley of Drakes - Guarded by the Undead Dragon.
+    Ring of Fog (100.00%)
+    Golem Leggings (100.00%)
+(1600200) -- Valley of Drakes - Guarded by the Undead Dragon.
+    Green Titanite Shard (100.00%)
+    Pike (100.00%)
+(1600210) -- Valley of Drakes - In a hidden alcove guarded by a Drake.
+    Humanity (100.00%)
+    Pyromancy: Combustion (100.00%)
+(1600220) -- Valley of Drakes - On the bridge guarded by several Drakes.
+    Royal Helm (100.00%)
+(1600250) -- New Londo Ruins - In the small covered room leading into the first floor of the main building. Guarded by a Darkwraith.
+    Crystal Ember (100.00%)
+    Moonlight Waistcloth (100.00%)
+(1600260) -- New Londo Ruins - At the rear of the main building, near the elevator to the top floor.
+    Maiden Skirt (100.00%)
+(1600270) -- New Londo Ruins - On the second floor of the main building, on a ledge.
+    Repair Powder x2 (100.00%)
+(1600280) -- New Londo Ruins - Near the watery pool in the lower Ruins.
+    Twinkling Titanite (100.00%)
+(1600290) -- New Londo Ruins - In the small room guarded by a Darkwraith. Behind an illusory wall in the lower Ruins.
+    Wood Bolt x14 (100.00%)
+(1600310) -- New Londo Ruins - On a corpse hanging over the well in the lower Ruins.
+    Gold Pine Resin (100.00%)
+(1600330) -- New Londo Ruins - In a large side area near the base of Ingward's building in the lower Ruins.
+    Crest of Artorias (100.00%)
+    Pyromancy: Toxic Mist (100.00%)
+(1600360) -- Valley of Drakes - On a ledge near the entrance to Blighttown. Appears after the Four Kings have been defeated.
+    Bloodred Moss Clump x4 (100.00%)
+    Balder Gauntlets (100.00%)
+(1600370) -- New Londo Ruins - On the stairs leading into the bottom of Ingward's building in the lower Ruins.
+    Iron Round Shield (100.00%)
+    Boots of the Explorer (100.00%)
+(1600380) -- Valley of Drakes - At the top of the tower guarded by several Drakes.
+    Humanity (100.00%)
+    Miracle: Heal (100.00%)
+(1600500) -- New Londo Ruins - On the third floor of the main building. Only accessible from the lower Ruins.
+    Miracle: Lightning Spear (100.00%)
+(1600510) -- New Londo Ruins - In the corner of the bottom floor of Ingward's building in the lower Ruins.
+    White Titanite Chunk (100.00%)
+(1600520) -- New Londo Ruins - On a corpse in a pot near the first bridge into the Ruins. The hollow Crestfallen Warrior spawns nearby.
+    Sunlight Maggot (100.00%)
+(1700000) -- The Duke's Archives - Behind the staircase in the large area after the first bonfire.
+    Stone Gauntlets (100.00%)
+(1700010) -- The Duke's Archives - On the balcony on the second floor of the large area after the first bonfire.
+    Undead Asylum F2 West Key (100.00%)
+(1700020) -- The Duke's Archives - On top of a bookshelf in the large area after the first bonfire. Can only be reached by dropping down to it.
+    Leather Boots (100.00%)
+(1700040) -- The Duke's Archives - In the room with the invincible Seath the Scaleless. Appears after Seath the Scaleless has been defeated.
+    Large Titanite Shard x2 (100.00%)
+(1700050) -- The Duke's Archives - In the room with broken machinery. A fog wall nearby leads outside to the grounds.
+    Slumbering Dragoncrest Ring (100.00%)
+(1700060) -- The Duke's Archives - On a ledge in the prison. Requires the Archive Tower Extra Key.
+    Titanite Chunk (100.00%)
+(1700070) -- The Duke's Archives - Above the prison bonfire. Accessible from ledges near the prison exit.
+    Black Knight Shield (100.00%)
+    Cleric Armor (100.00%)
+(1700080) -- The Duke's Archives - In a side room in the prison. Requires the Archive Tower Extra Key. Rhea of Thorolund appears hollow here.
+    Archive Tower Giant Door Key (100.00%)
+(1700120) -- The Duke's Archives - In a corner of the grounds, near the bonfire balcony.
+    Charcoal Pine Resin x2 (100.00%)
+(1700150) -- Crystal Cave - Over the first invisible section, on a crystal. Before the first Moonlight Butterfly.
+    Soul of Gwyndolin (100.00%)
+    Sorcery: Heavy Soul Arrow (100.00%)
+(1700160) -- Crystal Cave - On a crystal. The invisible walkway to reach this item is twisting and confusing.
+    Cracked Red Eye Orb x6 (100.00%)
+(1700170) -- Crystal Cave - On a crystal, guarded by a golem. Just below the final invisible walkway.
+    Firebomb x6 (100.00%)
+(1700180) -- Crystal Cave - Hidden in a corner just after the final invisible walkway, near a Moonlight Butterfly.
+    Prism Stone x4 (100.00%)
+(1700200) -- The Duke's Archives - At the rear of the large cage in the prison, where Big Hat Logan is imprisoned.
+    Humanity x3 (100.00%)
+(1700210) -- The Duke's Archives - In a side cell in the prison, guarded by a Crystal Hollow.
+    Sunlight Talisman (100.00%)
+(1700510) -- The Duke's Archives - On the second floor of the large area after the first bonfire.
+    Light Crossbow (100.00%)
+(1700520) -- The Duke's Archives - On the third floor of the large area after the first bonfire. Can only be accessed from the second large area.
+    Iron Leggings (100.00%)
+    Homeward (100.00%)
+(1700530) -- The Duke's Archives - In the room with the invincible Seath the Scaleless. Appears after Seath the Scaleless has been defeated.
+    Black Manchette (100.00%)
+(1700540) -- The Duke's Archives - On the fourth floor of the second large area, with the bonfire on the balcony.
+    Chain Helm (100.00%)
+(1700560) -- The Duke's Archives - In the side area with the freed Big Hat Logan.
+    Soul of a Hero (100.00%)
+    Great Heal Excerpt (100.00%)
+(1700580) -- The Duke's Archives - In the room behind the movable bookcase.
+    Fire Arrow x14 (100.00%)
+(1700590) -- The Duke's Archives - In the room behind the movable bookcase.
+    Gold Coin x2 (100.00%)
+(1700600) -- The Duke's Archives - In the room behind the movable bookcase.
+    Crimson Waistcloth (100.00%)
+(1700630) -- The Duke's Archives - In the rear of the balcony of the prison where the lever of the noise mechanism is.
+    Archive Prison Extra Key (100.00%)
+    Broadsword (100.00%)
+(1700640) -- The Duke's Archives - In the side area where the freed Big Hat Logan resides. Appears after the hollowed Big Hat Logan is defeated.
+    White Titanite Chunk (100.00%)
+(1700650) -- The Duke's Archives - In the grounds before Crystal Cave.
+    Humanity x5 (100.00%)
+(1800050) -- Kiln of the First Flame - On a charred bridge before the third Black Knight.
+    Guardian Gauntlets (100.00%)
+(1810060) -- Northern Undead Asylum - On the second floor, on a crumbling staircase. Requires the Undead Asylum F2 West Key.
+    Gold-Hemmed Black Gloves (100.00%)
+    Seek Guidance (100.00%)
+(1810070) -- Northern Undead Asylum - Hidden behind a wall near the Great Crow.
+    Black Leather Armor (100.00%)
+(1810080) -- Northern Undead Asylum - On a corpse in the starting cell. Only appears after returning to the Asylum.
+    Mask of the Child (100.00%)
+(1810100) -- Northern Undead Asylum - Starting Weapon for Warrior class
+    Bastard Sword (100.00%)
+(1810110) -- Northern Undead Asylum - Starting Shield for Warrior class
+    Wooden Shield (100.00%)
+(1810120) -- Northern Undead Asylum - Starting Weapon for Knight class
+    Dagger (100.00%)
+(1810130) -- Northern Undead Asylum - Starting Shield for Knight class
+    Grass Crest Shield (100.00%)
+(1810140) -- Northern Undead Asylum - Starting Weapon for Wanderer class
+    Reinforced Club (100.00%)
+(1810150) -- Northern Undead Asylum - Starting Shield for Wanderer class
+    Caduceus Round Shield (100.00%)
+(1810160) -- Northern Undead Asylum - Starting Weapon for Thief class
+    Falchion (100.00%)
+(1810170) -- Northern Undead Asylum - Starting Shield for Thief class
+    Red and White Round Shield (100.00%)
+(1810180) -- Northern Undead Asylum - Starting Weapon for Bandit class
+    Hammer of Vamos (100.00%)
+(1810190) -- Northern Undead Asylum - Starting Shield for Bandit class
+    Large Leather Shield (100.00%)
+(1810200) -- Northern Undead Asylum - Starting Weapon for Hunter class
+    Club (100.00%)
+(1810210) -- Northern Undead Asylum - Starting Shield for Hunter class
+    Heater Shield (100.00%)
+(1810220) -- Northern Undead Asylum - Starting Bow & Arrows for Hunter class
+    Short Bow (100.00%)
+    Feather Arrow x30 (100.00%)
+(1810230) -- Northern Undead Asylum - Starting Weapon for Sorcerer class
+    Club (100.00%)
+(1810240) -- Northern Undead Asylum - Starting Shield for Sorcerer class
+    Skull Lantern (100.00%)
+(1810250) -- Northern Undead Asylum - Starting Catalyst for Sorcerer class
+    Sorcerer's Catalyst (100.00%)
+(1810260) -- Northern Undead Asylum - Starting Weapon for Pyromancer class
+    Battle Axe (100.00%)
+(1810270) -- Northern Undead Asylum - Starting Shield for Pyromancer class
+    Warrior's Round Shield (100.00%)
+(1810280) -- Northern Undead Asylum - Starting Pyromancy Flame for Pyromancer class
+    Pyromancy Flame (100.00%)
+(1810290) -- Northern Undead Asylum - Starting Weapon for Cleric class
+    Battle Axe (100.00%)
+(1810300) -- Northern Undead Asylum - Starting Shield for Cleric class
+    Skull Lantern (100.00%)
+(1810310) -- Northern Undead Asylum - Starting Talisman for Cleric class
+    Thorolund Talisman (100.00%)
+(1810320) -- Northern Undead Asylum - Starting Weapon for Deprived class
+    Hammer of Vamos (100.00%)
+(1810330) -- Northern Undead Asylum - Starting Shield for Deprived class
+    Dark Hand (100.00%)
+(12020000) -- Huge Rat (in Depths) drop
+    Rubbish (100.00%)
+    Iron Flesh (100.00%)
+(22300000) -- Stray Demon Boss Drop
+    Rare Ring of Sacrifice (100.00%)
+(22310000) -- Demon Firesage Boss Drop
+    Tiny Being's Ring (100.00%)
+(23000000) -- Common drop table for Prowling Demon
+    None (98.00%), Lloyd's Talisman x2 (2.00%) --> (100%) if 8th
+(23000001) -- Catacombs Prowling Demon drop
+    Butcher Knife (100.00%)
+    Sorcery: Crystal Soul Spear (100.00%)
+(23000101) -- Undead Parish Prowling Demon / Weaker Sen's Fortress Prowling Demons drop
+    Twinkling Titanite (100.00%)
+(23000201) -- Stronger Sen's Fortress Prowling Demons drop
+    Red Titanite Chunk x2 (100.00%)
+(23000401) -- Anor Londo Prowling Demon drop
+    Skull Lantern (100.00%)
+(25100100) -- Undead Merchant drop #5
+    Havel's Leggings (100.00%)
+(25700100) -- Undead Parish Berenike Knight drop
+    Gold-Hemmed Black Skirt (100.00%)
+(26400000) -- Andre of Astora drop #3
+    Tin Banishment Catalyst (100.00%)
+(26500000) -- Common drop table for Necromancer
+    None (98.00%), Ivory Talisman (2.00%) --> (100%) if 6th
+(26600000) -- Common drop table for Butcher
+    None (90.00%), Black Firebomb x8 (10.00%) --> (100%) if 2nd
+(27100200) -- Duke's Archives special Crystal Golem drop, at the entrance. Rescue Dusk for this item to drop.
+    Mace (100.00%)
+(27310000) -- Crossbreed Priscilla Tail Cut
+    Slumbering Dragoncrest Ring (100.00%)
+(27800000) -- Common drop table for Mimic
+    None (99.90%), Ring of Sacrifice (0.10%) --> (100%) if 7th
+(27800001) -- Sen's Fortress Mimic Drop
+    Demon's Great Hammer (100.00%)
+    Demon's Spear (100.00%)
+(27801001) -- Anor Londo Mimic (in the hidden fireplace room) Drop
+    Large Titanite Shard x4 (100.00%)
+(27801011) -- Anor Londo Mimic (near the start, by the Sentinels) Drop
+    Eagle Shield (100.00%)
+(27801021) -- Anor Londo Mimic (in the double spiral staircase area) Drop
+    Elizabeth's Mushroom (100.00%)
+(27801031) -- Anor Londo Mimic (in the double spiral staircase area) Drop
+    Wanderer Coat (100.00%)
+(27802001) -- Duke's Archives Mimic (in the side room near the second bonfire) Drop
+    Gough's Gauntlets (100.00%)
+(27802011) -- Duke's Archives Mimic (on the second floor) Drop
+    Titanite Shard (100.00%)
+    Sorcery: Homing Crystal Soulmass (100.00%)
+(27803001) -- Oolacile Township Mimic (upper floor of building) Drop
+    Gold Coin x2 (100.00%)
+(27803101) -- Oolacile Township Mimic (circular platform after bridge) Drop
+    Claymore (100.00%)
+(27900000) -- Undead Burg Black Knight (guarding Blue Tearstone Ring location) Drop
+    Purple Moss Clump x2 (100.00%)
+(27900100) -- Undead Parish Black Knight (at top of tower near Hellkite Drake bonfire) Drop
+    Scimitar (100.00%)
+(27901000) -- Darkroot Garden Black Knight Drop
+    Humanity x2 (100.00%)
+(27902000) -- Catacombs Black Knight Drop
+    Lloyd's Talisman x4 (100.00%)
+(27903000) -- Tomb of the Giants Black Knight Drop
+    Gold Pine Resin x2 (100.00%)
+(27907000) -- Northern Undead Asylum Black Knights Drop #1
+    Parrying Dagger (100.00%)
+(27907001) -- Northern Undead Asylum Black Knights Drop #2
+    Dragon Scale (100.00%)
+(28400200) -- Painted World special Engorged Zombie Drop
+    Snickering Top Hat (100.00%)
+(28600000) -- Sen's Fortress Giant drop
+    Twinkling Titanite (100.00%)
+(28600100) -- Giant Blacksmith drop
+    Sniper Bolt x12 (100.00%)
+(29200000) -- Blacksmith Vamos drop
+    Spear (100.00%)
+(32100100) -- Eingyi drop
+    Mask of Velka (100.00%)
+(33000000) -- Crystal Lizard common drop
+    Red Titanite Chunk x2 (100.00%)
+(33200000) -- Pinwheel Boss Drop #2
+    Sniper Crossbow (100.00%)
+    Sorcery: Great Heavy Soul Arrow (100.00%)
+(33300100) -- Duke's Archives special Picasa #1 Drop
+    Steel Helm (100.00%)
+(33300200) -- Duke's Archives special Picasa #2 Drop
+    Gauntlets of Favor (100.00%)
+(34200000) -- Painted World Undead Dragon Drop
+    Havel's Helm (100.00%)
+    Crown of the Great Lord (100.00%)
+(34200200) -- Valley of Drakes Undead Dragon Drop
+    Green Blossom (100.00%)
+(34310000) -- Hellkite Dragon Tail Cut
+    Eastern Armor (100.00%)
+    Balder Leggings (100.00%)
+(34510000) -- Everlasting Dragon Tail Cut
+    Gold-Hemmed Black Cloak (100.00%)
+(34600000) -- Common drop for Armored Tusk
+    None (80.00%), Demon Titanite (20.00%) --> (100%) if 3rd
+(34720000) -- Sanctuary Guardian Tail Cut
+    Gold Pine Resin x2 (100.00%)
+(34720010) -- Lesser Sanctuary Guardian #1 Tail Cut
+    Leo Ring (100.00%)
+(34720020) -- Lesser Sanctuary Guardian #2 Tail Cut
+    Humanity (100.00%)
+(34800100) -- Lost Izalith special red-eyed Chaos Bug Drop
+    Black Knight Gauntlets (100.00%)
+(35300000) -- Ash Lake Hydra Drop
+    Greatsword (100.00%)
+(35300100) -- Darkroot Garden Hydra Drop
+    Obsidian Greatsword (100.00%)
+(40900000) -- Marvellous Chester Drop
+    None (100.00%)
+    Moonlight Robe (100.00%)
+(41100001) -- Hawkeye Gough Drop #2
+    Large Titanite Shard (100.00%)
+    Giant Helm (100.00%)
+(41601000) -- Oolacile Township special Bloathead Sorcerer (on ledge outside crumbling tower) Drop
+    Red Titanite Slab (100.00%)
+(45110000) -- Black Dragon Kalameet Tail Cut
+    Soul of Manus (100.00%)
+(45200000) -- Drop after saving Sif in Chasm of the Abyss
+    Maiden Gloves (100.00%)
+(52610000) -- Gaping Dragon Tail Cut
+    Dung Pie (100.00%)
+(52710000) -- Super Ornstein Drop
+    Gold Tracer (100.00%)
+(52910000) -- Seath the Scaleless Tail Cut
+    Titanite Chunk (100.00%)
+(53400000) -- The Fair Lady Drop
+    Guardian Leggings (100.00%)
+(53500000) -- Common drop #1 for all 4 Gargoyles
+    None (97.00%), Purple Moss Clump x2 (3.00%) --> (100%) if 4th
+(53500001) -- Common drop for the 3 Gargoyles that have tails
+    None (97.00%), Very good! Carving (3.00%) --> (100%) if 3rd
+(53500002) -- Common drop #2 for all 4 Gargoyles
+    None (97.00%), Cloranthy Ring (3.00%) --> (100%) if 4th
+(53520000) -- Bell Gargoyle #1 Tail Cut
+    Gough's Armor (100.00%)
+    Purging Stone x5 (100.00%)
+(53530000) -- Anor Londo Gargoyle #1 Tail Cut
+    Twinkling Titanite (100.00%)
+    Flamberge (100.00%)
+(60001101) -- Undead Merchant shop
+    Green Titanite Shard xInf (100 Souls)
+    Wooden Arrow xInf (500 Souls)
+    Black Firebomb xInf (200 Souls)
+    Lloyd's Talisman xInf (100 Souls)
+    Egg Vermifuge (2000 Souls)
+    Dark Hand (500 Souls)
+    Titanite Chunk (500 Souls)
+    Master Key (250 Souls)
+    Standard Arrow x22 (300 Souls)
+    Gough's Greatbow (2000 Souls)
+    Moonlight Arrow x11 (2000 Souls)
+    Lloyd's Talisman x2 (2000 Souls)
+    Purging Stone x2 (1000 Souls)
+    Divine Blessing (100 Souls)
+    Black Tights (10 Souls)
+    Humanity (250 Souls)
+    Elizabeth's Mushroom (200 Souls)
+    Falchion (200 Souls)
+    Black Firebomb x5 (100 Souls)
+    Homeward Bone xInf (100 Souls)
+    Purging Stone xInf (1000 Souls)
+    Blooming Purple Moss Clump xInf (500 Souls)
+    Firebomb xInf (100 Souls)
+    Standard Bolt xInf (50 Souls)
+    Large Arrow xInf (500 Souls)
+    Black Firebomb x8 (5000 Souls)
+    Titanite Shard (1000 Souls)
+    Pendant (10000 Souls)
+    Transient Curse x2 (15000 Souls)
+(60001133) -- Undead Merchant + Domnhall of Zena shared shop item
+    Lloyd's Talisman x3 (3000 Souls)
+(60001200) -- Female Undead Merchant shop
+    Wooden Arrow xInf (2000 Souls)
+    Heavy Bolt xInf (50 Souls)
+    Egg Vermifuge xInf (500 Souls)
+    Firebomb xInf (2000 Souls)
+    Wooden Arrow xInf (100 Souls)
+    Cracked Red Eye Orb xInf (500 Souls)
+    Large Titanite Shard xInf (500 Souls)
+    Leather Gauntlets (50000 Souls)
+    Alluring Skull xInf (200 Souls)
+    Dung Pie xInf (200 Souls)
+    Moonlight Arrow xInf (500 Souls)
+    Rubbish (10000 Souls)
+    Wood Bolt xInf (2000 Souls)
+    Alluring Skull xInf (100 Souls)
+    Wood Bolt xInf (2000 Souls)
+    Heavy Bolt xInf (100 Souls)
+    Standard Bolt xInf (50 Souls)
+    Sniper Bolt xInf (20 Souls)
+    Large Arrow xInf (1000 Souls)
+    Black Firebomb xInf (100 Souls)
+    Rotten Pine Resin xInf (100 Souls)
+(60001400) -- Andre of Astora shop item
+    Prism Stone xInf (1000 Souls)
+(60001402) -- Andre of Astora + Giant Blacksmith + Blacksmith Vamos shared shop item
+    Thunder Stoneplate Ring (50 Souls)
+(60001403) -- Andre of Astora + Giant Blacksmith + Blacksmith Vamos shared shop item
+    Titanite Slab (300 Souls)
+(60001404) -- Andre of Astora + Giant Blacksmith + Blacksmith Vamos + Undead Merchant shared shop item
+    Twin Humanities (100 Souls)
+(60001405) -- Andre of Astora shop
+    Silver Coin x5 (300 Souls)
+    Replenishment (750 Souls)
+    Large Arrow x12 (1000 Souls)
+    Repair Powder x2 (100 Souls)
+    Lord's Blade Robe (200 Souls)
+    Throwing Knife x7 (500 Souls)
+    Green Titanite Shard x2 (100 Souls)
+    Twinkling Titanite (500 Souls)
+    Knight Helm (2000 Souls)
+    Lloyd's Talisman x4 (15000 Souls)
+    Prism Stone xInf (100 Souls)
+    Homeward Bone xInf (50 Souls)
+    Blooming Purple Moss Clump xInf (100 Souls)
+    Heavy Bolt xInf (100 Souls)
+    Green Blossom xInf (50 Souls)
+    Transient Curse xInf (1000 Souls)
+(60001500) -- Domnhall of Zena shop
+    Twin Humanities x2 (300 Souls)
+    Traveling Gloves (2000 Souls)
+    Titanite Shard x5 (250 Souls)
+    Drake Sword (300 Souls)
+    Velka's Rapier (2000 Souls)
+    Purging Stone x2 (1000 Souls)
+    Shadow Gauntlets (7500 Souls)
+    Prism Stone x9 (15000 Souls)
+    Purple Moss Clump xInf (1000 Souls)
+    Bloodred Moss Clump xInf (100 Souls)
+    Large Titanite Shard xInf (100 Souls)
+    Standard Arrow xInf (20 Souls)
+    Standard Bolt xInf (50 Souls)
+    Dragonslayer Arrow xInf (500 Souls)
+(60001550) -- Domnhall of Zena shop items after defeating Iron Golem
+    Gargoyle Tail Axe (750 Souls)
+    Tower Shield (2000 Souls)
+    Flame Stoneplate Ring (50000 Souls)
+    Leggings of Favor (15000 Souls)
+(60001554) -- Domnhall of Zena shop items after defeating Super Smough
+    Humanity (5000 Souls)
+    Knight Armor (7500 Souls)
+    Brigand Gauntlets (15000 Souls)
+    Humanity (5000 Souls)
+(60001558) -- Domnhall of Zena shop items after defeating Super Ornstein
+    Wolf Ring (750 Souls)
+    Gauntlets of Thorns (5000 Souls)
+    Paladin Gauntlets (15000 Souls)
+    Symbol of Avarice (3000 Souls)
+(60001562) -- Domnhall of Zena shop items after defeating Dark Sun Gwyndolin
+    Rubbish (15000 Souls)
+    Green Blossom (2000 Souls)
+    Twinkling Titanite (3000 Souls)
+    Caduceus Round Shield (5000 Souls)
+(60001566) -- Domnhall of Zena shop items after defeating Gwyn, Lord of Cinder (NG+)
+    Humanity (15000 Souls)
+    Humanity (75000 Souls)
+    Miracle: Great Magic Barrier (40000 Souls)
+    Pyromancy: Acid Surge (20000 Souls)
+(60001580) -- Domnhall of Zena shop item
+    Bloodshield (10000 Souls)
+(60001581) -- Domnhall of Zena shop items after defeating Knight Artorias
+    Titanite Chunk (5000 Souls)
+    Eastern Leggings (75000 Souls)
+    Dragon Greatsword (7500 Souls)
+    Silver Knight Gauntlets (40000 Souls)
+(60001600) -- Patches shop items
+    Silver Pendant (500 Souls)
+    Avelyn (100 Souls)
+    Standard Arrow xInf (7500 Souls)
+    Rusted Iron Ring (1000 Souls)
+    Target Shield (50 Souls)
+    Antiquated Dress (50 Souls)
+    Standard Arrow x45 (2000 Souls)
+    Paladin Helm (50 Souls)
+    Black Knight Halberd (100 Souls)
+    Effigy Shield (5000 Souls)
+    Standard Arrow x40 (1000000 Souls)
+    Pendant (5000 Souls)
+    Murakumo (5000 Souls)
+    Stone Leggings (1000 Souls)
+    Blacksmith Giant Hammer (5000 Souls)
+    Old Witch's Ring (10000 Souls)
+    Black Sorcerer Cloak (5000 Souls)
+    Helm of Thorns (30000 Souls)
+(60001700) -- Shiva of the East shop items
+    Black Firebomb x8 (500 Souls)
+    Red Titanite Chunk (100 Souls)
+    Green Titanite Shard (2000 Souls)
+    Blooming Purple Moss Clump (100 Souls)
+    Eastern Helm (100 Souls)
+    Blue Titanite Chunk (15000 Souls)
+    Great Scythe (1000 Souls)
+    Demon's Great Hammer (1000 Souls)
+    Ring of Sacrifice (2000 Souls)
+    Dark Bead (20000 Souls)
+(60002000) -- Griggs of Vinheim shop items
+    Humanity (2000 Souls)
+    Silver Knight Leggings (300 Souls)
+    Tattered Cloth Hood (500 Souls)
+    Homeward Bone (2000 Souls)
+    Izalith Catalyst (750 Souls)
+    Xanthous Overcoat (500 Souls)
+    Traveling Gloves (750 Souls)
+    Lucerne (10000 Souls)
+    Priscilla's Dagger (3000 Souls)
+    Silver Knight Armor (7500 Souls)
+    Leggings of Thorns (10000 Souls)
+(60002020) -- Griggs of Vinheim additional shop items after Big Hat Logan departs
+    Brass Gauntlets (5000 Souls)
+    Brass Leggings (10000 Souls)
+(60002100) -- Rickert of Vinheim shop items
+    Crystal Halberd (50 Souls)
+    Twinkling Titanite x2 (300 Souls)
+(60002200) -- Dusk of Oolacile + Elizabeth shared shop items
+    Crest Shield (1000 Souls)
+    Brigand Armor (200 Souls)
+    Witch Skirt (300 Souls)
+    Crimson Gloves (500 Souls)
+    Soul of the Moonlight Butterfly (750 Souls)
+(60002205) -- Dusk of Oolacile shop item
+    Rubbish (10000 Souls)
+(60002400) -- Ingward shop items
+    Miracle: Bountiful Sunlight (2000 Souls)
+    Heavy Bolt xInf (200 Souls)
+(60003000) -- Laurentius shop items
+    Dragon Scale (100 Souls)
+    Black Knight Leggings (100 Souls)
+    Big Hat (7500 Souls)
+    Antiquated Gloves (3000 Souls)
+    Soul of Ornstein (20000 Souls)
+(60003210) -- Eingyi shop items after infected with the Egg Parasite
+    Standard Arrow xInf (5000 Souls)
+    Heavy Boots (750 Souls)
+    Eye of Death x3 (20000 Souls)
+(60003400) -- Quelana of Izalith shop items
+    Miracle: Emit Force (300 Souls)
+    East-West Shield (2000 Souls)
+    Enchanted Falchion (200 Souls)
+    Dragonslayer Arrow (10000 Souls)
+    Demon Titanite (750 Souls)
+    Painting Guardian Robe (5000 Souls)
+    Chester's Long Coat (30000 Souls)
+    Twin Humanities (40000 Souls)
+(60004000) -- Petrus of Thorolund shop items
+    Transient Curse x2 (200 Souls)
+    Eastern Gauntlets (100 Souls)
+    Blooming Purple Moss Clump (50 Souls)
+    Havel's Ring (100 Souls)
+    Pendant (500 Souls)
+    Barbed Straight Sword (3000 Souls)
+    Thief Mask (5000 Souls)
+(60004200) -- Rhea of Thorolund shop items
+    Leather Shield (200 Souls)
+    Binoculars (250 Souls)
+    Talisman (10 Souls)
+    Dragon Scale (3000 Souls)
+    Havel's Greatshield (2000 Souls)
+    Lightning Spear (100 Souls)
+    Sanctus (3000 Souls)
+    Red Titanite Chunk (15000 Souls)
+    Dingy Robe (2000 Souls)
+    Feather Arrow x16 (30000 Souls)
+(60004401) -- Oswald of Carim shop items
+    Twinkling Titanite (200 Souls)
+    Black Knight Helm (300 Souls)
+    Black Knight Armor (1000 Souls)
+    Sniper Bolt x24 (500 Souls)
+    Sorcery: Remedy (300 Souls)
+    Catarina Leggings (500 Souls)
+    Spell Stoneplate Ring (5000 Souls)
+    Standard Arrow xInf (1000 Souls)
+(60005000) -- Big Hat Logan shop items
+    Greatsword (100 Souls)
+    Covetous Gold Serpent Ring (750 Souls)
+    Sack (10000 Souls)
+    Cleansing Greatshield (5000 Souls)
+    Humanity (17000 Souls)
+    Black Bow of Pharis (750 Souls)
+    Black Iron Leggings (750 Souls)
+    Mask of the Mother (20000 Souls)
+(60005020) -- Big Hat Logan additional shop items after moving to Duke's Archives
+    Painting Guardian Hood (2000 Souls)
+    Heater Shield (10000 Souls)
+    Twin Humanities (5000 Souls)
+(60005300) -- Crestfallen Merchant shop
+    Lloyd's Talisman xInf (100 Souls)
+    Standard Bolt xInf (200 Souls)
+    Throwing Knife xInf (500 Souls)
+    Titanite Shard xInf (200 Souls)
+    Sniper Bolt xInf (10000 Souls)
+    Beatrice's Catalyst (2000 Souls)
+    Cracked Red Eye Orb x4 (300 Souls)
+    Ring of Steel Protection (2000 Souls)
+    Red Sign Soapstone (1000 Souls)
+    Thank you Carving (500 Souls)
+    Buckler (2000 Souls)
+    Large Arrow xInf (2000 Souls)
+    Fire Arrow xInf (2000 Souls)
+    Sniper Bolt xInf (1000 Souls)
+    Heavy Bolt xInf (2000 Souls)
+    Titanite Shard xInf (100 Souls)
+    Large Titanite Shard xInf (100 Souls)
+    Gold Coin (7500 Souls)
+    Wooden Arrow x14 (17000 Souls)
+    Sunlight Medal (1000 Souls)
+    Pyromancy: Poison Mist (2000 Souls)
+    Pyromancy: Great Chaos Fireball (5000 Souls)
+    Paladin Armor (500 Souls)
+    Greataxe (5000 Souls)
+    Dragonslayer Greatbow (2000 Souls)
+    Soul of Priscilla (15000 Souls)
+    Dragon Scale (3000 Souls)
+    Fire Keeper Soul (17000 Souls)
+    Mask of the Sealer (40000 Souls)
+(60006100) -- Darkstalker Kaathe shop items
+    Charcoal Pine Resin xInf (10000 Souls)
+(60006200) -- Giant Blacksmith shop items
+    Gold Coin x2 (200 Souls)
+    Demon's Catalyst (2000 Souls)
+    Standard Bolt xInf (500 Souls)
+    Heavy Bolt xInf (100 Souls)
+    Wooden Arrow xInf (100 Souls)
+    Poison Throwing Knife xInf (100 Souls)
+    Feather Arrow xInf (100 Souls)
+    Standard Arrow xInf (50 Souls)
+    Twinkling Titanite xInf (100 Souls)
+    Dung Pie xInf (500 Souls)
+    Wood Bolt xInf (1000 Souls)
+    Ring of Sacrifice (100 Souls)
+    Armor Smithbox (100 Souls)
+    Black Knight Greatsword (500 Souls)
+    Twin Humanities (2000 Souls)
+    Green Blossom xInf (1000 Souls)
+    Heavy Bolt xInf (200 Souls)
+    Titanite Shard xInf (200 Souls)
+    Repair Powder xInf (7500 Souls)
+(60006300) -- Blacksmith Vamos shop items
+    Standard Arrow xInf (200 Souls)
+    Throwing Knife xInf (5000 Souls)
+    Wood Bolt xInf (500 Souls)
+    Titanite Shard xInf (100 Souls)
+    Homeward Bone xInf (100 Souls)
+    Large Arrow xInf (2000 Souls)
+    Wooden Arrow xInf (50 Souls)
+    Standard Arrow xInf (100 Souls)
+(60006410) -- Marvellous Chester shop items
+    Standard Bolt xInf (100 Souls)
+    Standard Bolt xInf (500 Souls)
+    Feather Arrow xInf (500 Souls)
+    Poison Arrow xInf (2000 Souls)
+    Prism Stone xInf (100 Souls)
+    Homeward Bone xInf (200 Souls)
+    Feather Arrow xInf (5000 Souls)
+    Large Arrow xInf (7500 Souls)
+    Wood Bolt xInf (5000 Souls)
+    Titanite Shard xInf (5000 Souls)
+    Halberd (10000 Souls)
+    Bloodred Moss Clump xInf (500 Souls)
+    Large Arrow xInf (20 Souls)
+    Large Arrow xInf (2000 Souls)
+    Repair Powder xInf (500 Souls)
+    Lightning Bolt xInf (500 Souls)
+    Large Arrow xInf (100 Souls)
+(60006500) -- Elizabeth shop items
+    Homeward Bone xInf (10000 Souls)
+    Twin Humanities (1000 Souls)
+(60006600) -- Hawkeye Gough shop items
+    Gough's Great Arrow xInf (20 Souls)
+    Standard Bolt xInf (1000 Souls)
+    Green Titanite Shard xInf (200 Souls)
+    Notched Whip (1000 Souls)
+    Longbow (7500 Souls)
+    Heavy Bolt xInf (7500 Souls)
+    Standard Arrow xInf (5000 Souls)
+    Purple Moss Clump xInf (2000 Souls)
+    Green Titanite Shard xInf (100 Souls)
+
+(12000000) -- Drop table for Undead Rat / Snow Rat
+    None (71.43%), Green Titanite Shard (23.81%), Green Titanite Shard x2 (4.76%)
+    None (95.00%), Red Titanite Chunk (5.00%)
+(12010200) -- Drop table for Large Undead Rat
+    None (80.00%), Chain Helm (20.00%)
+    None (80.00%), Chain Armor (20.00%)
+    None (80.00%), Leather Gauntlets (20.00%)
+    None (80.00%), Chain Leggings (20.00%)
+(20600000) -- Drop table for Infested Ghoul (Sword)
+    None (95.00%), Humanity (5.00%)
+(20600100) -- Drop table for Infested Ghoul (Spear)
+    None (95.00%), Dragon Scale (5.00%)
+(20600200) -- Drop table for Infested Ghoul (Corpse)
+    None (94.00%), Souvenir of Reprisal (6.00%)
+(22400000) -- Drop table for Capra Demon / Lesser Capra Demon
+    None (83.00%), Painting Guardian Sword (2.00%), Throwing Knife x2 (10.00%), Throwing Knife x5 (5.00%)
+(22500000) -- Drop table for Taurus Demon / Lesser Taurus Demon
+    None (88.00%), Firebomb (10.00%), Firebomb x2 (2.00%)
+    None (99.00%), Hollow Warrior Helm (1.00%)
+    None (99.00%), Hollow Warrior Armor (1.00%)
+    None (99.00%), Hollow Warrior Waistcloth (1.00%)
+(22600000) -- Drop table for Bat Wing Demon
+    None (86.36%), Humanity (9.09%), Twin Humanities (4.55%)
+(22700000) -- Drop table for Mushroom Parent
+    None (98.50%), Bloated Sorcerer Head (1.00%), Oolacile Catalyst (0.50%)
+    None (94.00%), Green Titanite Shard (5.00%), Green Titanite Shard x2 (1.00%)
+(22800000) -- Drop table for Mushroom Child
+    None (98.00%), Humanity (2.00%)
+(23000501) -- Lost Izalith Prowling Demon drop
+    None (98.00%), Longbow (2.00%)
+(23100000) -- Drop table for Crow Demon
+    None (98.00%), Broken Straight Sword (2.00%)
+(23300000) -- Drop table for Demonic Foliage
+    None (90.00%), Humanity (8.00%), Twin Humanities (2.00%)
+(23700000) -- Drop table for Channeler
+    None (64.00%), Soul of a Lost Undead (20.00%), Large Soul of a Lost Undead (10.00%), Soul of a Nameless Soldier (5.00%), Humanity (1.00%)
+(23800000) -- Drop table for Stone Giant
+    None (90.00%), Egg Vermifuge (10.00%)
+(23900000) -- Drop table for Darkwraith
+    None (95.00%), Demon Great Machete (5.00%)
+(24000000) -- Drop table for Painting Guardian
+    None (99.00%), Bonewheel Shield (1.00%)
+(24100000) -- Drop table for Silver Knight (Sword)
+    None (98.00%), Murakumo (2.00%)
+(24100300) -- Drop table for Silver Knight (Spear)
+    None (94.00%), Mask of the Father (2.00%), Mask of the Mother (2.00%), Mask of the Child (2.00%)
+    None (89.50%), White Titanite Chunk (10.00%), White Titanite Chunk x2 (0.30%), White Titanite Slab (0.20%)
+(24100400) -- Drop table for Silver Knight (Archer)
+    None (98.00%), Balder Side Sword (1.00%), Balder Shield (1.00%)
+    None (99.00%), Balder Helm (1.00%)
+    None (99.00%), Balder Armor (1.00%)
+    None (99.00%), Balder Gauntlets (1.00%)
+    None (99.00%), Balder Leggings (1.00%)
+    None (77.27%), Titanite Shard (21.82%), Titanite Shard x2 (0.91%)
+    None (98.00%), Large Titanite Shard (2.00%)
+(25000000) -- Drop table for Hollow (Sword)
+    None (98.00%), Longbow (2.00%)
+(25000200) -- Drop table for Hollow (Bow)
+    None (91.00%), Titanite Chunk (8.47%), Titanite Chunk x2 (0.32%), Titanite Slab (0.21%)
+    None (99.00%), Dark Hand (1.00%)
+(25200000) -- Drop table for Undead Assassin
+    None (97.00%), Longsword (2.00%), Hollow Soldier Shield (1.00%)
+    None (99.00%), Hollow Soldier Helm (1.00%)
+    None (99.00%), Hollow Soldier Armor (1.00%)
+    None (99.00%), Hollow Soldier Waistcloth (1.00%)
+    None (98.40%), Titanite Shard (1.60%)
+(25300200) -- Drop table for Blowdart Sniper
+    None (99.00%), Spear (1.00%)
+    None (99.00%), Large Leather Shield (1.00%)
+(25400000) -- Drop table for Armored Hollow (Sword)
+    None (97.00%), Humanity (3.00%)
+(25400100) -- Drop table for Armored Hollow (Axe)
+    None (98.00%), Broken Straight Sword (2.00%)
+(25400200) -- Drop table for Armored Hollow (Firebomb)
+    None (95.00%), White Titanite Chunk (5.00%)
+(25500000) -- Drop table for Undead Soldier (Spear)
+    None (98.00%), Balder Side Sword (1.00%), Balder Shield (1.00%)
+    None (99.00%), Balder Helm (1.00%)
+    None (99.00%), Balder Armor (1.00%)
+    None (99.00%), Balder Gauntlets (1.00%)
+    None (99.00%), Balder Leggings (1.00%)
+    None (92.00%), Titanite Shard (8.00%)
+(25500100) -- Drop table for Undead Soldier (Sword)
+    None (82.00%), Bloodred Moss Clump (8.00%), Purple Moss Clump (8.00%), Blooming Purple Moss Clump (2.00%)
+(25500200) -- Drop table for Undead Soldier (Crossbow)
+    None (97.00%), Rapier (2.00%), Buckler (1.00%)
+    None (99.00%), Balder Helm (1.00%)
+    None (99.00%), Balder Armor (1.00%)
+    None (99.00%), Balder Gauntlets (1.00%)
+    None (99.00%), Balder Leggings (1.00%)
+    None (92.00%), Titanite Shard (8.00%)
+(25503000) -- Drop table for Undead Soldier (Sword) -- Northern Undead Asylum
+    None (96.00%), Large Titanite Shard (2.00%), Green Titanite Shard (2.00%)
+(25600000) -- Drop table for Balder Knight (Side Sword) -- Undead Parish
+    None (98.00%), Demon's Spear (2.00%)
+(25600200) -- Drop table for Balder Knight (Rapier) -- Undead Parish
+    Titanite Chunk (100.00%)
+(25601000) -- Drop table for Balder Knight (Side Sword) -- Sen's Fortress
+    None (97.00%), Falchion (2.00%), Red and White Round Shield (1.00%)
+(25601100) -- Drop table for Balder Knight (Crossbow) -- Sen's Fortress
+    None (80.00%), Twinkling Titanite (20.00%)
+    None (90.00%), Purging Stone (10.00%)
+(25601200) -- Drop table for Balder Knight (Rapier) -- Sen's Fortress
+    None (98.00%), Man-serpent Greatsword (2.00%)
+(25700101) -- Drop table for Undead Parish Berenike Knight
+    None (99.00%), Titanite Chunk (1.00%)
+(25701100) -- Drop table for Sen's Fortress Berenike Knight
+    None (94.00%), Greatsword (2.00%), Greataxe (2.00%), Tower Shield (2.00%)
+    None (99.00%), Steel Helm (1.00%)
+    None (99.00%), Steel Armor (1.00%)
+    None (99.00%), Steel Gauntlets (1.00%)
+    None (99.00%), Steel Leggings (1.00%)
+    None (75.00%), Large Titanite Shard (25.00%)
+(25702000) -- Drop table for Painted World of Ariamis Berenike Knight
+    None (94.00%), Greatsword (2.00%), Greataxe (2.00%), Tower Shield (2.00%)
+    None (99.00%), Steel Helm (1.00%)
+    None (99.00%), Steel Armor (1.00%)
+    None (99.00%), Steel Gauntlets (1.00%)
+    None (99.00%), Steel Leggings (1.00%)
+    Large Titanite Shard (100.00%)
+(26700000) -- Drop table for Ghost
+    None (97.00%), Silver Knight Spear (2.00%), Silver Knight Shield (1.00%)
+(26800000) -- Drop table for Wailing Ghost
+    Purple Moss Clump (70.00%), Purple Moss Clump x2 (30.00%)
+    None (90.00%), Blooming Purple Moss Clump (10.00%)
+(26900000) -- Drop table for Serpent Soldier
+    None (60.00%), Green Blossom (25.00%), Green Blossom x2 (15.00%)
+(27000000) -- Drop table for Serpent Mage
+    None (94.00%), Eye of Death (6.00%)
+(27100000) -- Drop table for Crystal Golem -- Duke's Archives / Crystal Cave
+    None (89.50%), Red Titanite Chunk (10.00%), White Titanite Chunk x2 (0.30%), Red Titanite Slab (0.20%)
+(27100100) -- Drop table for Crystal Golem -- Darkroot Garden
+    None (97.00%), Giant's Halberd (2.00%), Giant Shield (1.00%)
+    None (92.00%), Titanite Chunk (8.00%)
+(27900001) -- Drop table for Black Knight (Sword)
+    None (95.00%), Gold Pine Resin (5.00%)
+(27900101) -- Drop table for Black Knight (Greatsword)
+    None (98.00%), Flamberge (2.00%)
+(27901001) -- Drop table for Black Knight (Halberd)
+    None (92.78%), Large Titanite Shard (5.15%), Green Titanite Shard x5 (2.06%)
+(27902001) -- Drop table for Black Knight (Greataxe)
+    None (98.00%), Light Crossbow (2.00%)
+    None (99.00%), Balder Helm (1.00%)
+    None (99.00%), Balder Armor (1.00%)
+    None (99.00%), Balder Gauntlets (1.00%)
+    None (99.00%), Balder Leggings (1.00%)
+    None (77.27%), Titanite Shard (21.82%), Titanite Shard x2 (0.91%)
+    None (98.00%), Large Titanite Shard (2.00%)
+(28000000) -- Drop table for Undead Crystal Soldier (Sword)
+    White Titanite Chunk (100.00%)
+(28000100) -- Drop table for Undead Crystal Soldier (Bow)
+    None (95.00%), Egg Vermifuge (5.00%)
+(28100000) -- Drop table for Infested Barbarian (Club)
+    None (90.00%), Dragonslayer Arrow (7.00%), Dragonslayer Arrow x3 (3.00%)
+(28110000) -- Drop table for Infested Barbarian (Boulder)
+    Blue Titanite Chunk (100.00%)
+(28301000) -- Drop table for Phalanx
+    None (95.00%), Crystal Straight Sword (3.00%), Caduceus Kite Shield (2.00%)
+(28600200) -- Drop table for Sen's Fortress boulder-dropping Giant
+    None (96.00%), Blue Titanite Chunk (4.00%)
+(28700000) -- Drop table for Royal Sentinel
+    None (89.50%), Blue Titanite Chunk (10.00%), Blue Titanite Chunk x2 (0.30%), Blue Titanite Slab (0.20%)
+(28701000) -- Drop table for Giant Sentinel
+    None (96.00%), Stone Greatsword (2.00%), Stone Greatshield (2.00%)
+(29000000) -- Drop table for Skeleton (Scimitar)
+    None (55.00%), Bloodred Moss Clump (20.00%), Purple Moss Clump (20.00%), Blooming Purple Moss Clump (5.00%)
+(29000100) -- Drop table for Skeleton (Bow)
+    None (95.00%), Pickaxe (5.00%)
+    None (50.00%), Dung Pie (50.00%)
+(29000200) -- Drop table for Skeleton (Falchion)
+    None (99.50%), Bloated Head (0.50%)
+    None (94.00%), Large Titanite Shard (5.00%), Large Titanite Shard x2 (1.00%)
+(29100000) -- Drop table for Giant Skeleton (Murakumo)
+    None (94.00%), Jagged Ghost Blade (1.00%), Transient Curse x2 (5.00%)
+(29100100) -- Drop table for Giant Skeleton (Bow)
+    None (92.00%), Blue Titanite Chunk (8.00%)
+(29101400) -- Drop table for Gaint Skeleton (Murakumo) -- Only the one on the thin ledge leading to Nito's boss room
+    None (98.00%), Short Bow (2.00%)
+(29300000) -- Drop table for Bonewheel Skeleton
+    None (99.00%), Channeler's Trident (1.00%)
+(29400000) -- Drop table for Skeleton Baby
+    None (97.00%), Bandit's Knife (2.00%), Target Shield (1.00%)
+    None (99.00%), Hollow Thief's Hood (1.00%)
+    None (99.00%), Hollow Thief's Leather Armor (1.00%)
+    None (99.00%), Hollow Thief's Tights (1.00%)
+(29600000) -- Drop table for Bone Tower
+    None (97.00%), Rapier (2.00%), Buckler (1.00%)
+    None (99.00%), Balder Helm (1.00%)
+    None (99.00%), Balder Armor (1.00%)
+    None (99.00%), Balder Gauntlets (1.00%)
+    None (99.00%), Balder Leggings (1.00%)
+    None (77.27%), Titanite Shard (21.82%), Titanite Shard x2 (0.91%)
+    None (98.00%), Large Titanite Shard (2.00%)
+(32000000) -- Drop table for Slime
+    None (97.00%), Shortsword (2.00%), Cracked Round Shield (1.00%)
+    None (99.00%), Hollow Warrior Helm (1.00%)
+    None (99.00%), Hollow Warrior Armor (1.00%)
+    None (99.00%), Hollow Warrior Waistcloth (1.00%)
+(32100000) -- Drop table for Egg Carrier
+    None (98.00%), Stone Greataxe (2.00%)
+    None (80.00%), Twinkling Titanite (20.00%)
+(32300100) -- Drop table for Lesser Moonlight Butterfly
+    None (98.00%), Light Crossbow (2.00%)
+    None (99.00%), Hollow Soldier Helm (1.00%)
+    None (99.00%), Hollow Soldier Armor (1.00%)
+    None (99.00%), Hollow Soldier Waistcloth (1.00%)
+    None (98.40%), Titanite Shard (1.60%)
+(32400000) -- Drop table for Chaos Eater
+    None (98.00%), Spear (2.00%)
+(32500000) -- Drop table for Man-Eater Shell
+    Gold Pine Resin (80.00%), Gold Pine Resin x2 (20.00%)
+(32700000) -- Drop table for Basalisk
+    Demon Titanite x2 (100.00%)
+(33000001) -- Drop table for Crystal Lizard (Great Hollow)
+    None (10.00%), Green Titanite Shard x2 (30.00%), White Titanite Chunk (25.00%), White Titanite Chunk x2 (20.00%), Titanite Slab (15.00%)
+(33001001) -- Drop table for Crystal Lizard (Duke's Archives / Crystal Cave)
+    None (10.00%), Titanite Shard x3 (30.00%), Red Titanite Chunk (25.00%), Titanite Chunk x2 (20.00%), Demon Titanite x2 (15.00%)
+(33002001) -- Drop table for Crystal Lizard (Lost Izalith)
+    None (10.00%), Titanite Shard x3 (30.00%), White Titanite Chunk (25.00%), White Titanite Chunk x2 (20.00%), Twinkling Titanite x2 (15.00%)
+(33003001) -- Drop table for Crystal Lizard (Catacombs)
+    None (10.00%), Titanite Shard x3 (30.00%), Blue Titanite Chunk (25.00%), Twinkling Titanite (20.00%), Titanite Slab (15.00%)
+(33004001) -- Drop table for Crystal Lizard (Darkroot Basin)
+    None (10.00%), Green Titanite Shard x2 (30.00%), Blue Titanite Chunk (25.00%), Titanite Chunk x2 (20.00%), White Titanite Slab (15.00%)
+(33005001) -- Drop table for Crystal Lizard (Tomb of the Giants)
+    None (10.00%), Large Titanite Shard x2 (30.00%), White Titanite Chunk (25.00%), Demon Titanite (20.00%), White Titanite Slab (15.00%)
+(33006001) -- Drop table for Crystal Lizard (Undead Burg)
+    None (10.00%), Titanite Shard x3 (30.00%), Titanite Chunk (25.00%), Blue Titanite Chunk x2 (20.00%), Dragon Scale x2 (15.00%)
+(33007001) -- Drop table for Crystal Lizard (Royal Wood after bridge with Kalameet)
+    None (10.00%), Large Titanite Shard x2 (30.00%), Blue Titanite Chunk (25.00%), White Titanite Chunk x2 (20.00%), Red Titanite Slab (15.00%)
+(33007101) -- Drop table for Crystal Lizard (Royal Wood near elevator / Oolacile Township)
+    None (10.00%), Large Titanite Shard x2 (30.00%), White Titanite Chunk (25.00%), Red Titanite Chunk x2 (20.00%), Demon Titanite x2 (15.00%)
+(33007201) -- Drop table for Crystal Lizard (Royal Wood in Kalameet's arena)
+    None (10.00%), Large Titanite Shard x2 (30.00%), White Titanite Chunk (25.00%), Red Titanite Chunk x2 (20.00%), White Titanite Slab (15.00%)
+(33007301) -- Drop table for Crystal Lizard (Chasm of the Abyss)
+    None (10.00%), Green Titanite Shard x2 (30.00%), White Titanite Chunk (25.00%), Titanite Chunk x2 (20.00%), White Titanite Slab (15.00%)
+(33200200) -- Drop table for Pinwheel Clone
+    None (97.00%), Silv. Knight Str. Sword (2.00%), Silver Knight Shield (1.00%)
+(33300000) -- Drop table for Picasa
+    None (98.00%), Short Bow (2.00%)
+(33700000) -- Drop table for Tree Lizard
+    None (99.00%), Murakumo (1.00%)
+(33800000) -- Drop table for Giant Leech
+    None (97.00%), Spear (2.00%), Hollow Soldier Shield (1.00%)
+    None (99.00%), Hollow Soldier Helm (1.00%)
+    None (99.00%), Hollow Soldier Armor (1.00%)
+    None (99.00%), Hollow Soldier Waistcloth (1.00%)
+    None (98.40%), Titanite Shard (1.60%)
+(33900000) -- Drop table for Burrowing Rockworm
+    None (94.00%), Ghost Blade (1.00%), Transient Curse x2 (5.00%)
+(34100000) -- Drop table for Frog-Ray
+    Titanite Chunk (100.00%)
+(34800000) -- Drop table for Chaos Bug
+    None (97.00%), Scimitar (2.00%), Red and White Round Shield (1.00%)
+(35200200) -- Drop table for Drake
+    None (97.00%), Battle Axe (2.00%), Cracked Round Shield (1.00%)
+    None (99.00%), Hollow Warrior Helm (1.00%)
+    None (99.00%), Hollow Warrior Armor (1.00%)
+    None (99.00%), Hollow Warrior Waistcloth (1.00%)
+(41200000) -- Drop table for Stone Guardian
+    None (94.00%), Greatsword (2.00%), Greataxe (2.00%), Tower Shield (2.00%)
+    None (99.00%), Steel Helm (1.00%)
+    None (99.00%), Steel Armor (1.00%)
+    None (99.00%), Steel Gauntlets (1.00%)
+    None (99.00%), Steel Leggings (1.00%)
+(41300000) -- Drop table for Scarecrow (Plow)
+    None (81.00%), Bloodred Moss Clump (8.00%), Purple Moss Clump (8.00%), Blooming Purple Moss Clump (2.00%), Four-pronged Plow (1.00%)
+(41301000) -- Drop table for Scarecrow (Shears)
+    None (96.50%), Red Titanite Chunk (0.50%), Sunlight Medal (3.00%)
+(41500000) -- Drop table for Bloathead
+    None (96.00%), Humanity (4.00%)
+(41600000) -- Drop table for Bloathead Sorcerer
+    White Titanite Chunk (100.00%)
+(41700000) -- Drop table for Humanity Phantom (Large)
+    None (98.00%), Large Club (2.00%)
+    None (50.00%), Dung Pie (50.00%)
+(41710000) -- Drop table for Humanity Phantom (Medium)
+    None (97.00%), Longsword (2.00%), Hollow Soldier Shield (1.00%)
+    None (99.00%), Hollow Soldier Helm (1.00%)
+    None (99.00%), Hollow Soldier Armor (1.00%)
+    None (99.00%), Hollow Soldier Waistcloth (1.00%)
+    None (99.60%), Titanite Shard (0.40%)
+(41720000) -- Drop table for Humanity Phantom (Small)
+    None (97.00%), Giant's Halberd (2.00%), Giant Shield (1.00%)
+    None (94.44%), Humanity (4.44%), Twin Humanities (1.11%)
+(41800000) -- Drop table for Chained Prisoner
+    None (95.00%), Demon's Greataxe (5.00%)

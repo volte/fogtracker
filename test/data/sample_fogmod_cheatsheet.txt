@@ -1,0 +1,341 @@
+Seed: 1444606945. Options: bboc boss lords lordvessel major minor pacifist start v4 warp world
+Key item hash: 38288
+
+demonruins
+  From dukes_caves (To Seath in Crystal Caves) to demonruins (In Demon Ruins next to the first Capra Demon)
+parish_gargoyles <----
+  From demonruins (Between Quelaag's Domain and the Demon Ruins bonfire) to parish_gargoyles (To Gargoyles)
+blighttown_quelaag <----
+  From parish_gargoyles (After Gargoyles) to blighttown_quelaag (To Quelaag)
+anorlondo_postrafters
+  From blighttown_quelaag (After Quelaag) to anorlondo_postrafters (Between the Painting Guardian rafters and the elevator contraption)
+anorlondo_prerafters
+  From anorlondo_postrafters (in map) to anorlondo_prerafters
+anorlondo_main
+  From anorlondo_postrafters (in map) to anorlondo_main
+anorlondo_darkmoon
+  From anorlondo_postrafters (in map) to anorlondo_darkmoon
+anorlondo_painting
+  From anorlondo_postrafters (in map) to anorlondo_painting
+  From anorlondo_painting (Using Peculiar Doll to access Painted World) to anorlondo_painting (Leaving Painted World back to Anor Londo)
+anorlondo_rafters
+  From anorlondo_prerafters (in map) to anorlondo_rafters
+demonruins_firesage <----
+  From anorlondo_prerafters (At the doorway connecting the first Anor Londo elevator and the first gargoyle) to demonruins_firesage (After Demon Firesage)
+  From demonruins_elevator (in map) to demonruins_firesage
+darkroot_sif <----
+  From anorlondo_main (Between the first two Silver Knights and the main building) to darkroot_sif (To Sif)
+firelink_gate
+  From anorlondo_darkmoon (To Gwyndolin) to firelink_gate (Between female Undead Merchant and Lower Burg)
+firelink
+  From firelink_gate (in map) to firelink
+  From firelink_crow (in map) to firelink
+anorlondo_chandelier
+  From anorlondo_painting (in map) to anorlondo_chandelier
+catacombs_pinwheel <----
+  From anorlondo_rafters (Between the Painting Guardian rafters and the elevator contraption) to catacombs_pinwheel (Between TotG and Catacombs)
+  From catacombs_prepinwheel (in map) to catacombs_pinwheel
+burg_posttaurus
+  From firelink (Between Firelink Shrine and Upper Burg) to burg_posttaurus (Between area after Taurus Demon and Hellkite bridge)
+paintedworld
+  From firelink (Between Firelink Shrine and Catacombs) to paintedworld (Between tower with statue and courtyard with phalanx)
+  From paintedworld_priscilla (Leaving Painted World back to Anor Londo) to paintedworld (Using Peculiar Doll to access Painted World)
+darkroot
+  From firelink (Between the Firelink Shrine elevator and New Londo Ruins) to darkroot (Between Darkroot and Andre)
+  From darkroot_stone (in map) to darkroot
+  From darkroot_forest (in map) to darkroot
+  From darkroot_forest (In the spot of the Crest of Artorias door) to darkroot
+demonruins_elevator
+  From burg_posttaurus (After Taurus Demon) to demonruins_elevator (Between stairways behind Firesage and elevator to Quelaag's Domain)
+sens_irongolem <----
+  From paintedworld (To Priscilla) to sens_irongolem (From Anor Londo back to Sen's)
+dlc_start
+  From paintedworld (Between tower with statue and courtyard with phalanx) to dlc_start (To Sanctuary Guardian)
+  From darkroot (Warp to DLC) to dlc_start
+burg_start
+  From darkroot (Between Darkroot and tunnel leading to Valley of the Drakes) to burg_start (Between Firelink Shrine and Upper Burg)
+  From burg_upper (in map) to burg_start
+demonruins_lordvessel
+  From darkroot (Between the Darkroot Garden bonfire and the area with the stone knights) to demonruins_lordvessel (To Demon Firesage)
+parish_church
+  From darkroot (At one end of the bridge at the top of the waterfall with the hydra below) to parish_church (To Gargoyles)
+dukes_hallway
+  From burg_start (Near the drake encounter in Upper Burg) to dukes_hallway (At the hallway with the crystal warrior in Duke's Archives)
+asylum_outside
+  From demonruins_lordvessel (Golden fog gate in Demon Ruins) to asylum_outside (Crow transport from Firelink to Asylum)
+demonruins_lower
+  From dukes_hallway (To Seath in Archives) to demonruins_lower (In Demon Ruins next to the first Capra Demon)
+  From dlc_forest (At the top of the elevator from before Artorias to before Manus) to demonruins_lower (Golden fog gate in Demon Ruins)
+dlc_township
+  From demonruins_firesage (To Demon Firesage) to dlc_township (At the bottom of the elevator from before Artorias to before Manus)
+burg_upper
+  From darkroot (To Darkroot Basin in Havel's tower) to burg_upper
+  From burg_upperresidence (in map) to burg_upper
+parish_hellkite
+  From parish_church (in map) to parish_hellkite
+asylum_oscar
+  From parish_church (Between Undead Parish and Andre) to asylum_oscar (Between hallway with initial weapons and Oscar's cell)
+  From asylum_f2west (in map) to asylum_oscar
+darkroot_butterfly <----
+  From parish_church (In front of Firelink Shrine dual elevator) to darkroot_butterfly (To Moonlight Butterfly)
+burg_lower
+  From parish_church (At the bridge crossing over the boar in Undead Parish) to burg_lower (To Capra Demon)
+  From burg_upper (On shortcut door between Upper Burg and Lower Burg, in room with hollows) to burg_lower
+asylum
+  From asylum_oscar (in map) to asylum
+  From asylum_balcony (in map) to asylum
+  From asylum_outside (in map) to asylum
+asylum_prebalcony
+  From asylum_oscar (in map) to asylum_prebalcony
+dlc_artorias <----
+  From asylum_prebalcony (To Asylum Demon from balcony) to dlc_artorias (To Artorias)
+  From dukes_library (At the hallway with the crystal warrior in Duke's Archives) to dlc_artorias (After Artorias)
+catacombs
+  From catacombs_pinwheel (in map) to catacombs
+  From catacombs (Between the bridge Patches flips over and the room with two skeletons) to catacombs (To Pinwheel)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+anorlondo_os <----
+  From dlc_township (To Manus) to anorlondo_os (After O&S on left side)
+dukes_caves
+  From dlc_township (Between Gough's stairway and Oolacile Township) to dukes_caves (Between Duke's Archives and the field before Crystal Caves)
+blighttown_upper
+  From burg_upper (To Taurus Demon) to blighttown_upper (In between the main pit and wood planks while climbing up/down Blighttown)
+depths
+  From burg_upper (Lower doorway of room with burg bonfire) to depths (Near the area with the Channeler in the Depths)
+  From blighttown_upper (Depths exit to Blighttown) to depths
+  From burg_lower (Entrance to Depths) to depths
+anorlondo_cathedral
+  From burg_upper (Near the drake encounter in Upper Burg) to anorlondo_cathedral (Between the Anor Londo main cathedral and the Giant Blacksmith)
+  From anorlondo_main (in map) to anorlondo_cathedral
+totg_lordvessel
+  From parish_hellkite (Between area after Taurus Demon and Hellkite bridge) to totg_lordvessel (To Nito)
+dukes_library
+  From parish_hellkite (At the bridge crossing over the boar in Undead Parish) to dukes_library (At the first elevator in Duke's Archives)
+dukes_machines
+  From parish_hellkite (Upper doorway of room with burg bonfire) to dukes_machines (Between Duke's Archives and the field before Crystal Caves)
+demonruins_izalith
+  From burg_lower (Between female Undead Merchant and Lower Burg) to demonruins_izalith (To Bed of Chaos)
+  From demonruins_lordvessel (The magic door which can be opened from Izalith or with covenent rank) to demonruins_izalith
+  From demonruins_izalithlava (in map) to demonruins_izalith
+totg_lower
+  From burg_lower (Between very long ladder and Lower Burg) to totg_lower (Golden fog gate in Tomb of the Giants)
+dlc_kalameet
+  From asylum (Between hallway with initial weapons and Oscar's cell) to dlc_kalameet (To Kalameet)
+dukes_crystalgolem
+  From dukes_library (in map) to dukes_crystalgolem
+dlc_sanctuary
+  From catacombs (Getting into coffin to Nito) to dlc_sanctuary (After Sanctuary Guardian)
+anorlondo_gwyndolin <----
+  From catacombs (Between the bridge Patches flips over and the room with two skeletons) to anorlondo_gwyndolin (To Gwyndolin)
+blighttown_bell
+  From demonruins_elevator (in map) to blighttown_bell
+demonruins_stairs
+  From sens_irongolem (To Iron Golem) to demonruins_stairs (Between stairways behind Firesage and elevator to Quelaag's Domain)
+sens_upper
+  From depths (To Gaping Dragon) to sens_upper (Between final swinging axes aand Sen's Fortress roof)
+  From darkroot_butterfly (After Moonlight Butterfly) to sens_upper (To Iron Golem)
+catacombs_prepinwheel
+  From blighttown_bell (After Quelaag) to catacombs_prepinwheel (To Pinwheel)
+dlc_hallway
+  From blighttown_bell (Between Quelaag's Domain and the Demon Ruins bonfire) to dlc_hallway (Between Gough's stairway and Oolacile Township)
+demonruins_lava
+  From demonruins (in map) to demonruins_lava
+asylum_f2west
+  From asylum_prebalcony (in map) to asylum_f2west
+blighttown
+  From blighttown_upper (in map) to blighttown
+newlondo
+  From depths (Near the area with the Channeler in the Depths) to newlondo (Between the Firelink Shrine elevator and New Londo Ruins)
+sens_mid
+  From anorlondo_cathedral (To O&S) to sens_mid (Near the outside boulder stairway and Siegmeyer in Sen's Fortress)
+  From sens_upper (in map) to sens_mid
+burg_above_bonfire
+  From anorlondo_cathedral (From the Anor Londo main cathedral out of a broken window in front) to burg_above_bonfire (Upper doorway of room with burg bonfire)
+darkroot_stone
+  From anorlondo_cathedral (Between the Anor Londo main cathedral and the area with bedrooms and paintings) to darkroot_stone (Between the Darkroot Garden bonfire and the area with the stone knights)
+darkroot_forest
+  From totg_lordvessel (Golden fog gate in Tomb of the Giants) to darkroot_forest (At one end of the bridge at the top of the waterfall with the hydra below)
+anorlondo_start
+  From totg_lower (Before the Halberd Black Knight in TotG) to anorlondo_start (From Sen's to Anor Londo)
+newlondo_drakes
+  From newlondo (On door between start of New Londo Ruins and Valley of Drakes near Blighttown) to newlondo_drakes
+  From newlondo (Near the New Londo Ruins shortcut ladder) to newlondo_drakes (Between Blighttown and Valley of the Drakes)
+burg_bonfire
+  From burg_above_bonfire (in map) to burg_bonfire
+demonruins_centipede <----
+  From burg_bonfire (Lower doorway of room with burg bonfire) to demonruins_centipede (To Centipede Demon)
+dlc_forest
+  From dlc_sanctuary (Between Sanctuary Garden and Royal Forest) to dlc_forest (To Kalameet)
+  From dlc_forest (Between Sanctuary Garden and Royal Forest) to dlc_forest (To Artorias)
+anorlondo_blacksmith
+  From demonruins_stairs (After Demon Firesage) to anorlondo_blacksmith (Between the Anor Londo main cathedral and the Giant Blacksmith)
+  From anorlondo_main (in map) to anorlondo_blacksmith
+paintedworld_priscilla <----
+  From demonruins_stairs (To Centipede Demon) to paintedworld_priscilla (To Priscilla)
+demonruins_izalithlava
+  From demonruins_izalith (in map) to demonruins_izalithlava
+  From demonruins_izalithprelava (in map) to demonruins_izalithlava
+dlc_guardian <----
+  From dlc_hallway (Between Gough's stairway and Artorias) to dlc_guardian (After Sanctuary Guardian)
+burg_upperresidence
+  From burg_upper (in map) to burg_upperresidence
+burg_lowerresidence
+  From burg_lower (in map) to burg_lowerresidence
+dlc_bottom
+  From blighttown (To Quelaag) to dlc_bottom (At the bottom of the elevator from before Artorias to before Manus)
+greathollow_ashlake
+  From blighttown (Between Blighttown and Valley of the Drakes) to greathollow_ashlake (Between Great Hollow and Ash Lake)
+dlc_manus <----
+  From blighttown (Between Blighttown and Great Hollow) to dlc_manus (To Manus)
+sens
+  From sens_mid (in map) to sens
+parish_bell
+  From sens_mid (Between final swinging axes aand Sen's Fortress roof) to parish_bell (After Gargoyles)
+demonruins_ceaseless <----
+  From darkroot_stone (To Moonlight Butterfly) to demonruins_ceaseless (To Ceaseless Discharge)
+greathollow
+  From darkroot_forest (To Sif) to greathollow (Between Blighttown and the Great Hollow)
+asylum_balcony
+  From anorlondo_start (Golden fog gate leading to Duke's Archives) to asylum_balcony (To Asylum Demon from balcony)
+demonruins_izalithprelava
+  From demonruins_izalithlava (in map) to demonruins_izalithprelava
+firelink_crow
+  From newlondo_drakes (Between Darkroot and tunnel leading to Valley of the Drakes) to firelink_crow (Warp to Firelink crow's nest)
+  From firelink_elevator (in map) to firelink_crow
+dlc_top
+  From dlc_bottom (in map) to dlc_top
+newlondo_building
+  From demonruins_izalithprelava (After Centipede Demon) to newlondo_building (Near the New Londo Ruins shortcut ladder)
+  From newlondo (in map) to newlondo_building
+totg_nito <----
+  From dlc_top (At the top of the elevator from before Artorias to before Manus) to totg_nito (To Nito)
+dukes_seath2 <----
+  From anorlondo_os (To O&S) to dukes_seath2 (To Seath in Crystal Caves)
+anorlondo_elevator2
+  From anorlondo_os (After O&S on right side) to anorlondo_elevator2
+  From anorlondo_gwynevere (in map) to anorlondo_elevator2
+anorlondo_gwynevere
+  From anorlondo_elevator2 (in map) to anorlondo_gwynevere
+  From anorlondo_elevator1 (in map) to anorlondo_gwynevere
+anorlondo_elevator1
+  From anorlondo_gwynevere (in map) to anorlondo_elevator1
+depths_gaping <----
+  From anorlondo_elevator1 (After O&S on left side) to depths_gaping (To Gaping Dragon)
+paintedworld_annex
+  From paintedworld (in map) to paintedworld_annex
+asylum_stray
+  From asylum (in map) to asylum_stray
+asylum_doll
+  From asylum (in map) to asylum_doll
+anorlondo_building
+  From sens (Near the outside boulder stairway and Siegmeyer in Sen's Fortress) to anorlondo_building (Between the first two Silver Knights and the main building)
+darkroot_postbutterfly
+  From greathollow (Between Great Hollow and Ash Lake) to darkroot_postbutterfly (After Moonlight Butterfly)
+parish_andre
+  From demonruins_centipede (After Centipede Demon) to parish_andre (Between Undead Parish and Andre)
+burg_taurus <----
+  From asylum_stray (In Stray Demon arena) to burg_taurus (To Taurus Demon)
+totg_coffin
+  From anorlondo_building (Between the Anor Londo main cathedral and the area with bedrooms and paintings) to totg_coffin (Getting into coffin to Nito)
+sens_cage
+  From sens_mid (in map) to sens_cage
+totg
+  From dlc_guardian (To Sanctuary Guardian) to totg (Between TotG and Catacombs)
+demonruins_ceaselesslava
+  From demonruins (in map) to demonruins_ceaselesslava
+newlondo_stairs
+  From demonruins (To Ceaseless Discharge) to newlondo_stairs (To Four Kings)
+newlondo_lower
+  From blighttown (In between the main pit and wood planks while climbing up/down Blighttown) to newlondo_lower (On an entrance to the building with the Very Large Ember in lower ruins)
+  From newlondo_drakes (On door between lower New Londo Ruins and Valley of Drakes near RTSR) to newlondo_lower
+  From newlondo_building (in map) to newlondo_lower
+  From newlondo (in map) to newlondo_lower
+  From anorlondo_start (At the doorway connecting the first Anor Londo elevator and the first gargoyle) to newlondo_lower (On an entrance to the building with the Very Large Ember in lower ruins)
+catacombs_start
+  From parish_andre (Between Darkroot and Andre) to catacombs_start (Between Firelink Shrine and Catacombs)
+  From catacombs (in map) to catacombs_start
+dukes_start
+  From parish_andre (Between Sen's Fortress gate and Andre) to dukes_start (Golden fog gate leading to Duke's Archives)
+  From newlondo_lower (To Four Kings) to dukes_start (At the first elevator in Duke's Archives)
+dlc_townshiphidden
+  From dlc_township (in map) to dlc_townshiphidden
+kiln_start
+  From firelink (Frampt transport or falling from firelink to kiln) to kiln_start
+firelink_elevator
+  From sens (Between Sen's Fortress gate and Andre) to firelink_elevator (In front of Firelink Shrine dual elevator)
+  From firelink (in map) to firelink_elevator
+dukes_seath1
+  From totg (Before the Halberd Black Knight in TotG) to dukes_seath1 (To Seath in Archives)
+newlondo_lowerskip
+  From newlondo_lower (in map) to newlondo_lowerskip
+burg_ladder
+  From parish_hellkite (Between Hellkite Bridge and Lower Burg) to burg_ladder
+burg_capra <----
+  From burg_ladder (Between very long ladder and Lower Burg) to burg_capra (To Capra Demon)
+dukes_prison
+  From dukes_seath1 (To Duke's Archives prison) to dukes_prison
+  From dukes_library2 (in map) to dukes_prison
+demonruins_bedofchaos <----
+  From burg_taurus (After Taurus Demon) to demonruins_bedofchaos (To Bed of Chaos)
+dlc_gough
+  From dlc_hallway (in map) to dlc_gough
+dukes_extra
+  From dukes_prison (in map) to dukes_extra
+dukes_library2
+  From dukes_prison (in map) to dukes_library2
+  From dukes_library (in map) to dukes_library2
+  From dukes_machines (in map) to dukes_library2
+dlc_kalameetdeath <----
+  From dlc_kalameet (in map) to dlc_kalameetdeath
+newlondo_fourkings <----
+  From newlondo_stairs (in map) to newlondo_fourkings
+dukes_giantcell
+  From dukes_prison (in map) to dukes_giantcell
+newlondo_drakesbeatrice
+  From newlondo_drakes (in map) to newlondo_drakesbeatrice
+kiln_stairs
+  From kiln_start (in map) to kiln_stairs
+kiln
+  From kiln_stairs (Between the Kiln door and Black Knight area) to kiln
+kiln_gwyn <----
+  From kiln (To Gwyn) to kiln_gwyn
+Finished 1444606945 at try 5
+
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\common.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m10_00_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m10_01_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m10_02_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m11_00_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m12_00_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m12_01_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m13_00_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m13_01_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m13_02_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m14_00_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m14_01_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m15_00_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m15_01_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m16_00_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m17_00_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m18_00_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\event\m18_01_00_00.emevd.dcx
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m10_00_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m10_01_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m10_02_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m11_00_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m12_00_00_01.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m12_01_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m13_00_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m13_01_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m13_02_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m14_00_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m14_01_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m15_00_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m15_01_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m16_00_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m17_00_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m18_00_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\map\MapStudio\m18_01_00_00.msb
+Writing E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\param\GameParam\GameParam.parambnd.dcx
+Copying ESDs to E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\script\talk
+Writing messages to E:\SteamLibrary\steamapps\common\DARK SOULS REMASTERED\msg\ENGLISH
