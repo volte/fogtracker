@@ -11,10 +11,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
     "@react-rxjs/core": "^0.10.7",
     "@react-rxjs/utils": "^0.9.7",
     "axios": "^1.7.3",
     "d3": "^7.9.0",
+    "dexie": "^4.0.8",
+    "dexie-react-hooks": "^1.1.7",
     "graphology": "^0.25.4",
     "graphology-operators": "^1.6.0",
     "grommet": "^2.39.0",

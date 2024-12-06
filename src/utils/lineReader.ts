@@ -23,9 +23,9 @@ export class LineReader {
       return undefined;
     }
     while (this._index < this._lines.length) {
-      const line = this._lines[this._index++];
-      const mappedLine = this._options.map(line);
-      if (this._options.filter(mappedLine)) {
+      const line = this._lines[this._index++]!;
+      const mappedLine = this._options.map?.(line) || line;
+      if (this._options.filter?.(mappedLine)) {
         return mappedLine;
       }
     }

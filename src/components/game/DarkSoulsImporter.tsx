@@ -5,7 +5,7 @@ import { Box, Button } from 'grommet';
 import gameDataUrl from '@assets/data/ds1/gameData.yml';
 import { useEffectAsync } from '@/hooks/useEffectAsync';
 import { darkSoulsGameDefinition } from '@/core/game/ds1/darkSouls';
-import { TrackerState } from '@/core/tracker';
+import { TrackerState } from '@/core/game/trackerState';
 import Alert, { AlertType } from '@/components/ui/Alert';
 
 export interface Props {

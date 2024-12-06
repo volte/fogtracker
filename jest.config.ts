@@ -14,7 +14,6 @@ const config: Config = {
     '^@/(.*)$': '<rootDir>/src/$1',
     '^@assets/(.*)$': '<rootDir>/assets/$1',
   },
-  testEnvironment: 'jsdom',
 };
 
 export default config;

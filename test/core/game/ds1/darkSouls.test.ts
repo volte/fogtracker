@@ -5,7 +5,7 @@ describe('DarkSoulsGameDefinition', () => {
   describe('initializeTrackerState', () => {
     const gameData = fs.readFileSync('test/data/sampleDS1FogModGameData.yml').toString();
     const cheatSheetData = fs.readFileSync('test/data/sampleDS1FogModCheatSheet.txt').toString();
-    const gameDefinition = new darkSoulsGameDefinition();
+    const gameDefinition = darkSoulsGameDefinition;
 
     it('initializes the tracker state', async () => {
       const trackerState = await gameDefinition.initializeTrackerState({ gameData, cheatSheetData });

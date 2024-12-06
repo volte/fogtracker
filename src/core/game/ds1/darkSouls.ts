@@ -2,7 +2,7 @@ import { InitializeTrackerStateOptions } from '@/core/game/gameDefinition';
 import { parseFogModCheatSheet } from '@/core/fogmodCheatSheet';
 import { parseFogModGameData } from '@/core/fogmodGameData';
 
-import { TrackerArea, TrackerConnection, TrackerPort, TrackerFlag, TrackerState } from '@/core/tracker';
+import { TrackerArea, TrackerConnection, TrackerPort, TrackerFlag, TrackerState } from '@/core/game/trackerState';
 
 const parseConditionString = (conditionString?: string): { flagIds: string[]; mode: 'and' | 'or' } | undefined => {
   if (!conditionString) {

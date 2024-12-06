@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import { Page, PageContent, PageHeader, Select } from 'grommet';
 import DarkSoulsImporter from '@/components/game/DarkSoulsImporter';
-import { TrackerState } from '@/core/tracker';
+import { TrackerState } from '@/core/trackerState';
 import { TrackerContext } from '@/components/App';
 
 export interface Props {
@@ -41,7 +41,7 @@ const ImportTrackerView = (props: Props) => {
   return (
     <Page kind="narrow">
       <PageContent>
-        <PageHeader title="Import Tracker Data" />
+        <PageHeader title="Import TrackerState Data" />
         <Select
           options={supportedGames}
           labelKey="name"

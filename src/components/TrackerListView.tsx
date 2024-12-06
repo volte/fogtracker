@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { TrackerContext } from '@/components/App';
 import { useObservableState } from '@/hooks/useObservableState';
 import { Box, CheckBox, Header, Page } from 'grommet';
-import { TrackerArea, TrackerState } from '@/core/tracker';
+import { TrackerArea, TrackerState } from '@/core/trackerState';
 
 export interface Props {}
 

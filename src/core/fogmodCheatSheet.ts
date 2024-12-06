@@ -33,7 +33,7 @@ export function parseFogModCheatSheet(cheatSheet: string): FogModCheatSheet {
     throw new Error(`FogMod cheat sheet error (line ${reader.lineNumber}): ${message}`);
   };
 
-  if (!reader.readLine().startsWith('Seed:')) {
+  if (!reader.readLine()?.startsWith('Seed:')) {
     throw new Error('Invalid FogMod cheat sheet; expected Seed');
   }
   reader.skipLines(2);
@@ -57,9 +57,9 @@ export function parseFogModCheatSheet(cheatSheet: string): FogModCheatSheet {
         return parseError('invalid transition format');
       }
       currentArea.connections.push({
-        otherArea: matches[1],
-        thisEntrance: matches[4],
-        otherEntrance: matches[2],
+        otherArea: matches[1]!,
+        thisEntrance: matches[4]!,
+        otherEntrance: matches[2]!,
         originalLine: line.trim(),
       });
     } else {
@@ -67,7 +67,7 @@ export function parseFogModCheatSheet(cheatSheet: string): FogModCheatSheet {
       if (!matches) {
         return parseError('invalid transition format');
       }
-      currentArea = { areaName: matches[1], connections: [] };
+      currentArea = { areaName: matches[1]!, connections: [] };
       areas.push(currentArea);
     }
   }

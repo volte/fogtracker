@@ -1,6 +1,6 @@
 import { grommet, Grommet, Tab, Tabs } from 'grommet';
 import React, { createContext } from 'react';
-import { Tracker } from '@/core/tracker';
+import { Tracker } from '@/core/trackerState';
 import ImportTrackerView from '@/components/ImportTrackerView';
 import TrackerListView from '@/components/TrackerListView';
 import { useObservableState } from '@/hooks/useObservableState';

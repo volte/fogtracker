@@ -1,4 +1,4 @@
-import { TrackerState } from '@/core/tracker';
+import { TrackerState } from '@/core/game/trackerState';
 
 export interface InitializeTrackerStateOptions<GameData, CheatSheetData> {
   gameData: GameData;
