@@ -21,7 +21,7 @@
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module",
-    "project": "./tsconfig.app.json",
+    "project": ["./tsconfig.app.json", "./tsconfig.test.json"],
     "tsconfigRootDir": "./"
   },
   "rules": {
@@ -74,7 +74,7 @@
     },
     "import/resolver": {
       "typescript": {
-        "project": "./tsconfig.app.json"
+        "project": ["./tsconfig.app.json", "./tsconfig.test.json"]
       }
     }
   }

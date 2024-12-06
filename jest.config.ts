@@ -1,7 +1,5 @@
 import type { Config } from 'jest';
 
-const config: Config = {
-  snapshotResolver: '<rootDir>/jest/SnapshotResolver.ts'
-};
+const config: Config = {};
 
 export default config;

@@ -1,2 +1,3 @@
 jest.config.ts
 vite.config.ts
+babel.config.cjs
