@@ -8,15 +8,14 @@
     "plugin:import/typescript",
     "plugin:prettier/recommended",
     "plugin:jest/recommended",
-    "plugin:jest/style",
-    "plugin:jsdoc/recommended-error"
+    "plugin:jest/style"
   ],
   "env": {
     "es6": true,
     "node": true,
     "jest": true
   },
-  "plugins": ["@typescript-eslint", "prettier", "jest", "unused-imports", "jsdoc"],
+  "plugins": ["@typescript-eslint", "prettier", "jest", "unused-imports"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 2020,
@@ -43,23 +42,6 @@
     "import/no-named-as-default-member": "off",
     "import/no-unresolved": "error",
     "import/default": "off",
-    "jsdoc/require-jsdoc": ["error", {
-      "require": {
-        "FunctionDeclaration": true,
-        "MethodDefinition": true,
-        "ClassDeclaration": true,
-        "ArrowFunctionExpression": true,
-        "FunctionExpression": true
-      },
-      "contexts": [
-        "TSInterfaceDeclaration",
-        "TSMethodSignature",
-        "TSPropertySignature"
-      ],
-      "publicOnly": true
-    }],
-    "jsdoc/require-returns": "off",
-    "jsdoc/require-param-type": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",

@@ -1,0 +1,1497 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fogmod parseFogModCheatSheet parses the cheat sheet 1`] = `
+{
+  "areas": [
+    {
+      "areaName": "demonruins",
+      "connections": [
+        {
+          "nextArea": "dukes_caves",
+          "otherTransition": "To Seath in Crystal Caves",
+          "thisTransition": "In Demon Ruins next to the first Capra Demon",
+        },
+      ],
+    },
+    {
+      "areaName": "parish_gargoyles",
+      "connections": [
+        {
+          "nextArea": "demonruins",
+          "otherTransition": "Between Quelaag's Domain and the Demon Ruins bonfire",
+          "thisTransition": "To Gargoyles",
+        },
+      ],
+    },
+    {
+      "areaName": "blighttown_quelaag",
+      "connections": [
+        {
+          "nextArea": "parish_gargoyles",
+          "otherTransition": "After Gargoyles",
+          "thisTransition": "To Quelaag",
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_postrafters",
+      "connections": [
+        {
+          "nextArea": "blighttown_quelaag",
+          "otherTransition": "After Quelaag",
+          "thisTransition": "Between the Painting Guardian rafters and the elevator contraption",
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_prerafters",
+      "connections": [
+        {
+          "nextArea": "anorlondo_postrafters",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_main",
+      "connections": [
+        {
+          "nextArea": "anorlondo_postrafters",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_darkmoon",
+      "connections": [
+        {
+          "nextArea": "anorlondo_postrafters",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_painting",
+      "connections": [
+        {
+          "nextArea": "anorlondo_postrafters",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "anorlondo_painting",
+          "otherTransition": "Using Peculiar Doll to access Painted World",
+          "thisTransition": "Leaving Painted World back to Anor Londo",
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_rafters",
+      "connections": [
+        {
+          "nextArea": "anorlondo_prerafters",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_firesage",
+      "connections": [
+        {
+          "nextArea": "anorlondo_prerafters",
+          "otherTransition": "At the doorway connecting the first Anor Londo elevator and the first gargoyle",
+          "thisTransition": "After Demon Firesage",
+        },
+        {
+          "nextArea": "demonruins_elevator",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "darkroot_sif",
+      "connections": [
+        {
+          "nextArea": "anorlondo_main",
+          "otherTransition": "Between the first two Silver Knights and the main building",
+          "thisTransition": "To Sif",
+        },
+      ],
+    },
+    {
+      "areaName": "firelink_gate",
+      "connections": [
+        {
+          "nextArea": "anorlondo_darkmoon",
+          "otherTransition": "To Gwyndolin",
+          "thisTransition": "Between female Undead Merchant and Lower Burg",
+        },
+      ],
+    },
+    {
+      "areaName": "firelink",
+      "connections": [
+        {
+          "nextArea": "firelink_gate",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "firelink_crow",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_chandelier",
+      "connections": [
+        {
+          "nextArea": "anorlondo_painting",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "catacombs_pinwheel",
+      "connections": [
+        {
+          "nextArea": "anorlondo_rafters",
+          "otherTransition": "Between the Painting Guardian rafters and the elevator contraption",
+          "thisTransition": "Between TotG and Catacombs",
+        },
+        {
+          "nextArea": "catacombs_prepinwheel",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "burg_posttaurus",
+      "connections": [
+        {
+          "nextArea": "firelink",
+          "otherTransition": "Between Firelink Shrine and Upper Burg",
+          "thisTransition": "Between area after Taurus Demon and Hellkite bridge",
+        },
+      ],
+    },
+    {
+      "areaName": "paintedworld",
+      "connections": [
+        {
+          "nextArea": "firelink",
+          "otherTransition": "Between Firelink Shrine and Catacombs",
+          "thisTransition": "Between tower with statue and courtyard with phalanx",
+        },
+        {
+          "nextArea": "paintedworld_priscilla",
+          "otherTransition": "Leaving Painted World back to Anor Londo",
+          "thisTransition": "Using Peculiar Doll to access Painted World",
+        },
+      ],
+    },
+    {
+      "areaName": "darkroot",
+      "connections": [
+        {
+          "nextArea": "firelink",
+          "otherTransition": "Between the Firelink Shrine elevator and New Londo Ruins",
+          "thisTransition": "Between Darkroot and Andre",
+        },
+        {
+          "nextArea": "darkroot_stone",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "darkroot_forest",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "darkroot_forest",
+          "otherTransition": "In the spot of the Crest of Artorias door",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_elevator",
+      "connections": [
+        {
+          "nextArea": "burg_posttaurus",
+          "otherTransition": "After Taurus Demon",
+          "thisTransition": "Between stairways behind Firesage and elevator to Quelaag's Domain",
+        },
+      ],
+    },
+    {
+      "areaName": "sens_irongolem",
+      "connections": [
+        {
+          "nextArea": "paintedworld",
+          "otherTransition": "To Priscilla",
+          "thisTransition": "From Anor Londo back to Sen's",
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_start",
+      "connections": [
+        {
+          "nextArea": "paintedworld",
+          "otherTransition": "Between tower with statue and courtyard with phalanx",
+          "thisTransition": "To Sanctuary Guardian",
+        },
+        {
+          "nextArea": "darkroot",
+          "otherTransition": "Warp to DLC",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "burg_start",
+      "connections": [
+        {
+          "nextArea": "darkroot",
+          "otherTransition": "Between Darkroot and tunnel leading to Valley of the Drakes",
+          "thisTransition": "Between Firelink Shrine and Upper Burg",
+        },
+        {
+          "nextArea": "burg_upper",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_lordvessel",
+      "connections": [
+        {
+          "nextArea": "darkroot",
+          "otherTransition": "Between the Darkroot Garden bonfire and the area with the stone knights",
+          "thisTransition": "To Demon Firesage",
+        },
+      ],
+    },
+    {
+      "areaName": "parish_church",
+      "connections": [
+        {
+          "nextArea": "darkroot",
+          "otherTransition": "At one end of the bridge at the top of the waterfall with the hydra below",
+          "thisTransition": "To Gargoyles",
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_hallway",
+      "connections": [
+        {
+          "nextArea": "burg_start",
+          "otherTransition": "Near the drake encounter in Upper Burg",
+          "thisTransition": "At the hallway with the crystal warrior in Duke's Archives",
+        },
+      ],
+    },
+    {
+      "areaName": "asylum_outside",
+      "connections": [
+        {
+          "nextArea": "demonruins_lordvessel",
+          "otherTransition": "Golden fog gate in Demon Ruins",
+          "thisTransition": "Crow transport from Firelink to Asylum",
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_lower",
+      "connections": [
+        {
+          "nextArea": "dukes_hallway",
+          "otherTransition": "To Seath in Archives",
+          "thisTransition": "In Demon Ruins next to the first Capra Demon",
+        },
+        {
+          "nextArea": "dlc_forest",
+          "otherTransition": "At the top of the elevator from before Artorias to before Manus",
+          "thisTransition": "Golden fog gate in Demon Ruins",
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_township",
+      "connections": [
+        {
+          "nextArea": "demonruins_firesage",
+          "otherTransition": "To Demon Firesage",
+          "thisTransition": "At the bottom of the elevator from before Artorias to before Manus",
+        },
+      ],
+    },
+    {
+      "areaName": "burg_upper",
+      "connections": [
+        {
+          "nextArea": "darkroot",
+          "otherTransition": "To Darkroot Basin in Havel's tower",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "burg_upperresidence",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "parish_hellkite",
+      "connections": [
+        {
+          "nextArea": "parish_church",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "asylum_oscar",
+      "connections": [
+        {
+          "nextArea": "parish_church",
+          "otherTransition": "Between Undead Parish and Andre",
+          "thisTransition": "Between hallway with initial weapons and Oscar's cell",
+        },
+        {
+          "nextArea": "asylum_f2west",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "darkroot_butterfly",
+      "connections": [
+        {
+          "nextArea": "parish_church",
+          "otherTransition": "In front of Firelink Shrine dual elevator",
+          "thisTransition": "To Moonlight Butterfly",
+        },
+      ],
+    },
+    {
+      "areaName": "burg_lower",
+      "connections": [
+        {
+          "nextArea": "parish_church",
+          "otherTransition": "At the bridge crossing over the boar in Undead Parish",
+          "thisTransition": "To Capra Demon",
+        },
+        {
+          "nextArea": "burg_upper",
+          "otherTransition": "On shortcut door between Upper Burg and Lower Burg, in room with hollows",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "asylum",
+      "connections": [
+        {
+          "nextArea": "asylum_oscar",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "asylum_balcony",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "asylum_outside",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "asylum_prebalcony",
+      "connections": [
+        {
+          "nextArea": "asylum_oscar",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_artorias",
+      "connections": [
+        {
+          "nextArea": "asylum_prebalcony",
+          "otherTransition": "To Asylum Demon from balcony",
+          "thisTransition": "To Artorias",
+        },
+        {
+          "nextArea": "dukes_library",
+          "otherTransition": "At the hallway with the crystal warrior in Duke's Archives",
+          "thisTransition": "After Artorias",
+        },
+      ],
+    },
+    {
+      "areaName": "catacombs",
+      "connections": [
+        {
+          "nextArea": "catacombs_pinwheel",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "catacombs",
+          "otherTransition": "Between the bridge Patches flips over and the room with two skeletons",
+          "thisTransition": "To Pinwheel",
+        },
+      ],
+    },
+    {
+      "areaName": ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",
+      "connections": [],
+    },
+    {
+      "areaName": "anorlondo_os",
+      "connections": [
+        {
+          "nextArea": "dlc_township",
+          "otherTransition": "To Manus",
+          "thisTransition": "After O&S on left side",
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_caves",
+      "connections": [
+        {
+          "nextArea": "dlc_township",
+          "otherTransition": "Between Gough's stairway and Oolacile Township",
+          "thisTransition": "Between Duke's Archives and the field before Crystal Caves",
+        },
+      ],
+    },
+    {
+      "areaName": "blighttown_upper",
+      "connections": [
+        {
+          "nextArea": "burg_upper",
+          "otherTransition": "To Taurus Demon",
+          "thisTransition": "In between the main pit and wood planks while climbing up/down Blighttown",
+        },
+      ],
+    },
+    {
+      "areaName": "depths",
+      "connections": [
+        {
+          "nextArea": "burg_upper",
+          "otherTransition": "Lower doorway of room with burg bonfire",
+          "thisTransition": "Near the area with the Channeler in the Depths",
+        },
+        {
+          "nextArea": "blighttown_upper",
+          "otherTransition": "Depths exit to Blighttown",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "burg_lower",
+          "otherTransition": "Entrance to Depths",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_cathedral",
+      "connections": [
+        {
+          "nextArea": "burg_upper",
+          "otherTransition": "Near the drake encounter in Upper Burg",
+          "thisTransition": "Between the Anor Londo main cathedral and the Giant Blacksmith",
+        },
+        {
+          "nextArea": "anorlondo_main",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "totg_lordvessel",
+      "connections": [
+        {
+          "nextArea": "parish_hellkite",
+          "otherTransition": "Between area after Taurus Demon and Hellkite bridge",
+          "thisTransition": "To Nito",
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_library",
+      "connections": [
+        {
+          "nextArea": "parish_hellkite",
+          "otherTransition": "At the bridge crossing over the boar in Undead Parish",
+          "thisTransition": "At the first elevator in Duke's Archives",
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_machines",
+      "connections": [
+        {
+          "nextArea": "parish_hellkite",
+          "otherTransition": "Upper doorway of room with burg bonfire",
+          "thisTransition": "Between Duke's Archives and the field before Crystal Caves",
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_izalith",
+      "connections": [
+        {
+          "nextArea": "burg_lower",
+          "otherTransition": "Between female Undead Merchant and Lower Burg",
+          "thisTransition": "To Bed of Chaos",
+        },
+        {
+          "nextArea": "demonruins_lordvessel",
+          "otherTransition": "The magic door which can be opened from Izalith or with covenent rank",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "demonruins_izalithlava",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "totg_lower",
+      "connections": [
+        {
+          "nextArea": "burg_lower",
+          "otherTransition": "Between very long ladder and Lower Burg",
+          "thisTransition": "Golden fog gate in Tomb of the Giants",
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_kalameet",
+      "connections": [
+        {
+          "nextArea": "asylum",
+          "otherTransition": "Between hallway with initial weapons and Oscar's cell",
+          "thisTransition": "To Kalameet",
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_crystalgolem",
+      "connections": [
+        {
+          "nextArea": "dukes_library",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_sanctuary",
+      "connections": [
+        {
+          "nextArea": "catacombs",
+          "otherTransition": "Getting into coffin to Nito",
+          "thisTransition": "After Sanctuary Guardian",
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_gwyndolin",
+      "connections": [
+        {
+          "nextArea": "catacombs",
+          "otherTransition": "Between the bridge Patches flips over and the room with two skeletons",
+          "thisTransition": "To Gwyndolin",
+        },
+      ],
+    },
+    {
+      "areaName": "blighttown_bell",
+      "connections": [
+        {
+          "nextArea": "demonruins_elevator",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_stairs",
+      "connections": [
+        {
+          "nextArea": "sens_irongolem",
+          "otherTransition": "To Iron Golem",
+          "thisTransition": "Between stairways behind Firesage and elevator to Quelaag's Domain",
+        },
+      ],
+    },
+    {
+      "areaName": "sens_upper",
+      "connections": [
+        {
+          "nextArea": "depths",
+          "otherTransition": "To Gaping Dragon",
+          "thisTransition": "Between final swinging axes aand Sen's Fortress roof",
+        },
+        {
+          "nextArea": "darkroot_butterfly",
+          "otherTransition": "After Moonlight Butterfly",
+          "thisTransition": "To Iron Golem",
+        },
+      ],
+    },
+    {
+      "areaName": "catacombs_prepinwheel",
+      "connections": [
+        {
+          "nextArea": "blighttown_bell",
+          "otherTransition": "After Quelaag",
+          "thisTransition": "To Pinwheel",
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_hallway",
+      "connections": [
+        {
+          "nextArea": "blighttown_bell",
+          "otherTransition": "Between Quelaag's Domain and the Demon Ruins bonfire",
+          "thisTransition": "Between Gough's stairway and Oolacile Township",
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_lava",
+      "connections": [
+        {
+          "nextArea": "demonruins",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "asylum_f2west",
+      "connections": [
+        {
+          "nextArea": "asylum_prebalcony",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "blighttown",
+      "connections": [
+        {
+          "nextArea": "blighttown_upper",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "newlondo",
+      "connections": [
+        {
+          "nextArea": "depths",
+          "otherTransition": "Near the area with the Channeler in the Depths",
+          "thisTransition": "Between the Firelink Shrine elevator and New Londo Ruins",
+        },
+      ],
+    },
+    {
+      "areaName": "sens_mid",
+      "connections": [
+        {
+          "nextArea": "anorlondo_cathedral",
+          "otherTransition": "To O&S",
+          "thisTransition": "Near the outside boulder stairway and Siegmeyer in Sen's Fortress",
+        },
+        {
+          "nextArea": "sens_upper",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "burg_above_bonfire",
+      "connections": [
+        {
+          "nextArea": "anorlondo_cathedral",
+          "otherTransition": "From the Anor Londo main cathedral out of a broken window in front",
+          "thisTransition": "Upper doorway of room with burg bonfire",
+        },
+      ],
+    },
+    {
+      "areaName": "darkroot_stone",
+      "connections": [
+        {
+          "nextArea": "anorlondo_cathedral",
+          "otherTransition": "Between the Anor Londo main cathedral and the area with bedrooms and paintings",
+          "thisTransition": "Between the Darkroot Garden bonfire and the area with the stone knights",
+        },
+      ],
+    },
+    {
+      "areaName": "darkroot_forest",
+      "connections": [
+        {
+          "nextArea": "totg_lordvessel",
+          "otherTransition": "Golden fog gate in Tomb of the Giants",
+          "thisTransition": "At one end of the bridge at the top of the waterfall with the hydra below",
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_start",
+      "connections": [
+        {
+          "nextArea": "totg_lower",
+          "otherTransition": "Before the Halberd Black Knight in TotG",
+          "thisTransition": "From Sen's to Anor Londo",
+        },
+      ],
+    },
+    {
+      "areaName": "newlondo_drakes",
+      "connections": [
+        {
+          "nextArea": "newlondo",
+          "otherTransition": "On door between start of New Londo Ruins and Valley of Drakes near Blighttown",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "newlondo",
+          "otherTransition": "Near the New Londo Ruins shortcut ladder",
+          "thisTransition": "Between Blighttown and Valley of the Drakes",
+        },
+      ],
+    },
+    {
+      "areaName": "burg_bonfire",
+      "connections": [
+        {
+          "nextArea": "burg_above_bonfire",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_centipede",
+      "connections": [
+        {
+          "nextArea": "burg_bonfire",
+          "otherTransition": "Lower doorway of room with burg bonfire",
+          "thisTransition": "To Centipede Demon",
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_forest",
+      "connections": [
+        {
+          "nextArea": "dlc_sanctuary",
+          "otherTransition": "Between Sanctuary Garden and Royal Forest",
+          "thisTransition": "To Kalameet",
+        },
+        {
+          "nextArea": "dlc_forest",
+          "otherTransition": "Between Sanctuary Garden and Royal Forest",
+          "thisTransition": "To Artorias",
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_blacksmith",
+      "connections": [
+        {
+          "nextArea": "demonruins_stairs",
+          "otherTransition": "After Demon Firesage",
+          "thisTransition": "Between the Anor Londo main cathedral and the Giant Blacksmith",
+        },
+        {
+          "nextArea": "anorlondo_main",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "paintedworld_priscilla",
+      "connections": [
+        {
+          "nextArea": "demonruins_stairs",
+          "otherTransition": "To Centipede Demon",
+          "thisTransition": "To Priscilla",
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_izalithlava",
+      "connections": [
+        {
+          "nextArea": "demonruins_izalith",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "demonruins_izalithprelava",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_guardian",
+      "connections": [
+        {
+          "nextArea": "dlc_hallway",
+          "otherTransition": "Between Gough's stairway and Artorias",
+          "thisTransition": "After Sanctuary Guardian",
+        },
+      ],
+    },
+    {
+      "areaName": "burg_upperresidence",
+      "connections": [
+        {
+          "nextArea": "burg_upper",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "burg_lowerresidence",
+      "connections": [
+        {
+          "nextArea": "burg_lower",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_bottom",
+      "connections": [
+        {
+          "nextArea": "blighttown",
+          "otherTransition": "To Quelaag",
+          "thisTransition": "At the bottom of the elevator from before Artorias to before Manus",
+        },
+      ],
+    },
+    {
+      "areaName": "greathollow_ashlake",
+      "connections": [
+        {
+          "nextArea": "blighttown",
+          "otherTransition": "Between Blighttown and Valley of the Drakes",
+          "thisTransition": "Between Great Hollow and Ash Lake",
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_manus",
+      "connections": [
+        {
+          "nextArea": "blighttown",
+          "otherTransition": "Between Blighttown and Great Hollow",
+          "thisTransition": "To Manus",
+        },
+      ],
+    },
+    {
+      "areaName": "sens",
+      "connections": [
+        {
+          "nextArea": "sens_mid",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "parish_bell",
+      "connections": [
+        {
+          "nextArea": "sens_mid",
+          "otherTransition": "Between final swinging axes aand Sen's Fortress roof",
+          "thisTransition": "After Gargoyles",
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_ceaseless",
+      "connections": [
+        {
+          "nextArea": "darkroot_stone",
+          "otherTransition": "To Moonlight Butterfly",
+          "thisTransition": "To Ceaseless Discharge",
+        },
+      ],
+    },
+    {
+      "areaName": "greathollow",
+      "connections": [
+        {
+          "nextArea": "darkroot_forest",
+          "otherTransition": "To Sif",
+          "thisTransition": "Between Blighttown and the Great Hollow",
+        },
+      ],
+    },
+    {
+      "areaName": "asylum_balcony",
+      "connections": [
+        {
+          "nextArea": "anorlondo_start",
+          "otherTransition": "Golden fog gate leading to Duke's Archives",
+          "thisTransition": "To Asylum Demon from balcony",
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_izalithprelava",
+      "connections": [
+        {
+          "nextArea": "demonruins_izalithlava",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "firelink_crow",
+      "connections": [
+        {
+          "nextArea": "newlondo_drakes",
+          "otherTransition": "Between Darkroot and tunnel leading to Valley of the Drakes",
+          "thisTransition": "Warp to Firelink crow's nest",
+        },
+        {
+          "nextArea": "firelink_elevator",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_top",
+      "connections": [
+        {
+          "nextArea": "dlc_bottom",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "newlondo_building",
+      "connections": [
+        {
+          "nextArea": "demonruins_izalithprelava",
+          "otherTransition": "After Centipede Demon",
+          "thisTransition": "Near the New Londo Ruins shortcut ladder",
+        },
+        {
+          "nextArea": "newlondo",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "totg_nito",
+      "connections": [
+        {
+          "nextArea": "dlc_top",
+          "otherTransition": "At the top of the elevator from before Artorias to before Manus",
+          "thisTransition": "To Nito",
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_seath2",
+      "connections": [
+        {
+          "nextArea": "anorlondo_os",
+          "otherTransition": "To O&S",
+          "thisTransition": "To Seath in Crystal Caves",
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_elevator2",
+      "connections": [
+        {
+          "nextArea": "anorlondo_os",
+          "otherTransition": "After O&S on right side",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "anorlondo_gwynevere",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_gwynevere",
+      "connections": [
+        {
+          "nextArea": "anorlondo_elevator2",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "anorlondo_elevator1",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_elevator1",
+      "connections": [
+        {
+          "nextArea": "anorlondo_gwynevere",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "depths_gaping",
+      "connections": [
+        {
+          "nextArea": "anorlondo_elevator1",
+          "otherTransition": "After O&S on left side",
+          "thisTransition": "To Gaping Dragon",
+        },
+      ],
+    },
+    {
+      "areaName": "paintedworld_annex",
+      "connections": [
+        {
+          "nextArea": "paintedworld",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "asylum_stray",
+      "connections": [
+        {
+          "nextArea": "asylum",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "asylum_doll",
+      "connections": [
+        {
+          "nextArea": "asylum",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "anorlondo_building",
+      "connections": [
+        {
+          "nextArea": "sens",
+          "otherTransition": "Near the outside boulder stairway and Siegmeyer in Sen's Fortress",
+          "thisTransition": "Between the first two Silver Knights and the main building",
+        },
+      ],
+    },
+    {
+      "areaName": "darkroot_postbutterfly",
+      "connections": [
+        {
+          "nextArea": "greathollow",
+          "otherTransition": "Between Great Hollow and Ash Lake",
+          "thisTransition": "After Moonlight Butterfly",
+        },
+      ],
+    },
+    {
+      "areaName": "parish_andre",
+      "connections": [
+        {
+          "nextArea": "demonruins_centipede",
+          "otherTransition": "After Centipede Demon",
+          "thisTransition": "Between Undead Parish and Andre",
+        },
+      ],
+    },
+    {
+      "areaName": "burg_taurus",
+      "connections": [
+        {
+          "nextArea": "asylum_stray",
+          "otherTransition": "In Stray Demon arena",
+          "thisTransition": "To Taurus Demon",
+        },
+      ],
+    },
+    {
+      "areaName": "totg_coffin",
+      "connections": [
+        {
+          "nextArea": "anorlondo_building",
+          "otherTransition": "Between the Anor Londo main cathedral and the area with bedrooms and paintings",
+          "thisTransition": "Getting into coffin to Nito",
+        },
+      ],
+    },
+    {
+      "areaName": "sens_cage",
+      "connections": [
+        {
+          "nextArea": "sens_mid",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "totg",
+      "connections": [
+        {
+          "nextArea": "dlc_guardian",
+          "otherTransition": "To Sanctuary Guardian",
+          "thisTransition": "Between TotG and Catacombs",
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_ceaselesslava",
+      "connections": [
+        {
+          "nextArea": "demonruins",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "newlondo_stairs",
+      "connections": [
+        {
+          "nextArea": "demonruins",
+          "otherTransition": "To Ceaseless Discharge",
+          "thisTransition": "To Four Kings",
+        },
+      ],
+    },
+    {
+      "areaName": "newlondo_lower",
+      "connections": [
+        {
+          "nextArea": "blighttown",
+          "otherTransition": "In between the main pit and wood planks while climbing up/down Blighttown",
+          "thisTransition": "On an entrance to the building with the Very Large Ember in lower ruins",
+        },
+        {
+          "nextArea": "newlondo_drakes",
+          "otherTransition": "On door between lower New Londo Ruins and Valley of Drakes near RTSR",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "newlondo_building",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "newlondo",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "anorlondo_start",
+          "otherTransition": "At the doorway connecting the first Anor Londo elevator and the first gargoyle",
+          "thisTransition": "On an entrance to the building with the Very Large Ember in lower ruins",
+        },
+      ],
+    },
+    {
+      "areaName": "catacombs_start",
+      "connections": [
+        {
+          "nextArea": "parish_andre",
+          "otherTransition": "Between Darkroot and Andre",
+          "thisTransition": "Between Firelink Shrine and Catacombs",
+        },
+        {
+          "nextArea": "catacombs",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_start",
+      "connections": [
+        {
+          "nextArea": "parish_andre",
+          "otherTransition": "Between Sen's Fortress gate and Andre",
+          "thisTransition": "Golden fog gate leading to Duke's Archives",
+        },
+        {
+          "nextArea": "newlondo_lower",
+          "otherTransition": "To Four Kings",
+          "thisTransition": "At the first elevator in Duke's Archives",
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_townshiphidden",
+      "connections": [
+        {
+          "nextArea": "dlc_township",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "kiln_start",
+      "connections": [
+        {
+          "nextArea": "firelink",
+          "otherTransition": "Frampt transport or falling from firelink to kiln",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "firelink_elevator",
+      "connections": [
+        {
+          "nextArea": "sens",
+          "otherTransition": "Between Sen's Fortress gate and Andre",
+          "thisTransition": "In front of Firelink Shrine dual elevator",
+        },
+        {
+          "nextArea": "firelink",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_seath1",
+      "connections": [
+        {
+          "nextArea": "totg",
+          "otherTransition": "Before the Halberd Black Knight in TotG",
+          "thisTransition": "To Seath in Archives",
+        },
+      ],
+    },
+    {
+      "areaName": "newlondo_lowerskip",
+      "connections": [
+        {
+          "nextArea": "newlondo_lower",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "burg_ladder",
+      "connections": [
+        {
+          "nextArea": "parish_hellkite",
+          "otherTransition": "Between Hellkite Bridge and Lower Burg",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "burg_capra",
+      "connections": [
+        {
+          "nextArea": "burg_ladder",
+          "otherTransition": "Between very long ladder and Lower Burg",
+          "thisTransition": "To Capra Demon",
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_prison",
+      "connections": [
+        {
+          "nextArea": "dukes_seath1",
+          "otherTransition": "To Duke's Archives prison",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "dukes_library2",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "demonruins_bedofchaos",
+      "connections": [
+        {
+          "nextArea": "burg_taurus",
+          "otherTransition": "After Taurus Demon",
+          "thisTransition": "To Bed of Chaos",
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_gough",
+      "connections": [
+        {
+          "nextArea": "dlc_hallway",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_extra",
+      "connections": [
+        {
+          "nextArea": "dukes_prison",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_library2",
+      "connections": [
+        {
+          "nextArea": "dukes_prison",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "dukes_library",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+        {
+          "nextArea": "dukes_machines",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dlc_kalameetdeath",
+      "connections": [
+        {
+          "nextArea": "dlc_kalameet",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "newlondo_fourkings",
+      "connections": [
+        {
+          "nextArea": "newlondo_stairs",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "dukes_giantcell",
+      "connections": [
+        {
+          "nextArea": "dukes_prison",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "newlondo_drakesbeatrice",
+      "connections": [
+        {
+          "nextArea": "newlondo_drakes",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "kiln_stairs",
+      "connections": [
+        {
+          "nextArea": "kiln_start",
+          "otherTransition": "in map",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "kiln",
+      "connections": [
+        {
+          "nextArea": "kiln_stairs",
+          "otherTransition": "Between the Kiln door and Black Knight area",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+    {
+      "areaName": "kiln_gwyn",
+      "connections": [
+        {
+          "nextArea": "kiln",
+          "otherTransition": "To Gwyn",
+          "thisTransition": undefined,
+        },
+      ],
+    },
+  ],
+}
+`;
