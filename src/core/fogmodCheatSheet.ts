@@ -4,7 +4,7 @@ export interface Transitions {
   otherArea: string;
   otherEntrance: string;
   thisEntrance?: string;
-  originalLine: string;
+  comment: string;
 }
 
 export interface Area {
@@ -17,7 +17,7 @@ export interface Connection {
   fromEntrance: string;
   toArea: string;
   toEntrance: string;
-  originalLine: string;
+  comment: string;
 }
 
 export interface FogModCheatSheet {
@@ -60,7 +60,7 @@ export function parseFogModCheatSheet(cheatSheet: string): FogModCheatSheet {
         otherArea: matches[1]!,
         thisEntrance: matches[4]!,
         otherEntrance: matches[2]!,
-        originalLine: line.trim(),
+        comment: line.trim(),
       });
     } else {
       const matches = line.match(/^(\S+)/);
@@ -87,7 +87,7 @@ export function parseFogModCheatSheet(cheatSheet: string): FogModCheatSheet {
         toEntrance: connection.thisEntrance,
         fromArea: connection.otherArea,
         fromEntrance: connection.otherEntrance,
-        originalLine: connection.originalLine,
+        comment: connection.comment,
       });
     }
   }

@@ -30,7 +30,7 @@ export interface TrackerPort {
   id: string;
   areaId: string;
   name: string;
-  isExitOnly: boolean;
+  direction: 'in' | 'out' | 'inout';
   metadata?: TrackerMetadata;
 }
 
@@ -38,7 +38,6 @@ export interface TrackerInMapConnection {
   type: 'inMap';
   fromAreaId: string;
   toAreaId: string;
-  isRevealed: true;
   condition?: TrackerCondition;
   metadata?: TrackerMetadata;
 }
@@ -47,7 +46,6 @@ export interface TrackerPortConnection {
   type: 'port';
   fromPortId: string;
   toPortId: string;
-  isRevealed: boolean;
   metadata?: TrackerMetadata;
 }
 

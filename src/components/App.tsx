@@ -1,47 +1,40 @@
-import { grommet, Grommet, Tab, Tabs } from 'grommet';
 import React, { createContext } from 'react';
-import { Tracker } from '@/core/trackerState';
 import ImportTrackerView from '@/components/ImportTrackerView';
 import TrackerListView from '@/components/TrackerListView';
-import { useObservableState } from '@/hooks/useObservableState';
+import { useLiveQuery } from 'dexie-react-hooks';
+import { db } from '@/core/db/trackerDb';
+import styled from 'styled-components';
+import { Tab, Tabs } from '@/components/ui/Tabs';
 
-const tracker = new Tracker();
-export const TrackerContext = createContext<Tracker>(tracker);
-
-const storedTrackerState = localStorage.getItem('trackerState');
-if (storedTrackerState) {
-  tracker.setState(JSON.parse(storedTrackerState));
-}
-
-tracker.trackerState$.subscribe(trackerState => {
-  if (trackerState.isInitialized) {
-    console.log('Saving tracker state to local storage');
-    localStorage.setItem('trackerState', JSON.stringify(trackerState));
-  }
-});
+const AppRoot = styled.div`
+  height: 100vh;
+`;
 
 const AppTabs = () => {
-  const trackerState = useObservableState(tracker.trackerState$);
   const [selectedTab, setSelectedTab] = React.useState(1);
+  const areaCount = useLiveQuery(() => db.areas.count(), [], 0);
+  const isInitialized = areaCount > 0;
 
   const onImportComplete = () => {
     setSelectedTab(1);
   };
 
-  return (
-    <Tabs activeIndex={selectedTab} onActive={setSelectedTab}>
-      <Tab title="Import">
-        <ImportTrackerView onImportComplete={onImportComplete} />
-      </Tab>
-      {trackerState.value?.isInitialized && (
-        <>
-          <Tab title="List">
-            <TrackerListView />
-          </Tab>
-        </>
-      )}
-    </Tabs>
-  );
+  const tabs: Tab[] = [
+    {
+      title: 'Import',
+      content: <ImportTrackerView onImportComplete={onImportComplete} />,
+    },
+    ...(isInitialized
+      ? [
+          {
+            title: 'List',
+            content: <TrackerListView />,
+          },
+        ]
+      : []),
+  ];
+
+  return <Tabs activeIndex={selectedTab} onActiveIndexChange={setSelectedTab} tabs={tabs} />;
 };
 
 /**
@@ -49,11 +42,9 @@ const AppTabs = () => {
  */
 const App = () => {
   return (
-    <Grommet full theme={grommet} themeMode="dark">
-      <TrackerContext.Provider value={tracker}>
-        <AppTabs />
-      </TrackerContext.Provider>
-    </Grommet>
+    <AppRoot>
+      <AppTabs />
+    </AppRoot>
   );
 };
 

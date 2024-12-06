@@ -1,18 +1,8 @@
 import styled from 'styled-components';
-import { Box, Text } from 'grommet';
-import {
-  Checkmark,
-  CircleAlert,
-  CircleInformation,
-  DocumentExcel,
-  StatusCritical,
-  StatusGood,
-  StatusInfo,
-  StatusWarning,
-  X,
-} from 'grommet-icons';
+
 import React from 'react';
 import { FlexRow } from '@/components/styles/FlexBox';
+import { Margin } from '@/components/styles/Spacing';
 
 export enum AlertType {
   Info = 'info',
@@ -21,33 +11,31 @@ export enum AlertType {
   Error = 'error',
 }
 
+const AlertBox = styled.div<{ $alertType: AlertType }>`
+  padding: ${Margin.Large};
+  border-radius: 4px;
+  border: 1px solid
+    ${props => {
+      switch (props.$alertType) {
+        case AlertType.Info:
+          return '#4e9add';
+        case AlertType.Success:
+          return '#26b44a';
+        case AlertType.Warning:
+          return '#e4c61b';
+        case AlertType.Error:
+          return '#cc3f34';
+      }
+    }};
+`;
+
 export interface Props {
   type: AlertType;
   content: React.ReactNode;
 }
 
-const AlertIcon = (props: { type: AlertType }) => {
-  switch (props.type) {
-    case AlertType.Info:
-      return <StatusInfo />;
-    case AlertType.Success:
-      return <StatusGood />;
-    case AlertType.Warning:
-      return <StatusWarning />;
-    case AlertType.Error:
-      return <StatusCritical />;
-    default:
-      return <CircleInformation />;
-  }
-};
-
 const Alert = (props: Props) => {
-  return (
-    <FlexRow gap="8px">
-      <AlertIcon type={props.type} />
-      <Text>{props.content}</Text>
-    </FlexRow>
-  );
+  return <AlertBox $alertType={props.type}>{props.content}</AlertBox>;
 };
 
 export default Alert;

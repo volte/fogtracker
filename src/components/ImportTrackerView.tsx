@@ -1,8 +1,10 @@
-import React, { useContext, useEffect } from 'react';
-import { Page, PageContent, PageHeader, Select } from 'grommet';
+import React from 'react';
 import DarkSoulsImporter from '@/components/game/DarkSoulsImporter';
-import { TrackerState } from '@/core/trackerState';
-import { TrackerContext } from '@/components/App';
+import { TrackerState } from '@/core/game/trackerState';
+import { db } from '@/core/db/trackerDb';
+import { Margin } from '@/components/styles/Spacing';
+import { FlexColumn } from '@/components/styles/FlexBox';
+import Select from 'react-select';
 
 export interface Props {
   onImportComplete: () => void;
@@ -29,32 +31,26 @@ const supportedGames: SupportedGame[] = [
 const ImportTrackerView = (props: Props) => {
   const [selectedGame, setSelectedGame] = React.useState(supportedGames[0]!.id);
   const importer = supportedGames.find(game => game.id === selectedGame)?.importer;
-  const tracker = useContext(TrackerContext);
 
-  const onImportTrackerState = (trackerState: TrackerState) => {
-    if (tracker) {
-      tracker.setState(trackerState);
-      props.onImportComplete();
-    }
+  const onImportTrackerState = async (trackerState: TrackerState) => {
+    await db.initFromState(trackerState);
+    props.onImportComplete();
   };
 
   return (
-    <Page kind="narrow">
-      <PageContent>
-        <PageHeader title="Import TrackerState Data" />
-        <Select
-          options={supportedGames}
-          labelKey="name"
-          valueKey="id"
-          value={selectedGame}
-          onChange={({ option }) => setSelectedGame(option.id)}
-        />
-        {importer &&
-          React.createElement<SupportedGameImporterProps>(importer, {
-            onImportTrackerState,
-          })}
-      </PageContent>
-    </Page>
+    <FlexColumn gap={Margin.Medium}>
+      <h1 title="Import TrackerState Data" />
+      <Select<SupportedGame>
+        options={supportedGames}
+        formatOptionLabel={option => option.name}
+        value={supportedGames.find(game => game.id === selectedGame)}
+        onChange={option => setSelectedGame(option?.id || supportedGames[0]!.id)}
+      />
+      {importer &&
+        React.createElement<SupportedGameImporterProps>(importer, {
+          onImportTrackerState,
+        })}
+    </FlexColumn>
   );
 };
 

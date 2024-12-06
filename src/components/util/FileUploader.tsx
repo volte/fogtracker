@@ -1,13 +1,12 @@
 import React from 'react';
-import { Box, FileInput } from 'grommet';
+import { FileUploader as ReactFileUploader } from 'react-drag-drop-files';
 
 export interface Props {
   onUploadedDataChange: (data: string) => void;
 }
 
 const FileUploader = (props: Props) => {
-  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
+  const handleFileChange = (file: File) => {
     if (file) {
       const reader = new FileReader();
       reader.onload = e => {
@@ -19,9 +18,9 @@ const FileUploader = (props: Props) => {
   };
 
   return (
-    <Box pad="medium">
-      <FileInput name="file" onChange={handleFileChange} />
-    </Box>
+    <div>
+      <ReactFileUploader name="file" handleChange={handleFileChange} />
+    </div>
   );
 };
 

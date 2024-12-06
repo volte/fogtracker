@@ -15,26 +15,21 @@ export class FlagCategory extends BaseEntity {
 }
 
 export class Flag extends BaseEntity {
-  categoryId!: string;
+  categoryId?: string;
   name!: string;
-}
-
-export class Condition extends BaseEntity {
-  flagIds!: string[];
-  mode!: 'and' | 'or';
 }
 
 export class Port extends BaseEntity {
   areaId!: string;
   name!: string;
-  isExitOnly!: boolean;
+  direction!: 'in' | 'out' | 'inout';
+  isRevealed!: boolean;
 }
 
 export class Connection extends BaseEntity {
   type!: 'inMap' | 'port';
   fromId!: string;
   toId!: string;
-  isRevealed!: boolean;
 }
 
 export class Area extends BaseEntity {

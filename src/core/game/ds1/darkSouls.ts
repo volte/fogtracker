@@ -63,7 +63,6 @@ export const darkSoulsGameDefinition = {
         connections.push({
           fromAreaId: area.Name,
           toAreaId: areaTo.Area,
-          isRevealed: true,
           condition: parseConditionString(areaTo.Cond),
           type: 'inMap',
         });
@@ -71,7 +70,6 @@ export const darkSoulsGameDefinition = {
           connections.push({
             fromAreaId: areaTo.Area,
             toAreaId: area.Name,
-            isRevealed: true,
             condition: parseConditionString(areaTo.Cond),
             type: 'inMap',
           });
@@ -94,13 +92,13 @@ export const darkSoulsGameDefinition = {
         id: `${entrance.ID}_A`,
         areaId: entrance.ASide.Area,
         name: aSideAreaInfo?.EntranceInfo?.[entrance.ID]?.Name || entrance.Text,
-        isExitOnly: false,
+        direction: 'inout',
       });
       ports.push({
         id: `${entrance.ID}_B`,
         areaId: entrance.BSide.Area,
         name: bSideAreaInfo?.EntranceInfo?.[entrance.ID]?.Name || entrance.Text,
-        isExitOnly: false,
+        direction: 'inout',
       });
       portNameToIdMap.set(
         getPortNameKey({ areaName: entrance.ASide.Area, entrance: entrance.Text }),
@@ -122,13 +120,13 @@ export const darkSoulsGameDefinition = {
         id: `${warp.ID}_A`,
         areaId: warp.ASide.Area,
         name: aSideAreaInfo?.WarpInfo?.[warp.ID]?.Name || warp.Text,
-        isExitOnly: false,
+        direction: 'in',
       });
       ports.push({
         id: `${warp.ID}_B`,
         areaId: warp.BSide.Area,
         name: bSideAreaInfo?.WarpInfo?.[warp.ID]?.Name || warp.Text,
-        isExitOnly: true,
+        direction: 'out',
       });
       portNameToIdMap.set(getPortNameKey({ areaName: warp.ASide.Area, entrance: warp.Text }), `${warp.ID}_A`);
       portNameToIdMap.set(getPortNameKey({ areaName: warp.BSide.Area, entrance: warp.Text }), `${warp.ID}_B`);
@@ -144,7 +142,7 @@ export const darkSoulsGameDefinition = {
       );
 
       if (!fromPortId || !toPortId) {
-        console.warn('Could not find port for connection:', connection.originalLine);
+        console.warn('Could not find port for connection:', connection.comment);
         continue;
       }
 
@@ -152,27 +150,25 @@ export const darkSoulsGameDefinition = {
       const toPort = ports.find(port => port.id === toPortId);
 
       if (!fromPort || !toPort) {
-        console.warn('Could not find port for connection:', connection.originalLine);
+        console.warn('Could not find port for connection:', connection.comment);
         continue;
       }
 
       connections.push({
         fromPortId,
         toPortId,
-        isRevealed: false,
         type: 'port',
         metadata: {
-          comment: connection.originalLine,
+          comment: connection.comment,
         },
       });
-      if (!toPort.isExitOnly) {
+      if (toPort.direction.includes('out')) {
         connections.push({
           fromPortId: toPortId,
           toPortId: fromPortId,
-          isRevealed: false,
           type: 'port',
           metadata: {
-            comment: connection.originalLine,
+            comment: connection.comment,
           },
         });
       }

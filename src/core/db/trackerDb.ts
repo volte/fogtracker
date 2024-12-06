@@ -1,13 +1,14 @@
 import Dexie, { type EntityTable } from 'dexie';
-import { Area, Condition, Connection, Flag, FlagCategory, Port, Region } from '@/core/db/model';
+import { Area, Connection, Flag, FlagCategory, Port, Region } from '@/core/db/model';
+import { TrackerState } from '@/core/game/trackerState';
+import { createId } from '@paralleldrive/cuid2';
 
-const createSchema = (fields: string[]) => ['&id', ...fields, 'metadata'].join(', ');
+const createSchema = (fields: string[]) => ['&id', ...fields].join(', ');
 
 export class TrackerDatabase extends Dexie {
   public regions!: EntityTable<Region, 'id'>;
   public flagCategories!: EntityTable<FlagCategory, 'id'>;
   public flags!: EntityTable<Flag, 'id'>;
-  public conditions!: EntityTable<Condition, 'id'>;
   public ports!: EntityTable<Port, 'id'>;
   public connections!: EntityTable<Connection, 'id'>;
   public areas!: EntityTable<Area, 'id'>;
@@ -18,11 +19,11 @@ export class TrackerDatabase extends Dexie {
     const db = this;
 
     db.version(1).stores({
+      config: createSchema(['key']),
       regions: createSchema(['name']),
       flagCategories: createSchema(['name']),
       flags: createSchema(['categoryId', 'name']),
-      conditions: createSchema(['flagIds', 'mode']),
-      ports: createSchema(['areaId', 'name', 'isExitOnly']),
+      ports: createSchema(['areaId', 'name', 'direction']),
       connections: createSchema(['type', 'fromId', 'toId', 'isRevealed']),
       areas: createSchema(['name', 'regionId']),
     });
@@ -30,10 +31,47 @@ export class TrackerDatabase extends Dexie {
     db.regions.mapToClass(Region);
     db.flagCategories.mapToClass(FlagCategory);
     db.flags.mapToClass(Flag);
-    db.conditions.mapToClass(Condition);
     db.ports.mapToClass(Port);
     db.connections.mapToClass(Connection);
     db.areas.mapToClass(Area);
+  }
+
+  async initFromState(state: TrackerState) {
+    await this.delete();
+    await this.open();
+    await this.transaction(
+      'rw',
+      [this.regions, this.flagCategories, this.flags, this.ports, this.connections, this.areas],
+      async () => {
+        const flagCategories = Array.from(new Set(state.flags.map(flag => flag.category))).map(category => ({
+          id: createId(),
+          name: category,
+        }));
+        const flags = state.flags.map(flag => ({
+          ...flag,
+          categoryId: flagCategories.find(category => category.name === flag.category)?.id,
+        }));
+        const connections = state.connections.map(connection => ({
+          ...(connection.type == 'inMap'
+            ? { fromId: connection.fromAreaId, toId: connection.toAreaId }
+            : { fromId: connection.fromPortId, toId: connection.toPortId }),
+          type: connection.type,
+          metadata: connection.metadata,
+          id: createId(),
+        }));
+        const ports = state.ports.map(port => ({
+          ...port,
+          isRevealed: false,
+        }));
+
+        await this.regions.bulkPut(state.regions);
+        await this.flagCategories.bulkPut(Array.from(flagCategories));
+        await this.flags.bulkPut(flags);
+        await this.ports.bulkPut(ports);
+        await this.connections.bulkPut(connections);
+        await this.areas.bulkPut(state.areas);
+      }
+    );
   }
 }
 
