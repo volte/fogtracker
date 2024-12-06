@@ -7,7 +7,12 @@ import styled from 'styled-components';
 import { Tab, Tabs } from '@/components/ui/Tabs';
 
 const AppRoot = styled.div`
-  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
 `;
 
 const AppTabs = () => {

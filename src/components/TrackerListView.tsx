@@ -25,26 +25,36 @@ const OtherSideLabel = styled.span`
   opacity: 0.75;
   padding-left: ${Margin.Medium};
   margin-left: 32px;
-  color: blue;
+  color: #7070ff;
 `;
 
 const StyledAnchor = styled.a`
   text-decoration: none;
+  color: white;
+  &:hover {
+    text-decoration: underline;
+    color: #ebe218;
+  }
 `;
 
 const SideBar = styled(FlexColumn)`
-  background-color: #f0f0f0;
+  background-color: #ffffff40;
+  background-blend-mode: screen;
   padding: 8px;
   width: 200px;
   overflow: auto;
   position: sticky;
-  top: 8px;
-  max-height: calc(100vh);
+  top: ${Margin.Medium};
+  max-height: calc(100vh - 128px);
+  margin: ${Margin.Medium};
 `;
 
-const Content = styled(FlexColumn)`
-  overflow: auto;
+const SidebarHeading = styled.h1`
+  font-size: 1.2em;
+  font-weight: bold;
 `;
+
+const Content = styled(FlexColumn)``;
 
 const TrackerPortView = ({ port }: { port: Port }) => {
   const connections = useLiveQuery(
@@ -139,9 +149,11 @@ const TrackerListView = () => {
   return (
     <FlexRow gap={Margin.Medium}>
       <SideBar>
-        <h1>Areas</h1>
+        <SidebarHeading>Areas</SidebarHeading>
         {areas.map(area => (
-          <a href={`#${area.id}`}>{area.name}</a>
+          <StyledAnchor href={`#${area.id}`} key={area.id}>
+            {area.name}
+          </StyledAnchor>
         ))}
       </SideBar>
       <Content gap={Margin.Medium}>
