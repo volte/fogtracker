@@ -34,5 +34,6 @@ export class Connection extends BaseEntity {
 
 export class Area extends BaseEntity {
   name!: string;
+  description?: string;
   regionId?: string;
 }

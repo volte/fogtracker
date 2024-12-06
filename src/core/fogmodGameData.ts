@@ -13,6 +13,7 @@ type AreaTransition = {
 
 interface Area {
   Name: string;
+  Description: string;
   To?: AreaTransition[];
   Tags?: string;
   ScalingBase?: string;

@@ -3,6 +3,7 @@ export type TrackerMetadata = Record<string, unknown>;
 export interface TrackerArea {
   id: string;
   name: string;
+  description: string;
   regionId?: string;
   metadata?: TrackerMetadata;
 }

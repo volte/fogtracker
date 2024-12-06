@@ -78,6 +78,7 @@ export const darkSoulsGameDefinition = {
       areas.push({
         id: area.Name,
         name: areaInfo?.Name || area.Name,
+        description: area.Description,
         regionId: areaInfo?.RegionId,
       });
     }

@@ -12,17 +12,21 @@ Options:
 - TrueOpt: world
 Areas:
 - Name: depths
+  Description: The Depths
   To:
   - Area: depths_gaping
     Tags: drop hard
 - Name: depths_gaping
+  Description: Gaping Dragon Boss Arena
   Tags: boss
 - Name: burg_start
+  Description: Undead Burg Starting Area
   Tags: trivial
   To:
   - Area: burg_lower
     Tags: drop hard
 - Name: burg_upper
+  Description: Upper Undead Burg
   To:
   - Area: burg_start
     Tags: drop
@@ -34,49 +38,66 @@ Areas:
   - Area: depths
     Tags: drop hard
 - Name: burg_upperresidence
+  Description: Upper Undead Burg Residence
   To:
   - Area: burg_upper
     Tags: drop
 - Name: burg_bonfire
+  Description: Undead Burg Bonfire
   Tags: trivial
 - Name: burg_above_bonfire
+  Description: Area Above Undead Burg Bonfire
   Tags: trivial
   To:
   - Area: burg_bonfire
     Tags: shortcut
 - Name: burg_ladder
+  Description: Undead Burg Ladder
   Tags: trivial
 - Name: burg_lower
+  Description: Lower Undead Burg
   To:
   - Area: burg_lowerresidence
     Cond: residence_key
     Tags: door
 - Name: burg_lowerresidence
+  Description: Lower Undead Burg Residence
 - Name: burg_taurus
+  Description: Taurus Demon Boss Arena
   Tags: boss
 - Name: burg_posttaurus
+  Description: Area After Taurus Demon
   Tags: trivial
 - Name: burg_capra
+  Description: Capra Demon Boss Arena
   Tags: boss
 - Name: parish_hellkite
+  Description: Hellkite Dragon Bridge
   To:
   - Area: parish_church
     Tags: temp
 - Name: parish_church
+  Description: Undead Parish Church
   To:
   - Area: parish_hellkite
     Tags: drop
 - Name: parish_andre
+  Description: Blacksmith Andre's Workshop
 - Name: parish_gargoyles
+  Description: Bell Gargoyles Boss Arena
   Tags: boss
 - Name: parish_bell
+  Description: Undead Parish Bell Tower
   Tags: trivial
 - Name: firelink
+  Description: Firelink Shrine
 - Name: firelink_crow
+  Description: Giant Crow's Nest at Firelink
   To:
   - Area: firelink
     Tags: drop
 - Name: firelink_elevator
+  Description: Firelink Shrine Elevator
   Tags: trivial
   To:
   - Area: firelink
@@ -84,11 +105,13 @@ Areas:
   - Area: firelink_crow
     Tags: drop
 - Name: firelink_gate
+  Description: Firelink Shrine Gate
   Tags: trivial
   To:
   - Area: firelink
     Tags: shortcut
 - Name: paintedworld
+  Description: Painted World of Ariamis
   To:
   - Area: paintedworld_annex
     Cond: annex_key
@@ -96,44 +119,58 @@ Areas:
   - Area: paintedworld_annex
     Tags: hard
 - Name: paintedworld_annex
+  Description: Painted World Annex
 - Name: paintedworld_priscilla
+  Description: Crossbreed Priscilla Boss Arena
   Tags: boss
 - Name: darkroot
+  Description: Darkroot Garden
   To:
   - Area: dlc_hallway
     Cond: purple_cowards_crystal
     Tags: hard
 - Name: darkroot_stone
+  Description: Stone Guardian Area
   To:
   - Area: darkroot
     Tags: drop
 - Name: darkroot_butterfly
+  Description: Moonlight Butterfly Boss Arena
   Tags: boss
 - Name: darkroot_postbutterfly
+  Description: Area After Moonlight Butterfly
 - Name: darkroot_forest
+  Description: Darkroot Forest
   ScalingBase: sens
   To:
   - Area: darkroot
     Tags: drop
 - Name: darkroot_sif
+  Description: Great Grey Wolf Sif Boss Arena
   Tags: boss
 - Name: dlc_start
+  Description: Artorias of the Abyss DLC Starting Area
   Tags: trivial
 - Name: dlc_guardian
+  Description: Sanctuary Guardian Boss Arena
   Tags: boss
 - Name: dlc_sanctuary
+  Description: Oolacile Sanctuary
   To:
   - Area: kiln
     Cond: AND kiln_start lordvessel purple_cowards_crystal
     Tags: hard
 - Name: dlc_forest
+  Description: Royal Wood
   To:
   - Area: kiln
     Cond: AND kiln_start lordvessel purple_cowards_crystal
     Tags: hard
 - Name: dlc_artorias
+  Description: Knight Artorias Boss Arena
   Tags: boss
 - Name: dlc_hallway
+  Description: Oolacile Township Dungeon
   To:
   - Area: dlc_gough
     Cond: AND crest_key dlc_artorias
@@ -142,14 +179,18 @@ Areas:
     Cond: AND kiln_start lordvessel purple_cowards_crystal
     Tags: hard
 - Name: dlc_gough
+  Description: Hawkeye Gough's Tower
 - Name: dlc_kalameet
+  Description: Black Dragon Kalameet Area
   Tags: trivial
   To:
   - Area: dlc_kalameetdeath
     Cond: dlc_gough
 - Name: dlc_kalameetdeath
+  Description: Black Dragon Kalameet Boss Arena
   Tags: boss
 - Name: dlc_township
+  Description: Oolacile Township
   To:
   - Area: dlc_townshiphidden
     Cond: cast_light
@@ -158,74 +199,104 @@ Areas:
     Cond: AND kiln_start lordvessel purple_cowards_crystal
     Tags: hard
 - Name: dlc_townshiphidden
+  Description: Hidden Area in Oolacile Township
   Tags: trivial
 - Name: dlc_manus
+  Description: Manus, Father of the Abyss Boss Arena
   Tags: boss
 - Name: dlc_top
+  Description: Upper Chasm of the Abyss
   Tags: trivial
 - Name: dlc_bottom
+  Description: Lower Chasm of the Abyss
   Tags: trivial
   To:
   - Area: dlc_top
     Tags: shortcut
 - Name: dlc_postartorias
+  Description: Area After Artorias Boss Fight
   Tags: optional trivial
 - Name: catacombs_start
+  Description: Catacombs Entrance
   ScalingBase: sens
   To:
   - Area: catacombs
     Tags: shortcut
 - Name: catacombs
+  Description: The Catacombs
 - Name: catacombs_prepinwheel
+  Description: Area Before Pinwheel
   Tags: trivial
   To:
   - Area: catacombs_pinwheel
     Tags: drop
 - Name: catacombs_pinwheel
+  Description: Pinwheel Boss Arena
   Tags: boss
   To:
   - Area: catacombs
     Tags: drop
 - Name: totg
+  Description: Tomb of the Giants
   To:
   - Area: totg_lower
     Tags: drop hard
 - Name: totg_lower
+  Description: Lower Tomb of the Giants
 - Name: totg_lordvessel
+  Description: Lordvessel Area in Tomb of the Giants
   ScalingBase: dukes_caves
 - Name: totg_coffin
+  Description: Coffin Area in Tomb of the Giants
 - Name: totg_nito
+  Description: Gravelord Nito Boss Arena
   Tags: boss
 - Name: greathollow
+  Description: The Great Hollow
 - Name: greathollow_ashlake
+  Description: Path to Ash Lake
 - Name: greathollow_start
+  Description: Great Hollow Entrance
   Tags: optional trivial
 - Name: blighttown
+  Description: Blighttown
 - Name: blighttown_upper
+  Description: Upper Blighttown
   To:
   - Area: blighttown
     Tags: drop
 - Name: blighttown_quelaag
+  Description: Chaos Witch Quelaag Boss Arena
   Tags: boss
 - Name: blighttown_bell
+  Description: Second Bell of Awakening
   Tags: trivial
 - Name: demonruins
+  Description: Demon Ruins
   To:
   - Area: demonruins_lava
     Cond: orange_charred_ring
   - Area: demonruins_ceaselesslava
     Cond: demonruins_ceaseless
 - Name: demonruins_ceaseless
+  Description: Ceaseless Discharge Boss Arena
   Tags: boss
 - Name: demonruins_lava
+  Description: Lava Area in Demon Ruins
 - Name: demonruins_ceaselesslava
+  Description: Lava Area After Ceaseless Discharge
 - Name: demonruins_lower
+  Description: Lower Demon Ruins
 - Name: demonruins_lordvessel
+  Description: Lordvessel Area in Demon Ruins
   Tags: trivial
 - Name: demonruins_firesage
+  Description: Demon Firesage Boss Arena
   Tags: boss
 - Name: demonruins_stairs
+  Description: Demon Ruins Stairs
 - Name: demonruins_elevator
+  Description: Demon Ruins Elevator
   To:
   - Area: demonruins_firesage
     Tags: drop
@@ -233,26 +304,33 @@ Areas:
     Tags: shortcut
     Cond: demonruins_firesage
 - Name: demonruins_centipede
+  Description: Centipede Demon Boss Arena
   ScalingBase: dukes_prison
   Tags: boss
 - Name: demonruins_izalithprelava
+  Description: Lost Izalith Pre-Lava Area
   Tags: trivial
   To:
   - Area: demonruins_izalithlava
     Cond: orange_charred_ring
 - Name: demonruins_izalithlava
+  Description: Lost Izalith Lava Area
   Tags: trivial
   To:
   - Area: demonruins_izalithprelava
   - Area: demonruins_izalith
 - Name: demonruins_izalith
+  Description: Lost Izalith
   To:
   - Area: demonruins_izalithlava
     Cond: orange_charred_ring
 - Name: demonruins_bedofchaos
+  Description: Bed of Chaos Boss Arena
   Tags: boss
 - Name: sens
+  Description: Sen's Fortress
 - Name: sens_mid
+  Description: Middle Section of Sen's Fortress
   To:
   - Area: sens
     Tags: drop
@@ -260,25 +338,35 @@ Areas:
     Cond: cage_key
     Tags: door
 - Name: sens_cage
+  Description: Cage Elevator in Sen's Fortress
   Tags: trivial
 - Name: sens_upper
+  Description: Upper Sen's Fortress
   To:
   - Area: sens_mid
     Tags: drop
 - Name: sens_irongolem
+  Description: Iron Golem Boss Arena
   Tags: boss
 - Name: anorlondo_start
+  Description: Anor Londo Starting Area
 - Name: anorlondo_os
+  Description: Ornstein and Smough Boss Arena
   Tags: boss
 - Name: anorlondo_prerafters
+  Description: Area Before Painted World Rafters
   To:
   - Area: anorlondo_rafters
     Tags: drop
 - Name: anorlondo_rafters
+  Description: Painted World Rafters
 - Name: anorlondo_main
+  Description: Main Anor Londo Area
 - Name: anorlondo_darkmoon
+  Description: Darkmoon Tomb
   Tags: trivial
 - Name: anorlondo_postrafters
+  Description: Area After Painted World Rafters
   To:
   - Area: anorlondo_prerafters
     Tags: shortcut
@@ -289,17 +377,22 @@ Areas:
   - Area: anorlondo_painting
     Tags: shortcut
 - Name: anorlondo_painting
+  Description: Painted World Entrance
   To:
   - Area: anorlondo_chandelier
     Cond: anorlondo_rafters
 - Name: anorlondo_chandelier
+  Description: Great Hall Chandelier
   Tags: trivial
 - Name: anorlondo_building
+  Description: Anor Londo Cathedral Building
 - Name: anorlondo_cathedral
+  Description: Anor Londo Cathedral
   To:
   - Area: anorlondo_main
     Tags: shortcut
 - Name: anorlondo_front
+  Description: Anor Londo Cathedral Front
   Tags: optional trivial
   To:
   - Area: anorlondo_blacksmith
@@ -307,31 +400,35 @@ Areas:
   - Area: anorlondo_main
     Tags: drop
 - Name: anorlondo_blacksmith
+  Description: Giant Blacksmith's Workshop
   To:
   - Area: anorlondo_main
     Tags: shortcut
 - Name: anorlondo_elevator1
+  Description: First Cathedral Elevator
   Tags: trivial
   To:
   - Area: anorlondo_gwynevere
     Cond: anorlondo_os
 - Name: anorlondo_elevator2
+  Description: Second Cathedral Elevator
   Tags: trivial
   To:
   - Area: anorlondo_gwynevere
     Cond: anorlondo_os
 - Name: anorlondo_gwynevere
+  Description: Gwynevere's Chamber
   To:
   - Area: anorlondo_elevator1
     Cond: anorlondo_os
   - Area: anorlondo_elevator2
     Cond: anorlondo_os
-  # Can sometimes warp to firelink. But not if firekeeper is dead.
-  # - Area: firelink
 - Name: anorlondo_gwyndolin
+  Description: Dark Sun Gwyndolin Boss Arena
   ScalingBase: anorlondo_gwynevere
   Tags: boss
-- Name: newlondo  # Also door, which is fog gate
+- Name: newlondo
+  Description: New Londo Ruins
   To:
   - Area: newlondo_lower
     Tags: shortcut drop
@@ -342,44 +439,56 @@ Areas:
     Cond: covenant_of_artorias
     Tags: drop hard
 - Name: newlondo_building
+  Description: New Londo Main Building
   ScalingBase: sens
   To:
   - Area: newlondo_lower
     Cond: key_to_the_seal
-    Tags: shortcut drop # Check this - can you activate elevator from below? If so, no drop required
+    Tags: shortcut drop
   - Area: newlondo
     Tags: shortcut drop
 - Name: newlondo_lower
+  Description: Lower New Londo Ruins
   ScalingBase: anorlondo_gwynevere
   To:
   - Area: newlondo_lowerskip
 - Name: newlondo_lowerskip
+  Description: Lower New Londo Skip Area
   Tags: trivial
 - Name: newlondo_stairs
+  Description: New Londo Stairs to Abyss
   To:
   - Area: newlondo_fourkings
     Tags: drop
     Cond: covenant_of_artorias
 - Name: newlondo_fourkings
+  Description: Four Kings Boss Arena
   ScalingBase: dukes_seath2
   Tags: boss
 - Name: newlondo_drakes
+  Description: Valley of Drakes
   To:
   - Area: newlondo_drakesbeatrice
     Cond: newlondo_fourkings
 - Name: newlondo_drakesbeatrice
+  Description: Witch Beatrice Summon Location
   Tags: trivial
 - Name: dukes_start
+  Description: Duke's Archives Entrance
 - Name: dukes_library
+  Description: Duke's Archives Library
   To:
   - Area: dukes_library2
     Tags: drop hard
   - Area: dukes_crystalgolem
     Cond: darkroot
 - Name: dukes_crystalgolem
+  Description: Crystal Golem Area
 - Name: dukes_hallway
+  Description: Duke's Archives Hallway
   Tags: trivial
 - Name: dukes_prison
+  Description: Duke's Archives Prison
   To:
   - Area: dukes_library2
     Cond: archive_tower_giant_door_key
@@ -391,8 +500,11 @@ Areas:
     Cond: archive_tower_giant_cell_key
     Tags: door
 - Name: dukes_extra
+  Description: Duke's Archives Extra Area
 - Name: dukes_giantcell
+  Description: Duke's Archives Giant Cell
 - Name: dukes_library2
+  Description: Duke's Archives Upper Library
   To:
   - Area: dukes_machines
     Tags: shortcut
@@ -402,36 +514,46 @@ Areas:
     Cond: dukes_seath2
     Tags: door
 - Name: dukes_machines
+  Description: Duke's Archives Crystal Cave Machines
   Tags: trivial
 - Name: dukes_caves
-- Name: dukes_seath1 # should be post-seath
+  Description: Crystal Cave
+- Name: dukes_seath1
+  Description: First Seath the Scaleless Encounter
 - Name: dukes_seath2
+  Description: Seath the Scaleless Boss Arena
   Tags: boss
 - Name: kiln
+  Description: Kiln of the First Flame
 - Name: kiln_start
+  Description: Kiln of the First Flame Entrance
   To:
   - Area: kiln_stairs
     Tags: shortcut
     Cond: AND lordvessel lord_soul_shard_seath lord_soul_shard_four_kings lord_soul_bed_of_chaos lord_soul_nito
 - Name: kiln_stairs
+  Description: Kiln of the First Flame Stairs
 - Name: kiln_gwyn
+  Description: Gwyn, Lord of Cinder Boss Arena
   Tags: boss
-- Name: asylum # TODO: door to fight should always open? Or does that screw balcony logic. Probably shouldn't actually.
+- Name: asylum
+  Description: Northern Undead Asylum
   To:
   - Area: asylum_outside
     Tags: shortcut
     Cond: AND asylum_balcony asylum_oscar
   - Area: asylum_outside
     Tags: temp
-    Cond: asylum_oscar  # This is not exactly correct, but it is temp anyway, so ignored for routing
+    Cond: asylum_oscar
   - Area: asylum_stray
-    # Condition for this is changed from base game, just do this and reload
     Cond: AND asylum_balcony asylum_oscar
     Tags: drop
   - Area: asylum_doll
     Cond: AND asylum_balcony asylum_oscar
 - Name: asylum_outside
+  Description: Northern Undead Asylum Courtyard
 - Name: asylum_oscar
+  Description: Oscar of Astora's Cell
   Tags: trivial
   To:
   - Area: asylum
@@ -439,24 +561,30 @@ Areas:
   - Area: asylum_prebalcony
     Tags: shortcut
 - Name: asylum_prebalcony
+  Description: Area Before Asylum Balcony
   Tags: trivial
   To:
   - Area: asylum_f2west
     Cond: undead_asylum_f2_west_key
 - Name: asylum_f2west
+  Description: Asylum Second Floor West Wing
   Tags: trivial
   To:
   - Area: asylum_oscar
     Tags: drop
 - Name: asylum_balcony
+  Description: Asylum Balcony
   To:
   - Area: asylum
     Tags: drop
 - Name: asylum_doll
+  Description: Peculiar Doll Location
   Tags: trivial
 - Name: asylum_stray
+  Description: Stray Demon Boss Arena
   ScalingBase: sens
 - Name: asylum_loop
+  Description: Asylum Return Path
   Tags: optional trivial
   To:
   - Area: asylum

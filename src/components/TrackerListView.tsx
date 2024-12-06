@@ -10,9 +10,19 @@ export interface Props {}
 
 const CheckBox = styled.input.attrs({ type: 'checkbox' })``;
 
+const AreaHeaderRow = styled(FlexRow)`
+  align-items: end;
+  gap: 8px;
+`;
+
 const AreaHeader = styled.div`
   font-weight: bold;
   font-size: 1.2em;
+`;
+
+const AreaDescription = styled.div`
+  font-style: italic;
+  color: #444444;
 `;
 
 const PortLabel = styled.span`
@@ -135,7 +145,11 @@ const TrackerAreaView = ({ area }: { area: Area }) => {
   return (
     <FlexColumn>
       <a id={area.id} />
-      <AreaHeader>{area.name}</AreaHeader>
+      <AreaHeaderRow>
+        <AreaHeader>{area.name}</AreaHeader>
+        <AreaDescription>{area.description}</AreaDescription>
+      </AreaHeaderRow>
+
       {ports.map(port => (
         <TrackerPortView port={port} key={port.id} />
       ))}
