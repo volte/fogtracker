@@ -663,42 +663,36 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     {
       "condition": undefined,
       "fromAreaId": "depths",
-      "isRevealed": true,
       "toAreaId": "depths_gaping",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "depths_gaping",
-      "isRevealed": true,
       "toAreaId": "depths",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_start",
-      "isRevealed": true,
       "toAreaId": "burg_lower",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_lower",
-      "isRevealed": true,
       "toAreaId": "burg_start",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_upper",
-      "isRevealed": true,
       "toAreaId": "burg_start",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_start",
-      "isRevealed": true,
       "toAreaId": "burg_upper",
       "type": "inMap",
     },
@@ -710,7 +704,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "burg_upper",
-      "isRevealed": true,
       "toAreaId": "burg_upperresidence",
       "type": "inMap",
     },
@@ -722,63 +715,54 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "burg_upperresidence",
-      "isRevealed": true,
       "toAreaId": "burg_upper",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_upper",
-      "isRevealed": true,
       "toAreaId": "burg_lower",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_lower",
-      "isRevealed": true,
       "toAreaId": "burg_upper",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_upper",
-      "isRevealed": true,
       "toAreaId": "depths",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "depths",
-      "isRevealed": true,
       "toAreaId": "burg_upper",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_upperresidence",
-      "isRevealed": true,
       "toAreaId": "burg_upper",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_upper",
-      "isRevealed": true,
       "toAreaId": "burg_upperresidence",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_above_bonfire",
-      "isRevealed": true,
       "toAreaId": "burg_bonfire",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "burg_bonfire",
-      "isRevealed": true,
       "toAreaId": "burg_above_bonfire",
       "type": "inMap",
     },
@@ -790,7 +774,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "burg_lower",
-      "isRevealed": true,
       "toAreaId": "burg_lowerresidence",
       "type": "inMap",
     },
@@ -802,91 +785,78 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "burg_lowerresidence",
-      "isRevealed": true,
       "toAreaId": "burg_lower",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "parish_hellkite",
-      "isRevealed": true,
       "toAreaId": "parish_church",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "parish_church",
-      "isRevealed": true,
       "toAreaId": "parish_hellkite",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "parish_church",
-      "isRevealed": true,
       "toAreaId": "parish_hellkite",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "parish_hellkite",
-      "isRevealed": true,
       "toAreaId": "parish_church",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "firelink_crow",
-      "isRevealed": true,
       "toAreaId": "firelink",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "firelink",
-      "isRevealed": true,
       "toAreaId": "firelink_crow",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "firelink_elevator",
-      "isRevealed": true,
       "toAreaId": "firelink",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "firelink",
-      "isRevealed": true,
       "toAreaId": "firelink_elevator",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "firelink_elevator",
-      "isRevealed": true,
       "toAreaId": "firelink_crow",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "firelink_crow",
-      "isRevealed": true,
       "toAreaId": "firelink_elevator",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "firelink_gate",
-      "isRevealed": true,
       "toAreaId": "firelink",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "firelink",
-      "isRevealed": true,
       "toAreaId": "firelink_gate",
       "type": "inMap",
     },
@@ -898,7 +868,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "paintedworld",
-      "isRevealed": true,
       "toAreaId": "paintedworld_annex",
       "type": "inMap",
     },
@@ -910,21 +879,18 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "paintedworld_annex",
-      "isRevealed": true,
       "toAreaId": "paintedworld",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "paintedworld",
-      "isRevealed": true,
       "toAreaId": "paintedworld_annex",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "paintedworld_annex",
-      "isRevealed": true,
       "toAreaId": "paintedworld",
       "type": "inMap",
     },
@@ -936,7 +902,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "darkroot",
-      "isRevealed": true,
       "toAreaId": "dlc_hallway",
       "type": "inMap",
     },
@@ -948,35 +913,30 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_hallway",
-      "isRevealed": true,
       "toAreaId": "darkroot",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "darkroot_stone",
-      "isRevealed": true,
       "toAreaId": "darkroot",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "darkroot",
-      "isRevealed": true,
       "toAreaId": "darkroot_stone",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "darkroot_forest",
-      "isRevealed": true,
       "toAreaId": "darkroot",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "darkroot",
-      "isRevealed": true,
       "toAreaId": "darkroot_forest",
       "type": "inMap",
     },
@@ -990,7 +950,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_sanctuary",
-      "isRevealed": true,
       "toAreaId": "kiln",
       "type": "inMap",
     },
@@ -1004,7 +963,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "kiln",
-      "isRevealed": true,
       "toAreaId": "dlc_sanctuary",
       "type": "inMap",
     },
@@ -1018,7 +976,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_forest",
-      "isRevealed": true,
       "toAreaId": "kiln",
       "type": "inMap",
     },
@@ -1032,7 +989,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "kiln",
-      "isRevealed": true,
       "toAreaId": "dlc_forest",
       "type": "inMap",
     },
@@ -1045,7 +1001,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_hallway",
-      "isRevealed": true,
       "toAreaId": "dlc_gough",
       "type": "inMap",
     },
@@ -1058,7 +1013,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_gough",
-      "isRevealed": true,
       "toAreaId": "dlc_hallway",
       "type": "inMap",
     },
@@ -1072,7 +1026,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_hallway",
-      "isRevealed": true,
       "toAreaId": "kiln",
       "type": "inMap",
     },
@@ -1086,7 +1039,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "kiln",
-      "isRevealed": true,
       "toAreaId": "dlc_hallway",
       "type": "inMap",
     },
@@ -1098,7 +1050,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_kalameet",
-      "isRevealed": true,
       "toAreaId": "dlc_kalameetdeath",
       "type": "inMap",
     },
@@ -1110,7 +1061,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_kalameetdeath",
-      "isRevealed": true,
       "toAreaId": "dlc_kalameet",
       "type": "inMap",
     },
@@ -1122,7 +1072,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_township",
-      "isRevealed": true,
       "toAreaId": "dlc_townshiphidden",
       "type": "inMap",
     },
@@ -1134,7 +1083,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_townshiphidden",
-      "isRevealed": true,
       "toAreaId": "dlc_township",
       "type": "inMap",
     },
@@ -1148,7 +1096,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dlc_township",
-      "isRevealed": true,
       "toAreaId": "kiln",
       "type": "inMap",
     },
@@ -1162,91 +1109,78 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "kiln",
-      "isRevealed": true,
       "toAreaId": "dlc_township",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "dlc_bottom",
-      "isRevealed": true,
       "toAreaId": "dlc_top",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "dlc_top",
-      "isRevealed": true,
       "toAreaId": "dlc_bottom",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "catacombs_start",
-      "isRevealed": true,
       "toAreaId": "catacombs",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "catacombs",
-      "isRevealed": true,
       "toAreaId": "catacombs_start",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "catacombs_prepinwheel",
-      "isRevealed": true,
       "toAreaId": "catacombs_pinwheel",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "catacombs_pinwheel",
-      "isRevealed": true,
       "toAreaId": "catacombs_prepinwheel",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "catacombs_pinwheel",
-      "isRevealed": true,
       "toAreaId": "catacombs",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "catacombs",
-      "isRevealed": true,
       "toAreaId": "catacombs_pinwheel",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "totg",
-      "isRevealed": true,
       "toAreaId": "totg_lower",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "totg_lower",
-      "isRevealed": true,
       "toAreaId": "totg",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "blighttown_upper",
-      "isRevealed": true,
       "toAreaId": "blighttown",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "blighttown",
-      "isRevealed": true,
       "toAreaId": "blighttown_upper",
       "type": "inMap",
     },
@@ -1258,7 +1192,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "demonruins",
-      "isRevealed": true,
       "toAreaId": "demonruins_lava",
       "type": "inMap",
     },
@@ -1270,7 +1203,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "demonruins_lava",
-      "isRevealed": true,
       "toAreaId": "demonruins",
       "type": "inMap",
     },
@@ -1282,7 +1214,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "demonruins",
-      "isRevealed": true,
       "toAreaId": "demonruins_ceaselesslava",
       "type": "inMap",
     },
@@ -1294,21 +1225,18 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "demonruins_ceaselesslava",
-      "isRevealed": true,
       "toAreaId": "demonruins",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "demonruins_elevator",
-      "isRevealed": true,
       "toAreaId": "demonruins_firesage",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "demonruins_firesage",
-      "isRevealed": true,
       "toAreaId": "demonruins_elevator",
       "type": "inMap",
     },
@@ -1320,7 +1248,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "demonruins_elevator",
-      "isRevealed": true,
       "toAreaId": "blighttown_bell",
       "type": "inMap",
     },
@@ -1332,7 +1259,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "blighttown_bell",
-      "isRevealed": true,
       "toAreaId": "demonruins_elevator",
       "type": "inMap",
     },
@@ -1344,7 +1270,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "demonruins_izalithprelava",
-      "isRevealed": true,
       "toAreaId": "demonruins_izalithlava",
       "type": "inMap",
     },
@@ -1356,35 +1281,30 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "demonruins_izalithlava",
-      "isRevealed": true,
       "toAreaId": "demonruins_izalithprelava",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "demonruins_izalithlava",
-      "isRevealed": true,
       "toAreaId": "demonruins_izalithprelava",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "demonruins_izalithprelava",
-      "isRevealed": true,
       "toAreaId": "demonruins_izalithlava",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "demonruins_izalithlava",
-      "isRevealed": true,
       "toAreaId": "demonruins_izalith",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "demonruins_izalith",
-      "isRevealed": true,
       "toAreaId": "demonruins_izalithlava",
       "type": "inMap",
     },
@@ -1396,7 +1316,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "demonruins_izalith",
-      "isRevealed": true,
       "toAreaId": "demonruins_izalithlava",
       "type": "inMap",
     },
@@ -1408,21 +1327,18 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "demonruins_izalithlava",
-      "isRevealed": true,
       "toAreaId": "demonruins_izalith",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "sens_mid",
-      "isRevealed": true,
       "toAreaId": "sens",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "sens",
-      "isRevealed": true,
       "toAreaId": "sens_mid",
       "type": "inMap",
     },
@@ -1434,7 +1350,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "sens_mid",
-      "isRevealed": true,
       "toAreaId": "sens_cage",
       "type": "inMap",
     },
@@ -1446,91 +1361,78 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "sens_cage",
-      "isRevealed": true,
       "toAreaId": "sens_mid",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "sens_upper",
-      "isRevealed": true,
       "toAreaId": "sens_mid",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "sens_mid",
-      "isRevealed": true,
       "toAreaId": "sens_upper",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_prerafters",
-      "isRevealed": true,
       "toAreaId": "anorlondo_rafters",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_rafters",
-      "isRevealed": true,
       "toAreaId": "anorlondo_prerafters",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_postrafters",
-      "isRevealed": true,
       "toAreaId": "anorlondo_prerafters",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_prerafters",
-      "isRevealed": true,
       "toAreaId": "anorlondo_postrafters",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_postrafters",
-      "isRevealed": true,
       "toAreaId": "anorlondo_main",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_main",
-      "isRevealed": true,
       "toAreaId": "anorlondo_postrafters",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_postrafters",
-      "isRevealed": true,
       "toAreaId": "anorlondo_darkmoon",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_darkmoon",
-      "isRevealed": true,
       "toAreaId": "anorlondo_postrafters",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_postrafters",
-      "isRevealed": true,
       "toAreaId": "anorlondo_painting",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_painting",
-      "isRevealed": true,
       "toAreaId": "anorlondo_postrafters",
       "type": "inMap",
     },
@@ -1542,7 +1444,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "anorlondo_painting",
-      "isRevealed": true,
       "toAreaId": "anorlondo_chandelier",
       "type": "inMap",
     },
@@ -1554,63 +1455,54 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "anorlondo_chandelier",
-      "isRevealed": true,
       "toAreaId": "anorlondo_painting",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_cathedral",
-      "isRevealed": true,
       "toAreaId": "anorlondo_main",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_main",
-      "isRevealed": true,
       "toAreaId": "anorlondo_cathedral",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_front",
-      "isRevealed": true,
       "toAreaId": "anorlondo_blacksmith",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_blacksmith",
-      "isRevealed": true,
       "toAreaId": "anorlondo_front",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_front",
-      "isRevealed": true,
       "toAreaId": "anorlondo_main",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_main",
-      "isRevealed": true,
       "toAreaId": "anorlondo_front",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_blacksmith",
-      "isRevealed": true,
       "toAreaId": "anorlondo_main",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "anorlondo_main",
-      "isRevealed": true,
       "toAreaId": "anorlondo_blacksmith",
       "type": "inMap",
     },
@@ -1622,7 +1514,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "anorlondo_elevator1",
-      "isRevealed": true,
       "toAreaId": "anorlondo_gwynevere",
       "type": "inMap",
     },
@@ -1634,7 +1525,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "anorlondo_gwynevere",
-      "isRevealed": true,
       "toAreaId": "anorlondo_elevator1",
       "type": "inMap",
     },
@@ -1646,7 +1536,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "anorlondo_elevator2",
-      "isRevealed": true,
       "toAreaId": "anorlondo_gwynevere",
       "type": "inMap",
     },
@@ -1658,7 +1547,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "anorlondo_gwynevere",
-      "isRevealed": true,
       "toAreaId": "anorlondo_elevator2",
       "type": "inMap",
     },
@@ -1670,7 +1558,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "anorlondo_gwynevere",
-      "isRevealed": true,
       "toAreaId": "anorlondo_elevator1",
       "type": "inMap",
     },
@@ -1682,7 +1569,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "anorlondo_elevator1",
-      "isRevealed": true,
       "toAreaId": "anorlondo_gwynevere",
       "type": "inMap",
     },
@@ -1694,7 +1580,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "anorlondo_gwynevere",
-      "isRevealed": true,
       "toAreaId": "anorlondo_elevator2",
       "type": "inMap",
     },
@@ -1706,7 +1591,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "anorlondo_elevator2",
-      "isRevealed": true,
       "toAreaId": "anorlondo_gwynevere",
       "type": "inMap",
     },
@@ -1719,7 +1603,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "newlondo",
-      "isRevealed": true,
       "toAreaId": "newlondo_lower",
       "type": "inMap",
     },
@@ -1732,21 +1615,18 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "newlondo_lower",
-      "isRevealed": true,
       "toAreaId": "newlondo",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "newlondo",
-      "isRevealed": true,
       "toAreaId": "newlondo_lowerskip",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "newlondo_lowerskip",
-      "isRevealed": true,
       "toAreaId": "newlondo",
       "type": "inMap",
     },
@@ -1758,7 +1638,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "newlondo",
-      "isRevealed": true,
       "toAreaId": "newlondo_fourkings",
       "type": "inMap",
     },
@@ -1770,7 +1649,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "newlondo_fourkings",
-      "isRevealed": true,
       "toAreaId": "newlondo",
       "type": "inMap",
     },
@@ -1782,7 +1660,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "newlondo_building",
-      "isRevealed": true,
       "toAreaId": "newlondo_lower",
       "type": "inMap",
     },
@@ -1794,35 +1671,30 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "newlondo_lower",
-      "isRevealed": true,
       "toAreaId": "newlondo_building",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "newlondo_building",
-      "isRevealed": true,
       "toAreaId": "newlondo",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "newlondo",
-      "isRevealed": true,
       "toAreaId": "newlondo_building",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "newlondo_lower",
-      "isRevealed": true,
       "toAreaId": "newlondo_lowerskip",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "newlondo_lowerskip",
-      "isRevealed": true,
       "toAreaId": "newlondo_lower",
       "type": "inMap",
     },
@@ -1834,7 +1706,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "newlondo_stairs",
-      "isRevealed": true,
       "toAreaId": "newlondo_fourkings",
       "type": "inMap",
     },
@@ -1846,7 +1717,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "newlondo_fourkings",
-      "isRevealed": true,
       "toAreaId": "newlondo_stairs",
       "type": "inMap",
     },
@@ -1858,7 +1728,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "newlondo_drakes",
-      "isRevealed": true,
       "toAreaId": "newlondo_drakesbeatrice",
       "type": "inMap",
     },
@@ -1870,21 +1739,18 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "newlondo_drakesbeatrice",
-      "isRevealed": true,
       "toAreaId": "newlondo_drakes",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "dukes_library",
-      "isRevealed": true,
       "toAreaId": "dukes_library2",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "dukes_library2",
-      "isRevealed": true,
       "toAreaId": "dukes_library",
       "type": "inMap",
     },
@@ -1896,7 +1762,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dukes_library",
-      "isRevealed": true,
       "toAreaId": "dukes_crystalgolem",
       "type": "inMap",
     },
@@ -1908,7 +1773,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dukes_crystalgolem",
-      "isRevealed": true,
       "toAreaId": "dukes_library",
       "type": "inMap",
     },
@@ -1920,7 +1784,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dukes_prison",
-      "isRevealed": true,
       "toAreaId": "dukes_library2",
       "type": "inMap",
     },
@@ -1932,7 +1795,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dukes_library2",
-      "isRevealed": true,
       "toAreaId": "dukes_prison",
       "type": "inMap",
     },
@@ -1944,7 +1806,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dukes_prison",
-      "isRevealed": true,
       "toAreaId": "dukes_extra",
       "type": "inMap",
     },
@@ -1956,7 +1817,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dukes_extra",
-      "isRevealed": true,
       "toAreaId": "dukes_prison",
       "type": "inMap",
     },
@@ -1968,7 +1828,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dukes_prison",
-      "isRevealed": true,
       "toAreaId": "dukes_giantcell",
       "type": "inMap",
     },
@@ -1980,35 +1839,30 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dukes_giantcell",
-      "isRevealed": true,
       "toAreaId": "dukes_prison",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "dukes_library2",
-      "isRevealed": true,
       "toAreaId": "dukes_machines",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "dukes_machines",
-      "isRevealed": true,
       "toAreaId": "dukes_library2",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "dukes_library2",
-      "isRevealed": true,
       "toAreaId": "dukes_library",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "dukes_library",
-      "isRevealed": true,
       "toAreaId": "dukes_library2",
       "type": "inMap",
     },
@@ -2020,7 +1874,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dukes_library2",
-      "isRevealed": true,
       "toAreaId": "dukes_prison",
       "type": "inMap",
     },
@@ -2032,7 +1885,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "dukes_prison",
-      "isRevealed": true,
       "toAreaId": "dukes_library2",
       "type": "inMap",
     },
@@ -2048,7 +1900,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "kiln_start",
-      "isRevealed": true,
       "toAreaId": "kiln_stairs",
       "type": "inMap",
     },
@@ -2064,7 +1915,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "kiln_stairs",
-      "isRevealed": true,
       "toAreaId": "kiln_start",
       "type": "inMap",
     },
@@ -2077,7 +1927,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "asylum",
-      "isRevealed": true,
       "toAreaId": "asylum_outside",
       "type": "inMap",
     },
@@ -2090,7 +1939,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "asylum_outside",
-      "isRevealed": true,
       "toAreaId": "asylum",
       "type": "inMap",
     },
@@ -2102,7 +1950,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "asylum",
-      "isRevealed": true,
       "toAreaId": "asylum_outside",
       "type": "inMap",
     },
@@ -2114,7 +1961,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "asylum_outside",
-      "isRevealed": true,
       "toAreaId": "asylum",
       "type": "inMap",
     },
@@ -2127,7 +1973,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "asylum",
-      "isRevealed": true,
       "toAreaId": "asylum_stray",
       "type": "inMap",
     },
@@ -2140,7 +1985,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "asylum_stray",
-      "isRevealed": true,
       "toAreaId": "asylum",
       "type": "inMap",
     },
@@ -2153,7 +1997,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "asylum",
-      "isRevealed": true,
       "toAreaId": "asylum_doll",
       "type": "inMap",
     },
@@ -2166,35 +2009,30 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "asylum_doll",
-      "isRevealed": true,
       "toAreaId": "asylum",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "asylum_oscar",
-      "isRevealed": true,
       "toAreaId": "asylum",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "asylum",
-      "isRevealed": true,
       "toAreaId": "asylum_oscar",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "asylum_oscar",
-      "isRevealed": true,
       "toAreaId": "asylum_prebalcony",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "asylum_prebalcony",
-      "isRevealed": true,
       "toAreaId": "asylum_oscar",
       "type": "inMap",
     },
@@ -2206,7 +2044,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "asylum_prebalcony",
-      "isRevealed": true,
       "toAreaId": "asylum_f2west",
       "type": "inMap",
     },
@@ -2218,55 +2055,47 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
         "mode": "and",
       },
       "fromAreaId": "asylum_f2west",
-      "isRevealed": true,
       "toAreaId": "asylum_prebalcony",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "asylum_f2west",
-      "isRevealed": true,
       "toAreaId": "asylum_oscar",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "asylum_oscar",
-      "isRevealed": true,
       "toAreaId": "asylum_f2west",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "asylum_balcony",
-      "isRevealed": true,
       "toAreaId": "asylum",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "asylum",
-      "isRevealed": true,
       "toAreaId": "asylum_balcony",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "asylum_loop",
-      "isRevealed": true,
       "toAreaId": "asylum",
       "type": "inMap",
     },
     {
       "condition": undefined,
       "fromAreaId": "asylum",
-      "isRevealed": true,
       "toAreaId": "asylum_loop",
       "type": "inMap",
     },
     {
       "fromPortId": "1701990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dukes_caves (To Seath in Crystal Caves) to demonruins (In Demon Ruins next to the first Capra Demon)",
       },
@@ -2275,7 +2104,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411998_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dukes_caves (To Seath in Crystal Caves) to demonruins (In Demon Ruins next to the first Capra Demon)",
       },
@@ -2284,7 +2112,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411994_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins (Between Quelaag's Domain and the Demon Ruins bonfire) to parish_gargoyles (To Gargoyles)",
       },
@@ -2293,7 +2120,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins (Between Quelaag's Domain and the Demon Ruins bonfire) to parish_gargoyles (To Gargoyles)",
       },
@@ -2302,7 +2128,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011992_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_gargoyles (After Gargoyles) to blighttown_quelaag (To Quelaag)",
       },
@@ -2311,7 +2136,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1401990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_gargoyles (After Gargoyles) to blighttown_quelaag (To Quelaag)",
       },
@@ -2320,7 +2144,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1401992_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown_quelaag (After Quelaag) to anorlondo_postrafters (Between the Painting Guardian rafters and the elevator contraption)",
       },
@@ -2329,7 +2152,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown_quelaag (After Quelaag) to anorlondo_postrafters (Between the Painting Guardian rafters and the elevator contraption)",
       },
@@ -2338,7 +2160,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1102510_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_painting (Using Peculiar Doll to access Painted World) to anorlondo_painting (Leaving Painted World back to Anor Londo)",
       },
@@ -2346,8 +2167,15 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
       "type": "port",
     },
     {
+      "fromPortId": "1512500_B",
+      "metadata": {
+        "comment": "From anorlondo_painting (Using Peculiar Doll to access Painted World) to anorlondo_painting (Leaving Painted World back to Anor Londo)",
+      },
+      "toPortId": "1102510_A",
+      "type": "port",
+    },
+    {
       "fromPortId": "1511994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_prerafters (At the doorway connecting the first Anor Londo elevator and the first gargoyle) to demonruins_firesage (After Demon Firesage)",
       },
@@ -2356,7 +2184,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411412_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_prerafters (At the doorway connecting the first Anor Londo elevator and the first gargoyle) to demonruins_firesage (After Demon Firesage)",
       },
@@ -2365,7 +2192,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511702_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_main (Between the first two Silver Knights and the main building) to darkroot_sif (To Sif)",
       },
@@ -2374,7 +2200,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_main (Between the first two Silver Knights and the main building) to darkroot_sif (To Sif)",
       },
@@ -2383,7 +2208,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511890_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_darkmoon (To Gwyndolin) to firelink_gate (Between female Undead Merchant and Lower Burg)",
       },
@@ -2392,7 +2216,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011976_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_darkmoon (To Gwyndolin) to firelink_gate (Between female Undead Merchant and Lower Burg)",
       },
@@ -2401,7 +2224,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511700_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_rafters (Between the Painting Guardian rafters and the elevator contraption) to catacombs_pinwheel (Between TotG and Catacombs)",
       },
@@ -2410,7 +2232,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1311994_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_rafters (Between the Painting Guardian rafters and the elevator contraption) to catacombs_pinwheel (Between TotG and Catacombs)",
       },
@@ -2419,7 +2240,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From firelink (Between Firelink Shrine and Upper Burg) to burg_posttaurus (Between area after Taurus Demon and Hellkite bridge)",
       },
@@ -2428,7 +2248,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011998_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From firelink (Between Firelink Shrine and Upper Burg) to burg_posttaurus (Between area after Taurus Demon and Hellkite bridge)",
       },
@@ -2437,7 +2256,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1301994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From firelink (Between Firelink Shrine and Catacombs) to paintedworld (Between tower with statue and courtyard with phalanx)",
       },
@@ -2446,7 +2264,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1101702_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From firelink (Between Firelink Shrine and Catacombs) to paintedworld (Between tower with statue and courtyard with phalanx)",
       },
@@ -2455,7 +2272,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1512500_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From paintedworld_priscilla (Leaving Painted World back to Anor Londo) to paintedworld (Using Peculiar Doll to access Painted World)",
       },
@@ -2463,8 +2279,15 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
       "type": "port",
     },
     {
+      "fromPortId": "1102510_B",
+      "metadata": {
+        "comment": "From paintedworld_priscilla (Leaving Painted World back to Anor Londo) to paintedworld (Using Peculiar Doll to access Painted World)",
+      },
+      "toPortId": "1512500_A",
+      "type": "port",
+    },
+    {
       "fromPortId": "1601994_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From firelink (Between the Firelink Shrine elevator and New Londo Ruins) to darkroot (Between Darkroot and Andre)",
       },
@@ -2473,7 +2296,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201994_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From firelink (Between the Firelink Shrine elevator and New Londo Ruins) to darkroot (Between Darkroot and Andre)",
       },
@@ -2482,7 +2304,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011892_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_posttaurus (After Taurus Demon) to demonruins_elevator (Between stairways behind Firesage and elevator to Quelaag's Domain)",
       },
@@ -2491,7 +2312,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411996_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_posttaurus (After Taurus Demon) to demonruins_elevator (Between stairways behind Firesage and elevator to Quelaag's Domain)",
       },
@@ -2500,7 +2320,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1101990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From paintedworld (To Priscilla) to sens_irongolem (From Anor Londo back to Sen's)",
       },
@@ -2508,8 +2327,15 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
       "type": "port",
     },
     {
+      "fromPortId": "1502500_B",
+      "metadata": {
+        "comment": "From paintedworld (To Priscilla) to sens_irongolem (From Anor Londo back to Sen's)",
+      },
+      "toPortId": "1101990_A",
+      "type": "port",
+    },
+    {
       "fromPortId": "1101702_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From paintedworld (Between tower with statue and courtyard with phalanx) to dlc_start (To Sanctuary Guardian)",
       },
@@ -2518,7 +2344,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211790_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From paintedworld (Between tower with statue and courtyard with phalanx) to dlc_start (To Sanctuary Guardian)",
       },
@@ -2527,7 +2352,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201998_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot (Between Darkroot and tunnel leading to Valley of the Drakes) to burg_start (Between Firelink Shrine and Upper Burg)",
       },
@@ -2536,7 +2360,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011994_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot (Between Darkroot and tunnel leading to Valley of the Drakes) to burg_start (Between Firelink Shrine and Upper Burg)",
       },
@@ -2545,7 +2368,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201700_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot (Between the Darkroot Garden bonfire and the area with the stone knights) to demonruins_lordvessel (To Demon Firesage)",
       },
@@ -2554,7 +2376,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411410_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot (Between the Darkroot Garden bonfire and the area with the stone knights) to demonruins_lordvessel (To Demon Firesage)",
       },
@@ -2563,7 +2384,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201988_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot (At one end of the bridge at the top of the waterfall with the hydra below) to parish_church (To Gargoyles)",
       },
@@ -2572,7 +2392,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot (At one end of the bridge at the top of the waterfall with the hydra below) to parish_church (To Gargoyles)",
       },
@@ -2581,7 +2400,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011700_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_start (Near the drake encounter in Upper Burg) to dukes_hallway (At the hallway with the crystal warrior in Duke's Archives)",
       },
@@ -2590,7 +2408,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1701996_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_start (Near the drake encounter in Upper Burg) to dukes_hallway (At the hallway with the crystal warrior in Duke's Archives)",
       },
@@ -2599,7 +2416,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411710_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_lordvessel (Golden fog gate in Demon Ruins) to asylum_outside (Crow transport from Firelink to Asylum)",
       },
@@ -2607,8 +2423,15 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
       "type": "port",
     },
     {
+      "fromPortId": "1812110_B",
+      "metadata": {
+        "comment": "From demonruins_lordvessel (Golden fog gate in Demon Ruins) to asylum_outside (Crow transport from Firelink to Asylum)",
+      },
+      "toPortId": "1411710_B",
+      "type": "port",
+    },
+    {
       "fromPortId": "1701890_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dukes_hallway (To Seath in Archives) to demonruins_lower (In Demon Ruins next to the first Capra Demon)",
       },
@@ -2617,7 +2440,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411998_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dukes_hallway (To Seath in Archives) to demonruins_lower (In Demon Ruins next to the first Capra Demon)",
       },
@@ -2626,7 +2448,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211996_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_forest (At the top of the elevator from before Artorias to before Manus) to demonruins_lower (Golden fog gate in Demon Ruins)",
       },
@@ -2635,7 +2456,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411710_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_forest (At the top of the elevator from before Artorias to before Manus) to demonruins_lower (Golden fog gate in Demon Ruins)",
       },
@@ -2644,7 +2464,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411410_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_firesage (To Demon Firesage) to dlc_township (At the bottom of the elevator from before Artorias to before Manus)",
       },
@@ -2653,7 +2472,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211988_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_firesage (To Demon Firesage) to dlc_township (At the bottom of the elevator from before Artorias to before Manus)",
       },
@@ -2662,7 +2480,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011996_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_church (Between Undead Parish and Andre) to asylum_oscar (Between hallway with initial weapons and Oscar's cell)",
       },
@@ -2671,7 +2488,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1811700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_church (Between Undead Parish and Andre) to asylum_oscar (Between hallway with initial weapons and Oscar's cell)",
       },
@@ -2680,7 +2496,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011988_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_church (In front of Firelink Shrine dual elevator) to darkroot_butterfly (To Moonlight Butterfly)",
       },
@@ -2689,7 +2504,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201890_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_church (In front of Firelink Shrine dual elevator) to darkroot_butterfly (To Moonlight Butterfly)",
       },
@@ -2698,7 +2512,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011702_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_church (At the bridge crossing over the boar in Undead Parish) to burg_lower (To Capra Demon)",
       },
@@ -2707,7 +2520,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011790_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_church (At the bridge crossing over the boar in Undead Parish) to burg_lower (To Capra Demon)",
       },
@@ -2716,7 +2528,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1811990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From asylum_prebalcony (To Asylum Demon from balcony) to dlc_artorias (To Artorias)",
       },
@@ -2725,7 +2536,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211890_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From asylum_prebalcony (To Asylum Demon from balcony) to dlc_artorias (To Artorias)",
       },
@@ -2734,7 +2544,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1701996_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dukes_library (At the hallway with the crystal warrior in Duke's Archives) to dlc_artorias (After Artorias)",
       },
@@ -2743,7 +2552,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211892_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dukes_library (At the hallway with the crystal warrior in Duke's Archives) to dlc_artorias (After Artorias)",
       },
@@ -2752,7 +2560,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1301700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From catacombs (Between the bridge Patches flips over and the room with two skeletons) to catacombs (To Pinwheel)",
       },
@@ -2761,7 +2568,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1301990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From catacombs (Between the bridge Patches flips over and the room with two skeletons) to catacombs (To Pinwheel)",
       },
@@ -2770,7 +2576,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_township (To Manus) to anorlondo_os (After O&S on left side)",
       },
@@ -2779,7 +2584,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511992_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_township (To Manus) to anorlondo_os (After O&S on left side)",
       },
@@ -2788,7 +2592,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211998_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_township (Between Gough's stairway and Oolacile Township) to dukes_caves (Between Duke's Archives and the field before Crystal Caves)",
       },
@@ -2797,7 +2600,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1701706_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_township (Between Gough's stairway and Oolacile Township) to dukes_caves (Between Duke's Archives and the field before Crystal Caves)",
       },
@@ -2806,7 +2608,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011890_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_upper (To Taurus Demon) to blighttown_upper (In between the main pit and wood planks while climbing up/down Blighttown)",
       },
@@ -2815,7 +2616,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1401702_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_upper (To Taurus Demon) to blighttown_upper (In between the main pit and wood planks while climbing up/down Blighttown)",
       },
@@ -2824,7 +2624,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011978_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_upper (Lower doorway of room with burg bonfire) to depths (Near the area with the Channeler in the Depths)",
       },
@@ -2833,7 +2632,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1001700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_upper (Lower doorway of room with burg bonfire) to depths (Near the area with the Channeler in the Depths)",
       },
@@ -2842,7 +2640,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_upper (Near the drake encounter in Upper Burg) to anorlondo_cathedral (Between the Anor Londo main cathedral and the Giant Blacksmith)",
       },
@@ -2851,7 +2648,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511752_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_upper (Near the drake encounter in Upper Burg) to anorlondo_cathedral (Between the Anor Londo main cathedral and the Giant Blacksmith)",
       },
@@ -2860,7 +2656,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011998_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_hellkite (Between area after Taurus Demon and Hellkite bridge) to totg_lordvessel (To Nito)",
       },
@@ -2869,7 +2664,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1311990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_hellkite (Between area after Taurus Demon and Hellkite bridge) to totg_lordvessel (To Nito)",
       },
@@ -2878,7 +2672,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011702_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_hellkite (At the bridge crossing over the boar in Undead Parish) to dukes_library (At the first elevator in Duke's Archives)",
       },
@@ -2887,7 +2680,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1701994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_hellkite (At the bridge crossing over the boar in Undead Parish) to dukes_library (At the first elevator in Duke's Archives)",
       },
@@ -2896,7 +2688,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011974_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_hellkite (Upper doorway of room with burg bonfire) to dukes_machines (Between Duke's Archives and the field before Crystal Caves)",
       },
@@ -2905,7 +2696,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1701706_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_hellkite (Upper doorway of room with burg bonfire) to dukes_machines (Between Duke's Archives and the field before Crystal Caves)",
       },
@@ -2914,7 +2704,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011976_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_lower (Between female Undead Merchant and Lower Burg) to demonruins_izalith (To Bed of Chaos)",
       },
@@ -2923,7 +2712,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_lower (Between female Undead Merchant and Lower Burg) to demonruins_izalith (To Bed of Chaos)",
       },
@@ -2932,7 +2720,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011982_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_lower (Between very long ladder and Lower Burg) to totg_lower (Golden fog gate in Tomb of the Giants)",
       },
@@ -2941,7 +2728,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1311710_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_lower (Between very long ladder and Lower Burg) to totg_lower (Golden fog gate in Tomb of the Giants)",
       },
@@ -2950,7 +2736,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1811700_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From asylum (Between hallway with initial weapons and Oscar's cell) to dlc_kalameet (To Kalameet)",
       },
@@ -2959,7 +2744,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211690_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From asylum (Between hallway with initial weapons and Oscar's cell) to dlc_kalameet (To Kalameet)",
       },
@@ -2968,7 +2752,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1312110_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From catacombs (Getting into coffin to Nito) to dlc_sanctuary (After Sanctuary Guardian)",
       },
@@ -2977,7 +2760,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211792_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From catacombs (Getting into coffin to Nito) to dlc_sanctuary (After Sanctuary Guardian)",
       },
@@ -2986,7 +2768,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1301700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From catacombs (Between the bridge Patches flips over and the room with two skeletons) to anorlondo_gwyndolin (To Gwyndolin)",
       },
@@ -2995,7 +2776,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511890_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From catacombs (Between the bridge Patches flips over and the room with two skeletons) to anorlondo_gwyndolin (To Gwyndolin)",
       },
@@ -3004,7 +2784,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1501990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From sens_irongolem (To Iron Golem) to demonruins_stairs (Between stairways behind Firesage and elevator to Quelaag's Domain)",
       },
@@ -3013,7 +2792,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411996_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From sens_irongolem (To Iron Golem) to demonruins_stairs (Between stairways behind Firesage and elevator to Quelaag's Domain)",
       },
@@ -3022,7 +2800,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1001990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From depths (To Gaping Dragon) to sens_upper (Between final swinging axes aand Sen's Fortress roof)",
       },
@@ -3031,7 +2808,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1501702_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From depths (To Gaping Dragon) to sens_upper (Between final swinging axes aand Sen's Fortress roof)",
       },
@@ -3040,7 +2816,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201892_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot_butterfly (After Moonlight Butterfly) to sens_upper (To Iron Golem)",
       },
@@ -3049,7 +2824,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1501990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot_butterfly (After Moonlight Butterfly) to sens_upper (To Iron Golem)",
       },
@@ -3058,7 +2832,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1401992_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown_bell (After Quelaag) to catacombs_prepinwheel (To Pinwheel)",
       },
@@ -3067,7 +2840,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1301990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown_bell (After Quelaag) to catacombs_prepinwheel (To Pinwheel)",
       },
@@ -3076,7 +2848,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown_bell (Between Quelaag's Domain and the Demon Ruins bonfire) to dlc_hallway (Between Gough's stairway and Oolacile Township)",
       },
@@ -3085,7 +2856,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211998_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown_bell (Between Quelaag's Domain and the Demon Ruins bonfire) to dlc_hallway (Between Gough's stairway and Oolacile Township)",
       },
@@ -3094,7 +2864,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1001700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From depths (Near the area with the Channeler in the Depths) to newlondo (Between the Firelink Shrine elevator and New Londo Ruins)",
       },
@@ -3103,7 +2872,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1601994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From depths (Near the area with the Channeler in the Depths) to newlondo (Between the Firelink Shrine elevator and New Londo Ruins)",
       },
@@ -3112,7 +2880,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_cathedral (To O&S) to sens_mid (Near the outside boulder stairway and Siegmeyer in Sen's Fortress)",
       },
@@ -3121,7 +2888,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1501700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_cathedral (To O&S) to sens_mid (Near the outside boulder stairway and Siegmeyer in Sen's Fortress)",
       },
@@ -3130,7 +2896,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511754_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_cathedral (From the Anor Londo main cathedral out of a broken window in front) to burg_above_bonfire (Upper doorway of room with burg bonfire)",
       },
@@ -3139,7 +2904,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011974_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_cathedral (From the Anor Londo main cathedral out of a broken window in front) to burg_above_bonfire (Upper doorway of room with burg bonfire)",
       },
@@ -3148,7 +2912,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511750_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_cathedral (Between the Anor Londo main cathedral and the area with bedrooms and paintings) to darkroot_stone (Between the Darkroot Garden bonfire and the area with the stone knights)",
       },
@@ -3157,7 +2920,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_cathedral (Between the Anor Londo main cathedral and the area with bedrooms and paintings) to darkroot_stone (Between the Darkroot Garden bonfire and the area with the stone knights)",
       },
@@ -3166,7 +2928,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1311710_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From totg_lordvessel (Golden fog gate in Tomb of the Giants) to darkroot_forest (At one end of the bridge at the top of the waterfall with the hydra below)",
       },
@@ -3175,7 +2936,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201988_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From totg_lordvessel (Golden fog gate in Tomb of the Giants) to darkroot_forest (At one end of the bridge at the top of the waterfall with the hydra below)",
       },
@@ -3184,7 +2944,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1311700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From totg_lower (Before the Halberd Black Knight in TotG) to anorlondo_start (From Sen's to Anor Londo)",
       },
@@ -3192,8 +2951,15 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
       "type": "port",
     },
     {
+      "fromPortId": "1510998_B",
+      "metadata": {
+        "comment": "From totg_lower (Before the Halberd Black Knight in TotG) to anorlondo_start (From Sen's to Anor Londo)",
+      },
+      "toPortId": "1311700_B",
+      "type": "port",
+    },
+    {
       "fromPortId": "1601700_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From newlondo (Near the New Londo Ruins shortcut ladder) to newlondo_drakes (Between Blighttown and Valley of the Drakes)",
       },
@@ -3202,7 +2968,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1401996_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From newlondo (Near the New Londo Ruins shortcut ladder) to newlondo_drakes (Between Blighttown and Valley of the Drakes)",
       },
@@ -3211,7 +2976,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011978_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_bonfire (Lower doorway of room with burg bonfire) to demonruins_centipede (To Centipede Demon)",
       },
@@ -3220,7 +2984,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411890_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_bonfire (Lower doorway of room with burg bonfire) to demonruins_centipede (To Centipede Demon)",
       },
@@ -3229,7 +2992,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211994_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_sanctuary (Between Sanctuary Garden and Royal Forest) to dlc_forest (To Kalameet)",
       },
@@ -3238,7 +3000,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211690_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_sanctuary (Between Sanctuary Garden and Royal Forest) to dlc_forest (To Kalameet)",
       },
@@ -3247,7 +3008,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_forest (Between Sanctuary Garden and Royal Forest) to dlc_forest (To Artorias)",
       },
@@ -3256,7 +3016,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211890_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_forest (Between Sanctuary Garden and Royal Forest) to dlc_forest (To Artorias)",
       },
@@ -3265,7 +3024,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411412_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_stairs (After Demon Firesage) to anorlondo_blacksmith (Between the Anor Londo main cathedral and the Giant Blacksmith)",
       },
@@ -3274,7 +3032,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511752_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_stairs (After Demon Firesage) to anorlondo_blacksmith (Between the Anor Londo main cathedral and the Giant Blacksmith)",
       },
@@ -3283,7 +3040,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411890_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_stairs (To Centipede Demon) to paintedworld_priscilla (To Priscilla)",
       },
@@ -3292,7 +3048,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1101990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_stairs (To Centipede Demon) to paintedworld_priscilla (To Priscilla)",
       },
@@ -3301,7 +3056,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211986_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_hallway (Between Gough's stairway and Artorias) to dlc_guardian (After Sanctuary Guardian)",
       },
@@ -3310,7 +3064,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211792_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_hallway (Between Gough's stairway and Artorias) to dlc_guardian (After Sanctuary Guardian)",
       },
@@ -3319,7 +3072,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1401990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown (To Quelaag) to dlc_bottom (At the bottom of the elevator from before Artorias to before Manus)",
       },
@@ -3328,7 +3080,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211988_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown (To Quelaag) to dlc_bottom (At the bottom of the elevator from before Artorias to before Manus)",
       },
@@ -3337,7 +3088,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1401996_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown (Between Blighttown and Valley of the Drakes) to greathollow_ashlake (Between Great Hollow and Ash Lake)",
       },
@@ -3346,7 +3096,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1321700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown (Between Blighttown and Valley of the Drakes) to greathollow_ashlake (Between Great Hollow and Ash Lake)",
       },
@@ -3355,7 +3104,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1401998_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown (Between Blighttown and Great Hollow) to dlc_manus (To Manus)",
       },
@@ -3364,7 +3112,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown (Between Blighttown and Great Hollow) to dlc_manus (To Manus)",
       },
@@ -3373,7 +3120,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1501702_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From sens_mid (Between final swinging axes aand Sen's Fortress roof) to parish_bell (After Gargoyles)",
       },
@@ -3382,7 +3128,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011992_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From sens_mid (Between final swinging axes aand Sen's Fortress roof) to parish_bell (After Gargoyles)",
       },
@@ -3391,7 +3136,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201890_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot_stone (To Moonlight Butterfly) to demonruins_ceaseless (To Ceaseless Discharge)",
       },
@@ -3400,7 +3144,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411790_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot_stone (To Moonlight Butterfly) to demonruins_ceaseless (To Ceaseless Discharge)",
       },
@@ -3409,7 +3152,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot_forest (To Sif) to greathollow (Between Blighttown and the Great Hollow)",
       },
@@ -3418,7 +3160,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1321994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From darkroot_forest (To Sif) to greathollow (Between Blighttown and the Great Hollow)",
       },
@@ -3427,7 +3168,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1701710_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_start (Golden fog gate leading to Duke's Archives) to asylum_balcony (To Asylum Demon from balcony)",
       },
@@ -3436,7 +3176,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1811990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_start (Golden fog gate leading to Duke's Archives) to asylum_balcony (To Asylum Demon from balcony)",
       },
@@ -3445,7 +3184,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201998_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From newlondo_drakes (Between Darkroot and tunnel leading to Valley of the Drakes) to firelink_crow (Warp to Firelink crow's nest)",
       },
@@ -3453,8 +3191,15 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
       "type": "port",
     },
     {
+      "fromPortId": "1022121_B",
+      "metadata": {
+        "comment": "From newlondo_drakes (Between Darkroot and tunnel leading to Valley of the Drakes) to firelink_crow (Warp to Firelink crow's nest)",
+      },
+      "toPortId": "1201998_B",
+      "type": "port",
+    },
+    {
       "fromPortId": "1411892_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_izalithprelava (After Centipede Demon) to newlondo_building (Near the New Londo Ruins shortcut ladder)",
       },
@@ -3463,7 +3208,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1601700_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_izalithprelava (After Centipede Demon) to newlondo_building (Near the New Londo Ruins shortcut ladder)",
       },
@@ -3472,7 +3216,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1211996_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_top (At the top of the elevator from before Artorias to before Manus) to totg_nito (To Nito)",
       },
@@ -3481,7 +3224,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1311990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_top (At the top of the elevator from before Artorias to before Manus) to totg_nito (To Nito)",
       },
@@ -3490,7 +3232,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_os (To O&S) to dukes_seath2 (To Seath in Crystal Caves)",
       },
@@ -3499,7 +3240,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1701990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_os (To O&S) to dukes_seath2 (To Seath in Crystal Caves)",
       },
@@ -3508,7 +3248,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511992_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_elevator1 (After O&S on left side) to depths_gaping (To Gaping Dragon)",
       },
@@ -3517,7 +3256,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1001990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_elevator1 (After O&S on left side) to depths_gaping (To Gaping Dragon)",
       },
@@ -3526,7 +3264,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1501700_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From sens (Near the outside boulder stairway and Siegmeyer in Sen's Fortress) to anorlondo_building (Between the first two Silver Knights and the main building)",
       },
@@ -3535,7 +3272,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511702_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From sens (Near the outside boulder stairway and Siegmeyer in Sen's Fortress) to anorlondo_building (Between the first two Silver Knights and the main building)",
       },
@@ -3544,7 +3280,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1321700_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From greathollow (Between Great Hollow and Ash Lake) to darkroot_postbutterfly (After Moonlight Butterfly)",
       },
@@ -3553,7 +3288,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201892_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From greathollow (Between Great Hollow and Ash Lake) to darkroot_postbutterfly (After Moonlight Butterfly)",
       },
@@ -3562,7 +3296,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411892_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_centipede (After Centipede Demon) to parish_andre (Between Undead Parish and Andre)",
       },
@@ -3571,7 +3304,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011996_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins_centipede (After Centipede Demon) to parish_andre (Between Undead Parish and Andre)",
       },
@@ -3580,7 +3312,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1811890_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From asylum_stray (In Stray Demon arena) to burg_taurus (To Taurus Demon)",
       },
@@ -3589,7 +3320,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011890_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From asylum_stray (In Stray Demon arena) to burg_taurus (To Taurus Demon)",
       },
@@ -3598,7 +3328,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511750_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_building (Between the Anor Londo main cathedral and the area with bedrooms and paintings) to totg_coffin (Getting into coffin to Nito)",
       },
@@ -3606,8 +3335,15 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
       "type": "port",
     },
     {
+      "fromPortId": "1312110_B",
+      "metadata": {
+        "comment": "From anorlondo_building (Between the Anor Londo main cathedral and the area with bedrooms and paintings) to totg_coffin (Getting into coffin to Nito)",
+      },
+      "toPortId": "1511750_B",
+      "type": "port",
+    },
+    {
       "fromPortId": "1211790_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_guardian (To Sanctuary Guardian) to totg (Between TotG and Catacombs)",
       },
@@ -3616,7 +3352,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1311994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From dlc_guardian (To Sanctuary Guardian) to totg (Between TotG and Catacombs)",
       },
@@ -3625,7 +3360,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411790_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins (To Ceaseless Discharge) to newlondo_stairs (To Four Kings)",
       },
@@ -3634,7 +3368,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1601990_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From demonruins (To Ceaseless Discharge) to newlondo_stairs (To Four Kings)",
       },
@@ -3643,7 +3376,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1401702_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown (In between the main pit and wood planks while climbing up/down Blighttown) to newlondo_lower (On an entrance to the building with the Very Large Ember in lower ruins)",
       },
@@ -3652,7 +3384,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1601702_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From blighttown (In between the main pit and wood planks while climbing up/down Blighttown) to newlondo_lower (On an entrance to the building with the Very Large Ember in lower ruins)",
       },
@@ -3661,7 +3392,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1511994_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_start (At the doorway connecting the first Anor Londo elevator and the first gargoyle) to newlondo_lower (On an entrance to the building with the Very Large Ember in lower ruins)",
       },
@@ -3670,7 +3400,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1601702_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From anorlondo_start (At the doorway connecting the first Anor Londo elevator and the first gargoyle) to newlondo_lower (On an entrance to the building with the Very Large Ember in lower ruins)",
       },
@@ -3679,7 +3408,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1201994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_andre (Between Darkroot and Andre) to catacombs_start (Between Firelink Shrine and Catacombs)",
       },
@@ -3688,7 +3416,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1301994_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_andre (Between Darkroot and Andre) to catacombs_start (Between Firelink Shrine and Catacombs)",
       },
@@ -3697,7 +3424,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1501994_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_andre (Between Sen's Fortress gate and Andre) to dukes_start (Golden fog gate leading to Duke's Archives)",
       },
@@ -3706,7 +3432,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1701710_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From parish_andre (Between Sen's Fortress gate and Andre) to dukes_start (Golden fog gate leading to Duke's Archives)",
       },
@@ -3715,7 +3440,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1601990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From newlondo_lower (To Four Kings) to dukes_start (At the first elevator in Duke's Archives)",
       },
@@ -3724,7 +3448,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1701994_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From newlondo_lower (To Four Kings) to dukes_start (At the first elevator in Duke's Archives)",
       },
@@ -3733,7 +3456,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1501994_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From sens (Between Sen's Fortress gate and Andre) to firelink_elevator (In front of Firelink Shrine dual elevator)",
       },
@@ -3742,7 +3464,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011988_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From sens (Between Sen's Fortress gate and Andre) to firelink_elevator (In front of Firelink Shrine dual elevator)",
       },
@@ -3751,7 +3472,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1311700_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From totg (Before the Halberd Black Knight in TotG) to dukes_seath1 (To Seath in Archives)",
       },
@@ -3760,7 +3480,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1701890_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From totg (Before the Halberd Black Knight in TotG) to dukes_seath1 (To Seath in Archives)",
       },
@@ -3769,7 +3488,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011982_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_ladder (Between very long ladder and Lower Burg) to burg_capra (To Capra Demon)",
       },
@@ -3778,7 +3496,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011790_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_ladder (Between very long ladder and Lower Burg) to burg_capra (To Capra Demon)",
       },
@@ -3787,7 +3504,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1011892_B",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_taurus (After Taurus Demon) to demonruins_bedofchaos (To Bed of Chaos)",
       },
@@ -3796,7 +3512,6 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
     },
     {
       "fromPortId": "1411990_A",
-      "isRevealed": false,
       "metadata": {
         "comment": "From burg_taurus (After Taurus Demon) to demonruins_bedofchaos (To Bed of Chaos)",
       },
@@ -3865,1406 +3580,1406 @@ exports[`DarkSoulsGameDefinition initializeTrackerState initializes the tracker 
   "ports": [
     {
       "areaId": "depths",
+      "direction": "inout",
       "id": "1001990_A",
-      "isExitOnly": false,
       "name": "To Gaping Dragon",
     },
     {
       "areaId": "depths_gaping",
+      "direction": "inout",
       "id": "1001990_B",
-      "isExitOnly": false,
       "name": "To Gaping Dragon",
     },
     {
       "areaId": "burg_lower",
+      "direction": "inout",
       "id": "1001994_A",
-      "isExitOnly": false,
       "name": "Entrance to Depths",
     },
     {
       "areaId": "depths",
+      "direction": "inout",
       "id": "1001994_B",
-      "isExitOnly": false,
       "name": "Entrance to Depths",
     },
     {
       "areaId": "blighttown_upper",
+      "direction": "inout",
       "id": "1001996_A",
-      "isExitOnly": false,
       "name": "Depths exit to Blighttown",
     },
     {
       "areaId": "depths",
+      "direction": "inout",
       "id": "1001996_B",
-      "isExitOnly": false,
       "name": "Depths exit to Blighttown",
     },
     {
       "areaId": "depths",
+      "direction": "inout",
       "id": "1001700_A",
-      "isExitOnly": false,
       "name": "Near the area with the Channeler in the Depths",
     },
     {
       "areaId": "depths",
+      "direction": "inout",
       "id": "1001700_B",
-      "isExitOnly": false,
       "name": "Near the area with the Channeler in the Depths",
     },
     {
       "areaId": "parish_gargoyles",
+      "direction": "inout",
       "id": "1011990_A",
-      "isExitOnly": false,
       "name": "To Gargoyles",
     },
     {
       "areaId": "parish_church",
+      "direction": "inout",
       "id": "1011990_B",
-      "isExitOnly": false,
       "name": "To Gargoyles",
     },
     {
       "areaId": "parish_bell",
+      "direction": "inout",
       "id": "1011992_A",
-      "isExitOnly": false,
       "name": "After Gargoyles",
     },
     {
       "areaId": "parish_gargoyles",
+      "direction": "inout",
       "id": "1011992_B",
-      "isExitOnly": false,
       "name": "After Gargoyles",
     },
     {
       "areaId": "burg_taurus",
+      "direction": "inout",
       "id": "1011890_A",
-      "isExitOnly": false,
       "name": "To Taurus Demon",
     },
     {
       "areaId": "burg_upper",
+      "direction": "inout",
       "id": "1011890_B",
-      "isExitOnly": false,
       "name": "To Taurus Demon",
     },
     {
       "areaId": "burg_posttaurus",
+      "direction": "inout",
       "id": "1011892_A",
-      "isExitOnly": false,
       "name": "After Taurus Demon",
     },
     {
       "areaId": "burg_taurus",
+      "direction": "inout",
       "id": "1011892_B",
-      "isExitOnly": false,
       "name": "After Taurus Demon",
     },
     {
       "areaId": "firelink",
+      "direction": "inout",
       "id": "1011994_A",
-      "isExitOnly": false,
       "name": "Between Firelink Shrine and Upper Burg",
     },
     {
       "areaId": "burg_start",
+      "direction": "inout",
       "id": "1011994_B",
-      "isExitOnly": false,
       "name": "Between Firelink Shrine and Upper Burg",
     },
     {
       "areaId": "parish_andre",
+      "direction": "inout",
       "id": "1011996_A",
-      "isExitOnly": false,
       "name": "Between Undead Parish and Andre",
     },
     {
       "areaId": "parish_church",
+      "direction": "inout",
       "id": "1011996_B",
-      "isExitOnly": false,
       "name": "Between Undead Parish and Andre",
     },
     {
       "areaId": "parish_hellkite",
+      "direction": "inout",
       "id": "1011998_A",
-      "isExitOnly": false,
       "name": "Between area after Taurus Demon and Hellkite bridge",
     },
     {
       "areaId": "burg_posttaurus",
+      "direction": "inout",
       "id": "1011998_B",
-      "isExitOnly": false,
       "name": "Between area after Taurus Demon and Hellkite bridge",
     },
     {
       "areaId": "firelink_elevator",
+      "direction": "inout",
       "id": "1011988_A",
-      "isExitOnly": false,
       "name": "In front of Firelink Shrine dual elevator",
     },
     {
       "areaId": "parish_church",
+      "direction": "inout",
       "id": "1011988_B",
-      "isExitOnly": false,
       "name": "In front of Firelink Shrine dual elevator",
     },
     {
       "areaId": "burg_upper",
+      "direction": "inout",
       "id": "1011986_A",
-      "isExitOnly": false,
       "name": "To Darkroot Basin in Havel's tower",
     },
     {
       "areaId": "darkroot",
+      "direction": "inout",
       "id": "1011986_B",
-      "isExitOnly": false,
       "name": "To Darkroot Basin in Havel's tower",
     },
     {
       "areaId": "parish_hellkite",
+      "direction": "inout",
       "id": "1011984_A",
-      "isExitOnly": false,
       "name": "Between Hellkite Bridge and Lower Burg",
     },
     {
       "areaId": "burg_ladder",
+      "direction": "inout",
       "id": "1011984_B",
-      "isExitOnly": false,
       "name": "Between Hellkite Bridge and Lower Burg",
     },
     {
       "areaId": "burg_lower",
+      "direction": "inout",
       "id": "1011790_A",
-      "isExitOnly": false,
       "name": "To Capra Demon",
     },
     {
       "areaId": "burg_capra",
+      "direction": "inout",
       "id": "1011790_B",
-      "isExitOnly": false,
       "name": "To Capra Demon",
     },
     {
       "areaId": "burg_lower",
+      "direction": "inout",
       "id": "1011976_A",
-      "isExitOnly": false,
       "name": "Between female Undead Merchant and Lower Burg",
     },
     {
       "areaId": "firelink_gate",
+      "direction": "inout",
       "id": "1011976_B",
-      "isExitOnly": false,
       "name": "Between female Undead Merchant and Lower Burg",
     },
     {
       "areaId": "burg_lower",
+      "direction": "inout",
       "id": "1011982_A",
-      "isExitOnly": false,
       "name": "Between very long ladder and Lower Burg",
     },
     {
       "areaId": "burg_ladder",
+      "direction": "inout",
       "id": "1011982_B",
-      "isExitOnly": false,
       "name": "Between very long ladder and Lower Burg",
     },
     {
       "areaId": "parish_hellkite",
+      "direction": "inout",
       "id": "1011702_A",
-      "isExitOnly": false,
       "name": "At the bridge crossing over the boar in Undead Parish",
     },
     {
       "areaId": "parish_church",
+      "direction": "inout",
       "id": "1011702_B",
-      "isExitOnly": false,
       "name": "At the bridge crossing over the boar in Undead Parish",
     },
     {
       "areaId": "burg_upper",
+      "direction": "inout",
       "id": "1011980_A",
-      "isExitOnly": false,
       "name": "On shortcut door between Upper Burg and Lower Burg, in room with hollows",
     },
     {
       "areaId": "burg_lower",
+      "direction": "inout",
       "id": "1011980_B",
-      "isExitOnly": false,
       "name": "On shortcut door between Upper Burg and Lower Burg, in room with hollows",
     },
     {
       "areaId": "burg_bonfire",
+      "direction": "inout",
       "id": "1011978_A",
-      "isExitOnly": false,
       "name": "Lower doorway of room with burg bonfire",
     },
     {
       "areaId": "burg_upper",
+      "direction": "inout",
       "id": "1011978_B",
-      "isExitOnly": false,
       "name": "Lower doorway of room with burg bonfire",
     },
     {
       "areaId": "burg_start",
+      "direction": "inout",
       "id": "1011700_A",
-      "isExitOnly": false,
       "name": "Near the drake encounter in Upper Burg",
     },
     {
       "areaId": "burg_upper",
+      "direction": "inout",
       "id": "1011700_B",
-      "isExitOnly": false,
       "name": "Near the drake encounter in Upper Burg",
     },
     {
       "areaId": "parish_hellkite",
+      "direction": "inout",
       "id": "1011974_A",
-      "isExitOnly": false,
       "name": "Upper doorway of room with burg bonfire",
     },
     {
       "areaId": "burg_above_bonfire",
+      "direction": "inout",
       "id": "1011974_B",
-      "isExitOnly": false,
       "name": "Upper doorway of room with burg bonfire",
     },
     {
       "areaId": "burg_lower",
+      "direction": "inout",
       "id": "1011972_A",
-      "isExitOnly": false,
       "name": undefined,
     },
     {
       "areaId": "depths",
+      "direction": "inout",
       "id": "1011972_B",
-      "isExitOnly": false,
       "name": undefined,
     },
     {
       "areaId": "paintedworld",
+      "direction": "inout",
       "id": "1101990_A",
-      "isExitOnly": false,
       "name": "To Priscilla",
     },
     {
       "areaId": "paintedworld_priscilla",
+      "direction": "inout",
       "id": "1101990_B",
-      "isExitOnly": false,
       "name": "To Priscilla",
     },
     {
       "areaId": "paintedworld",
+      "direction": "inout",
       "id": "1101702_A",
-      "isExitOnly": false,
       "name": "Between tower with statue and courtyard with phalanx",
     },
     {
       "areaId": "paintedworld",
+      "direction": "inout",
       "id": "1101702_B",
-      "isExitOnly": false,
       "name": "Between tower with statue and courtyard with phalanx",
     },
     {
       "areaId": "darkroot_sif",
+      "direction": "inout",
       "id": "1201990_A",
-      "isExitOnly": false,
       "name": "To Sif",
     },
     {
       "areaId": "darkroot_forest",
+      "direction": "inout",
       "id": "1201990_B",
-      "isExitOnly": false,
       "name": "To Sif",
     },
     {
       "areaId": "parish_andre",
+      "direction": "inout",
       "id": "1201994_A",
-      "isExitOnly": false,
       "name": "Between Darkroot and Andre",
     },
     {
       "areaId": "darkroot",
+      "direction": "inout",
       "id": "1201994_B",
-      "isExitOnly": false,
       "name": "Between Darkroot and Andre",
     },
     {
       "areaId": "darkroot",
+      "direction": "inout",
       "id": "1201996_A",
-      "isExitOnly": false,
       "name": "Between Darkroot and Havel's Tower",
     },
     {
       "areaId": "burg_upper",
+      "direction": "inout",
       "id": "1201996_B",
-      "isExitOnly": false,
       "name": "Between Darkroot and Havel's Tower",
     },
     {
       "areaId": "darkroot",
+      "direction": "inout",
       "id": "1201998_A",
-      "isExitOnly": false,
       "name": "Between Darkroot and tunnel leading to Valley of the Drakes",
     },
     {
       "areaId": "newlondo_drakes",
+      "direction": "inout",
       "id": "1201998_B",
-      "isExitOnly": false,
       "name": "Between Darkroot and tunnel leading to Valley of the Drakes",
     },
     {
       "areaId": "darkroot_stone",
+      "direction": "inout",
       "id": "1201890_A",
-      "isExitOnly": false,
       "name": "To Moonlight Butterfly",
     },
     {
       "areaId": "darkroot_butterfly",
+      "direction": "inout",
       "id": "1201890_B",
-      "isExitOnly": false,
       "name": "To Moonlight Butterfly",
     },
     {
       "areaId": "darkroot_butterfly",
+      "direction": "inout",
       "id": "1201892_A",
-      "isExitOnly": false,
       "name": "After Moonlight Butterfly",
     },
     {
       "areaId": "darkroot_postbutterfly",
+      "direction": "inout",
       "id": "1201892_B",
-      "isExitOnly": false,
       "name": "After Moonlight Butterfly",
     },
     {
       "areaId": "darkroot",
+      "direction": "inout",
       "id": "1201700_A",
-      "isExitOnly": false,
       "name": "Between the Darkroot Garden bonfire and the area with the stone knights",
     },
     {
       "areaId": "darkroot_stone",
+      "direction": "inout",
       "id": "1201700_B",
-      "isExitOnly": false,
       "name": "Between the Darkroot Garden bonfire and the area with the stone knights",
     },
     {
       "areaId": "darkroot",
+      "direction": "inout",
       "id": "1201988_A",
-      "isExitOnly": false,
       "name": "At one end of the bridge at the top of the waterfall with the hydra below",
     },
     {
       "areaId": "darkroot_forest",
+      "direction": "inout",
       "id": "1201988_B",
-      "isExitOnly": false,
       "name": "At one end of the bridge at the top of the waterfall with the hydra below",
     },
     {
       "areaId": "darkroot_forest",
+      "direction": "inout",
       "id": "1201986_A",
-      "isExitOnly": false,
       "name": "In the spot of the Crest of Artorias door",
     },
     {
       "areaId": "darkroot",
+      "direction": "inout",
       "id": "1201986_B",
-      "isExitOnly": false,
       "name": "In the spot of the Crest of Artorias door",
     },
     {
       "areaId": "dlc_start",
+      "direction": "inout",
       "id": "1211790_A",
-      "isExitOnly": false,
       "name": "To Sanctuary Guardian",
     },
     {
       "areaId": "dlc_guardian",
+      "direction": "inout",
       "id": "1211790_B",
-      "isExitOnly": false,
       "name": "To Sanctuary Guardian",
     },
     {
       "areaId": "dlc_guardian",
+      "direction": "inout",
       "id": "1211792_A",
-      "isExitOnly": false,
       "name": "After Sanctuary Guardian",
     },
     {
       "areaId": "dlc_sanctuary",
+      "direction": "inout",
       "id": "1211792_B",
-      "isExitOnly": false,
       "name": "After Sanctuary Guardian",
     },
     {
       "areaId": "dlc_township",
+      "direction": "inout",
       "id": "1211990_A",
-      "isExitOnly": false,
       "name": "To Manus",
     },
     {
       "areaId": "dlc_manus",
+      "direction": "inout",
       "id": "1211990_B",
-      "isExitOnly": false,
       "name": "To Manus",
     },
     {
       "areaId": "dlc_township",
+      "direction": "inout",
       "id": "1211988_A",
-      "isExitOnly": false,
       "name": "At the bottom of the elevator from before Artorias to before Manus",
     },
     {
       "areaId": "dlc_bottom",
+      "direction": "inout",
       "id": "1211988_B",
-      "isExitOnly": false,
       "name": "At the bottom of the elevator from before Artorias to before Manus",
     },
     {
       "areaId": "dlc_forest",
+      "direction": "inout",
       "id": "1211994_A",
-      "isExitOnly": false,
       "name": "Between Sanctuary Garden and Royal Forest",
     },
     {
       "areaId": "dlc_sanctuary",
+      "direction": "inout",
       "id": "1211994_B",
-      "isExitOnly": false,
       "name": "Between Sanctuary Garden and Royal Forest",
     },
     {
       "areaId": "dlc_forest",
+      "direction": "inout",
       "id": "1211996_A",
-      "isExitOnly": false,
       "name": "At the top of the elevator from before Artorias to before Manus",
     },
     {
       "areaId": "dlc_top",
+      "direction": "inout",
       "id": "1211996_B",
-      "isExitOnly": false,
       "name": "At the top of the elevator from before Artorias to before Manus",
     },
     {
       "areaId": "dlc_forest",
+      "direction": "inout",
       "id": "1211890_A",
-      "isExitOnly": false,
       "name": "To Artorias",
     },
     {
       "areaId": "dlc_artorias",
+      "direction": "inout",
       "id": "1211890_B",
-      "isExitOnly": false,
       "name": "To Artorias",
     },
     {
       "areaId": "dlc_artorias",
+      "direction": "inout",
       "id": "1211892_A",
-      "isExitOnly": false,
       "name": "After Artorias",
     },
     {
       "areaId": "dlc_postartorias",
+      "direction": "inout",
       "id": "1211892_B",
-      "isExitOnly": false,
       "name": "After Artorias",
     },
     {
       "areaId": "dlc_hallway",
+      "direction": "inout",
       "id": "1211998_A",
-      "isExitOnly": false,
       "name": "Between Gough's stairway and Oolacile Township",
     },
     {
       "areaId": "dlc_township",
+      "direction": "inout",
       "id": "1211998_B",
-      "isExitOnly": false,
       "name": "Between Gough's stairway and Oolacile Township",
     },
     {
       "areaId": "dlc_forest",
+      "direction": "inout",
       "id": "1211690_A",
-      "isExitOnly": false,
       "name": "To Kalameet",
     },
     {
       "areaId": "dlc_kalameet",
+      "direction": "inout",
       "id": "1211690_B",
-      "isExitOnly": false,
       "name": "To Kalameet",
     },
     {
       "areaId": "dlc_postartorias",
+      "direction": "inout",
       "id": "1211986_A",
-      "isExitOnly": false,
       "name": "Between Gough's stairway and Artorias",
     },
     {
       "areaId": "dlc_hallway",
+      "direction": "inout",
       "id": "1211986_B",
-      "isExitOnly": false,
       "name": "Between Gough's stairway and Artorias",
     },
     {
       "areaId": "firelink",
+      "direction": "inout",
       "id": "1301994_A",
-      "isExitOnly": false,
       "name": "Between Firelink Shrine and Catacombs",
     },
     {
       "areaId": "catacombs_start",
+      "direction": "inout",
       "id": "1301994_B",
-      "isExitOnly": false,
       "name": "Between Firelink Shrine and Catacombs",
     },
     {
       "areaId": "catacombs",
+      "direction": "inout",
       "id": "1301700_A",
-      "isExitOnly": false,
       "name": "Between the bridge Patches flips over and the room with two skeletons",
     },
     {
       "areaId": "catacombs",
+      "direction": "inout",
       "id": "1301700_B",
-      "isExitOnly": false,
       "name": "Between the bridge Patches flips over and the room with two skeletons",
     },
     {
       "areaId": "catacombs",
+      "direction": "inout",
       "id": "1301990_A",
-      "isExitOnly": false,
       "name": "To Pinwheel",
     },
     {
       "areaId": "catacombs_prepinwheel",
+      "direction": "inout",
       "id": "1301990_B",
-      "isExitOnly": false,
       "name": "To Pinwheel",
     },
     {
       "areaId": "totg",
+      "direction": "inout",
       "id": "1311994_A",
-      "isExitOnly": false,
       "name": "Between TotG and Catacombs",
     },
     {
       "areaId": "catacombs_pinwheel",
+      "direction": "inout",
       "id": "1311994_B",
-      "isExitOnly": false,
       "name": "Between TotG and Catacombs",
     },
     {
       "areaId": "totg",
+      "direction": "inout",
       "id": "1311700_A",
-      "isExitOnly": false,
       "name": "Before the Halberd Black Knight in TotG",
     },
     {
       "areaId": "totg_lower",
+      "direction": "inout",
       "id": "1311700_B",
-      "isExitOnly": false,
       "name": "Before the Halberd Black Knight in TotG",
     },
     {
       "areaId": "totg_lower",
+      "direction": "inout",
       "id": "1311710_A",
-      "isExitOnly": false,
       "name": "Golden fog gate in Tomb of the Giants",
     },
     {
       "areaId": "totg_lordvessel",
+      "direction": "inout",
       "id": "1311710_B",
-      "isExitOnly": false,
       "name": "Golden fog gate in Tomb of the Giants",
     },
     {
       "areaId": "totg_lordvessel",
+      "direction": "inout",
       "id": "1311990_A",
-      "isExitOnly": false,
       "name": "To Nito",
     },
     {
       "areaId": "totg_nito",
+      "direction": "inout",
       "id": "1311990_B",
-      "isExitOnly": false,
       "name": "To Nito",
     },
     {
       "areaId": "greathollow",
+      "direction": "inout",
       "id": "1321994_A",
-      "isExitOnly": false,
       "name": "Between Blighttown and the Great Hollow",
     },
     {
       "areaId": "greathollow_start",
+      "direction": "inout",
       "id": "1321994_B",
-      "isExitOnly": false,
       "name": "Between Blighttown and the Great Hollow",
     },
     {
       "areaId": "greathollow",
+      "direction": "inout",
       "id": "1321700_A",
-      "isExitOnly": false,
       "name": "Between Great Hollow and Ash Lake",
     },
     {
       "areaId": "greathollow_ashlake",
+      "direction": "inout",
       "id": "1321700_B",
-      "isExitOnly": false,
       "name": "Between Great Hollow and Ash Lake",
     },
     {
       "areaId": "blighttown_quelaag",
+      "direction": "inout",
       "id": "1401990_A",
-      "isExitOnly": false,
       "name": "To Quelaag",
     },
     {
       "areaId": "blighttown",
+      "direction": "inout",
       "id": "1401990_B",
-      "isExitOnly": false,
       "name": "To Quelaag",
     },
     {
       "areaId": "blighttown_bell",
+      "direction": "inout",
       "id": "1401992_A",
-      "isExitOnly": false,
       "name": "After Quelaag",
     },
     {
       "areaId": "blighttown_quelaag",
+      "direction": "inout",
       "id": "1401992_B",
-      "isExitOnly": false,
       "name": "After Quelaag",
     },
     {
       "areaId": "blighttown_upper",
+      "direction": "inout",
       "id": "1401994_A",
-      "isExitOnly": false,
       "name": "Between Blighttown and the Depths",
     },
     {
       "areaId": "depths",
+      "direction": "inout",
       "id": "1401994_B",
-      "isExitOnly": false,
       "name": "Between Blighttown and the Depths",
     },
     {
       "areaId": "newlondo_drakes",
+      "direction": "inout",
       "id": "1401996_A",
-      "isExitOnly": false,
       "name": "Between Blighttown and Valley of the Drakes",
     },
     {
       "areaId": "blighttown",
+      "direction": "inout",
       "id": "1401996_B",
-      "isExitOnly": false,
       "name": "Between Blighttown and Valley of the Drakes",
     },
     {
       "areaId": "greathollow_start",
+      "direction": "inout",
       "id": "1401998_A",
-      "isExitOnly": false,
       "name": "Between Blighttown and Great Hollow",
     },
     {
       "areaId": "blighttown",
+      "direction": "inout",
       "id": "1401998_B",
-      "isExitOnly": false,
       "name": "Between Blighttown and Great Hollow",
     },
     {
       "areaId": "blighttown_upper",
+      "direction": "inout",
       "id": "1401702_A",
-      "isExitOnly": false,
       "name": "In between the main pit and wood planks while climbing up/down Blighttown",
     },
     {
       "areaId": "blighttown",
+      "direction": "inout",
       "id": "1401702_B",
-      "isExitOnly": false,
       "name": "In between the main pit and wood planks while climbing up/down Blighttown",
     },
     {
       "areaId": "demonruins_lower",
+      "direction": "inout",
       "id": "1411710_A",
-      "isExitOnly": false,
       "name": "Golden fog gate in Demon Ruins",
     },
     {
       "areaId": "demonruins_lordvessel",
+      "direction": "inout",
       "id": "1411710_B",
-      "isExitOnly": false,
       "name": "Golden fog gate in Demon Ruins",
     },
     {
       "areaId": "demonruins",
+      "direction": "inout",
       "id": "1411790_A",
-      "isExitOnly": false,
       "name": "To Ceaseless Discharge",
     },
     {
       "areaId": "demonruins_ceaseless",
+      "direction": "inout",
       "id": "1411790_B",
-      "isExitOnly": false,
       "name": "To Ceaseless Discharge",
     },
     {
       "areaId": "demonruins_lordvessel",
+      "direction": "inout",
       "id": "1411410_A",
-      "isExitOnly": false,
       "name": "To Demon Firesage",
     },
     {
       "areaId": "demonruins_firesage",
+      "direction": "inout",
       "id": "1411410_B",
-      "isExitOnly": false,
       "name": "To Demon Firesage",
     },
     {
       "areaId": "demonruins_firesage",
+      "direction": "inout",
       "id": "1411412_A",
-      "isExitOnly": false,
       "name": "After Demon Firesage",
     },
     {
       "areaId": "demonruins_stairs",
+      "direction": "inout",
       "id": "1411412_B",
-      "isExitOnly": false,
       "name": "After Demon Firesage",
     },
     {
       "areaId": "demonruins_stairs",
+      "direction": "inout",
       "id": "1411890_A",
-      "isExitOnly": false,
       "name": "To Centipede Demon",
     },
     {
       "areaId": "demonruins_centipede",
+      "direction": "inout",
       "id": "1411890_B",
-      "isExitOnly": false,
       "name": "To Centipede Demon",
     },
     {
       "areaId": "demonruins_centipede",
+      "direction": "inout",
       "id": "1411892_A",
-      "isExitOnly": false,
       "name": "After Centipede Demon",
     },
     {
       "areaId": "demonruins_izalithprelava",
+      "direction": "inout",
       "id": "1411892_B",
-      "isExitOnly": false,
       "name": "After Centipede Demon",
     },
     {
       "areaId": "blighttown_bell",
+      "direction": "inout",
       "id": "1411994_A",
-      "isExitOnly": false,
       "name": "Between Quelaag's Domain and the Demon Ruins bonfire",
     },
     {
       "areaId": "demonruins",
+      "direction": "inout",
       "id": "1411994_B",
-      "isExitOnly": false,
       "name": "Between Quelaag's Domain and the Demon Ruins bonfire",
     },
     {
       "areaId": "demonruins_elevator",
+      "direction": "inout",
       "id": "1411996_A",
-      "isExitOnly": false,
       "name": "Between stairways behind Firesage and elevator to Quelaag's Domain",
     },
     {
       "areaId": "demonruins_stairs",
+      "direction": "inout",
       "id": "1411996_B",
-      "isExitOnly": false,
       "name": "Between stairways behind Firesage and elevator to Quelaag's Domain",
     },
     {
       "areaId": "demonruins_lower",
+      "direction": "inout",
       "id": "1411998_A",
-      "isExitOnly": false,
       "name": "In Demon Ruins next to the first Capra Demon",
     },
     {
       "areaId": "demonruins",
+      "direction": "inout",
       "id": "1411998_B",
-      "isExitOnly": false,
       "name": "In Demon Ruins next to the first Capra Demon",
     },
     {
       "areaId": "demonruins_lordvessel",
+      "direction": "inout",
       "id": "1411984_A",
-      "isExitOnly": false,
       "name": "The magic door which can be opened from Izalith or with covenent rank",
     },
     {
       "areaId": "demonruins_izalith",
+      "direction": "inout",
       "id": "1411984_B",
-      "isExitOnly": false,
       "name": "The magic door which can be opened from Izalith or with covenent rank",
     },
     {
       "areaId": "demonruins_bedofchaos",
+      "direction": "inout",
       "id": "1411990_A",
-      "isExitOnly": false,
       "name": "To Bed of Chaos",
     },
     {
       "areaId": "demonruins_izalith",
+      "direction": "inout",
       "id": "1411990_B",
-      "isExitOnly": false,
       "name": "To Bed of Chaos",
     },
     {
       "areaId": "sens_upper",
+      "direction": "inout",
       "id": "1501990_A",
-      "isExitOnly": false,
       "name": "To Iron Golem",
     },
     {
       "areaId": "sens_irongolem",
+      "direction": "inout",
       "id": "1501990_B",
-      "isExitOnly": false,
       "name": "To Iron Golem",
     },
     {
       "areaId": "parish_andre",
+      "direction": "inout",
       "id": "1501994_A",
-      "isExitOnly": false,
       "name": "Between Sen's Fortress gate and Andre",
     },
     {
       "areaId": "sens",
+      "direction": "inout",
       "id": "1501994_B",
-      "isExitOnly": false,
       "name": "Between Sen's Fortress gate and Andre",
     },
     {
       "areaId": "sens",
+      "direction": "inout",
       "id": "1501700_A",
-      "isExitOnly": false,
       "name": "Near the outside boulder stairway and Siegmeyer in Sen's Fortress",
     },
     {
       "areaId": "sens_mid",
+      "direction": "inout",
       "id": "1501700_B",
-      "isExitOnly": false,
       "name": "Near the outside boulder stairway and Siegmeyer in Sen's Fortress",
     },
     {
       "areaId": "sens_upper",
+      "direction": "inout",
       "id": "1501702_A",
-      "isExitOnly": false,
       "name": "Between final swinging axes aand Sen's Fortress roof",
     },
     {
       "areaId": "sens_mid",
+      "direction": "inout",
       "id": "1501702_B",
-      "isExitOnly": false,
       "name": "Between final swinging axes aand Sen's Fortress roof",
     },
     {
       "areaId": "anorlondo_os",
+      "direction": "inout",
       "id": "1511990_A",
-      "isExitOnly": false,
       "name": "To O&S",
     },
     {
       "areaId": "anorlondo_cathedral",
+      "direction": "inout",
       "id": "1511990_B",
-      "isExitOnly": false,
       "name": "To O&S",
     },
     {
       "areaId": "anorlondo_elevator1",
+      "direction": "inout",
       "id": "1511992_A",
-      "isExitOnly": false,
       "name": "After O&S on left side",
     },
     {
       "areaId": "anorlondo_os",
+      "direction": "inout",
       "id": "1511992_B",
-      "isExitOnly": false,
       "name": "After O&S on left side",
     },
     {
       "areaId": "anorlondo_elevator2",
+      "direction": "inout",
       "id": "1511988_A",
-      "isExitOnly": false,
       "name": "After O&S on right side",
     },
     {
       "areaId": "anorlondo_os",
+      "direction": "inout",
       "id": "1511988_B",
-      "isExitOnly": false,
       "name": "After O&S on right side",
     },
     {
       "areaId": "anorlondo_prerafters",
+      "direction": "inout",
       "id": "1511994_A",
-      "isExitOnly": false,
       "name": "At the doorway connecting the first Anor Londo elevator and the first gargoyle",
     },
     {
       "areaId": "anorlondo_start",
+      "direction": "inout",
       "id": "1511994_B",
-      "isExitOnly": false,
       "name": "At the doorway connecting the first Anor Londo elevator and the first gargoyle",
     },
     {
       "areaId": "anorlondo_rafters",
+      "direction": "inout",
       "id": "1511700_A",
-      "isExitOnly": false,
       "name": "Between the Painting Guardian rafters and the elevator contraption",
     },
     {
       "areaId": "anorlondo_postrafters",
+      "direction": "inout",
       "id": "1511700_B",
-      "isExitOnly": false,
       "name": "Between the Painting Guardian rafters and the elevator contraption",
     },
     {
       "areaId": "anorlondo_main",
+      "direction": "inout",
       "id": "1511702_A",
-      "isExitOnly": false,
       "name": "Between the first two Silver Knights and the main building",
     },
     {
       "areaId": "anorlondo_building",
+      "direction": "inout",
       "id": "1511702_B",
-      "isExitOnly": false,
       "name": "Between the first two Silver Knights and the main building",
     },
     {
       "areaId": "anorlondo_gwyndolin",
+      "direction": "inout",
       "id": "1511890_A",
-      "isExitOnly": false,
       "name": "To Gwyndolin",
     },
     {
       "areaId": "anorlondo_darkmoon",
+      "direction": "inout",
       "id": "1511890_B",
-      "isExitOnly": false,
       "name": "To Gwyndolin",
     },
     {
       "areaId": "anorlondo_cathedral",
+      "direction": "inout",
       "id": "1511754_A",
-      "isExitOnly": false,
       "name": "From the Anor Londo main cathedral out of a broken window in front",
     },
     {
       "areaId": "anorlondo_front",
+      "direction": "inout",
       "id": "1511754_B",
-      "isExitOnly": false,
       "name": "From the Anor Londo main cathedral out of a broken window in front",
     },
     {
       "areaId": "anorlondo_cathedral",
+      "direction": "inout",
       "id": "1511750_A",
-      "isExitOnly": false,
       "name": "Between the Anor Londo main cathedral and the area with bedrooms and paintings",
     },
     {
       "areaId": "anorlondo_building",
+      "direction": "inout",
       "id": "1511750_B",
-      "isExitOnly": false,
       "name": "Between the Anor Londo main cathedral and the area with bedrooms and paintings",
     },
     {
       "areaId": "anorlondo_blacksmith",
+      "direction": "inout",
       "id": "1511752_A",
-      "isExitOnly": false,
       "name": "Between the Anor Londo main cathedral and the Giant Blacksmith",
     },
     {
       "areaId": "anorlondo_cathedral",
+      "direction": "inout",
       "id": "1511752_B",
-      "isExitOnly": false,
       "name": "Between the Anor Londo main cathedral and the Giant Blacksmith",
     },
     {
       "areaId": "newlondo",
+      "direction": "inout",
       "id": "1601994_A",
-      "isExitOnly": false,
       "name": "Between the Firelink Shrine elevator and New Londo Ruins",
     },
     {
       "areaId": "firelink",
+      "direction": "inout",
       "id": "1601994_B",
-      "isExitOnly": false,
       "name": "Between the Firelink Shrine elevator and New Londo Ruins",
     },
     {
       "areaId": "newlondo",
+      "direction": "inout",
       "id": "1601996_A",
-      "isExitOnly": false,
       "name": "On door between start of New Londo Ruins and Valley of Drakes near Blighttown",
     },
     {
       "areaId": "newlondo_drakes",
+      "direction": "inout",
       "id": "1601996_B",
-      "isExitOnly": false,
       "name": "On door between start of New Londo Ruins and Valley of Drakes near Blighttown",
     },
     {
       "areaId": "newlondo_drakes",
+      "direction": "inout",
       "id": "1601998_A",
-      "isExitOnly": false,
       "name": "On door between lower New Londo Ruins and Valley of Drakes near RTSR",
     },
     {
       "areaId": "newlondo_lower",
+      "direction": "inout",
       "id": "1601998_B",
-      "isExitOnly": false,
       "name": "On door between lower New Londo Ruins and Valley of Drakes near RTSR",
     },
     {
       "areaId": "newlondo",
+      "direction": "inout",
       "id": "1601700_A",
-      "isExitOnly": false,
       "name": "Near the New Londo Ruins shortcut ladder",
     },
     {
       "areaId": "newlondo_building",
+      "direction": "inout",
       "id": "1601700_B",
-      "isExitOnly": false,
       "name": "Near the New Londo Ruins shortcut ladder",
     },
     {
       "areaId": "newlondo_lower",
+      "direction": "inout",
       "id": "1601702_A",
-      "isExitOnly": false,
       "name": "On an entrance to the building with the Very Large Ember in lower ruins",
     },
     {
       "areaId": "newlondo_lower",
+      "direction": "inout",
       "id": "1601702_B",
-      "isExitOnly": false,
       "name": "On an entrance to the building with the Very Large Ember in lower ruins",
     },
     {
       "areaId": "newlondo_lower",
+      "direction": "inout",
       "id": "1601990_A",
-      "isExitOnly": false,
       "name": "To Four Kings",
     },
     {
       "areaId": "newlondo_stairs",
+      "direction": "inout",
       "id": "1601990_B",
-      "isExitOnly": false,
       "name": "To Four Kings",
     },
     {
       "areaId": "dukes_caves",
+      "direction": "inout",
       "id": "1701990_A",
-      "isExitOnly": false,
       "name": "To Seath in Crystal Caves",
     },
     {
       "areaId": "dukes_seath2",
+      "direction": "inout",
       "id": "1701990_B",
-      "isExitOnly": false,
       "name": "To Seath in Crystal Caves",
     },
     {
       "areaId": "dukes_hallway",
+      "direction": "inout",
       "id": "1701890_A",
-      "isExitOnly": false,
       "name": "To Seath in Archives",
     },
     {
       "areaId": "dukes_seath1",
+      "direction": "inout",
       "id": "1701890_B",
-      "isExitOnly": false,
       "name": "To Seath in Archives",
     },
     {
       "areaId": "dukes_library",
+      "direction": "inout",
       "id": "1701994_A",
-      "isExitOnly": false,
       "name": "At the first elevator in Duke's Archives",
     },
     {
       "areaId": "dukes_start",
+      "direction": "inout",
       "id": "1701994_B",
-      "isExitOnly": false,
       "name": "At the first elevator in Duke's Archives",
     },
     {
       "areaId": "dukes_machines",
+      "direction": "inout",
       "id": "1701706_A",
-      "isExitOnly": false,
       "name": "Between Duke's Archives and the field before Crystal Caves",
     },
     {
       "areaId": "dukes_caves",
+      "direction": "inout",
       "id": "1701706_B",
-      "isExitOnly": false,
       "name": "Between Duke's Archives and the field before Crystal Caves",
     },
     {
       "areaId": "anorlondo_start",
+      "direction": "inout",
       "id": "1701710_A",
-      "isExitOnly": false,
       "name": "Golden fog gate leading to Duke's Archives",
     },
     {
       "areaId": "dukes_start",
+      "direction": "inout",
       "id": "1701710_B",
-      "isExitOnly": false,
       "name": "Golden fog gate leading to Duke's Archives",
     },
     {
       "areaId": "dukes_library",
+      "direction": "inout",
       "id": "1701996_A",
-      "isExitOnly": false,
       "name": "At the hallway with the crystal warrior in Duke's Archives",
     },
     {
       "areaId": "dukes_hallway",
+      "direction": "inout",
       "id": "1701996_B",
-      "isExitOnly": false,
       "name": "At the hallway with the crystal warrior in Duke's Archives",
     },
     {
       "areaId": "kiln",
+      "direction": "inout",
       "id": "1801990_A",
-      "isExitOnly": false,
       "name": "To Gwyn",
     },
     {
       "areaId": "kiln_gwyn",
+      "direction": "inout",
       "id": "1801990_B",
-      "isExitOnly": false,
       "name": "To Gwyn",
     },
     {
       "areaId": "kiln_stairs",
+      "direction": "inout",
       "id": "1801994_A",
-      "isExitOnly": false,
       "name": "Between the Kiln door and Black Knight area",
     },
     {
       "areaId": "kiln",
+      "direction": "inout",
       "id": "1801994_B",
-      "isExitOnly": false,
       "name": "Between the Kiln door and Black Knight area",
     },
     {
       "areaId": "asylum_balcony",
+      "direction": "inout",
       "id": "1811990_A",
-      "isExitOnly": false,
       "name": "To Asylum Demon from balcony",
     },
     {
       "areaId": "asylum_prebalcony",
+      "direction": "inout",
       "id": "1811990_B",
-      "isExitOnly": false,
       "name": "To Asylum Demon from balcony",
     },
     {
       "areaId": "asylum",
+      "direction": "inout",
       "id": "1811700_A",
-      "isExitOnly": false,
       "name": "Between hallway with initial weapons and Oscar's cell",
     },
     {
       "areaId": "asylum_oscar",
+      "direction": "inout",
       "id": "1811700_B",
-      "isExitOnly": false,
       "name": "Between hallway with initial weapons and Oscar's cell",
     },
     {
       "areaId": "asylum_stray",
+      "direction": "inout",
       "id": "1811890_A",
-      "isExitOnly": false,
       "name": "In Stray Demon arena",
     },
     {
       "areaId": "asylum_loop",
+      "direction": "inout",
       "id": "1811890_B",
-      "isExitOnly": false,
       "name": "In Stray Demon arena",
     },
     {
       "areaId": "firelink_crow",
+      "direction": "in",
       "id": "1812110_A",
-      "isExitOnly": false,
       "name": "Crow transport from Firelink to Asylum",
     },
     {
       "areaId": "asylum_outside",
+      "direction": "out",
       "id": "1812110_B",
-      "isExitOnly": true,
       "name": "Crow transport from Firelink to Asylum",
     },
     {
       "areaId": "paintedworld_priscilla",
+      "direction": "in",
       "id": "1512500_A",
-      "isExitOnly": false,
       "name": "Leaving Painted World back to Anor Londo",
     },
     {
       "areaId": "anorlondo_painting",
+      "direction": "out",
       "id": "1512500_B",
-      "isExitOnly": true,
       "name": "Leaving Painted World back to Anor Londo",
     },
     {
       "areaId": "darkroot",
+      "direction": "in",
       "id": "1212510_A",
-      "isExitOnly": false,
       "name": "Warp to DLC",
     },
     {
       "areaId": "dlc_start",
+      "direction": "out",
       "id": "1212510_B",
-      "isExitOnly": true,
       "name": "Warp to DLC",
     },
     {
       "areaId": "catacombs",
+      "direction": "in",
       "id": "1312110_A",
-      "isExitOnly": false,
       "name": "Getting into coffin to Nito",
     },
     {
       "areaId": "totg_coffin",
+      "direction": "out",
       "id": "1312110_B",
-      "isExitOnly": true,
       "name": "Getting into coffin to Nito",
     },
     {
       "areaId": "totg_coffin",
+      "direction": "in",
       "id": "1302010_A",
-      "isExitOnly": false,
       "name": "Getting back in coffin at Nito",
     },
     {
       "areaId": "catacombs",
+      "direction": "out",
       "id": "1302010_B",
-      "isExitOnly": true,
       "name": "Getting back in coffin at Nito",
     },
     {
       "areaId": "sens_irongolem",
+      "direction": "in",
       "id": "1510998_A",
-      "isExitOnly": false,
       "name": "From Sen's to Anor Londo",
     },
     {
       "areaId": "anorlondo_start",
+      "direction": "out",
       "id": "1510998_B",
-      "isExitOnly": true,
       "name": "From Sen's to Anor Londo",
     },
     {
       "areaId": "anorlondo_painting",
+      "direction": "in",
       "id": "1102510_A",
-      "isExitOnly": false,
       "name": "Using Peculiar Doll to access Painted World",
     },
     {
       "areaId": "paintedworld",
+      "direction": "out",
       "id": "1102510_B",
-      "isExitOnly": true,
       "name": "Using Peculiar Doll to access Painted World",
     },
     {
       "areaId": "anorlondo_start",
+      "direction": "in",
       "id": "1502500_A",
-      "isExitOnly": false,
       "name": "From Anor Londo back to Sen's",
     },
     {
       "areaId": "sens_irongolem",
+      "direction": "out",
       "id": "1502500_B",
-      "isExitOnly": true,
       "name": "From Anor Londo back to Sen's",
     },
     {
       "areaId": "asylum_outside",
+      "direction": "in",
       "id": "1022121_A",
-      "isExitOnly": false,
       "name": "Warp to Firelink crow's nest",
     },
     {
       "areaId": "firelink_crow",
+      "direction": "out",
       "id": "1022121_B",
-      "isExitOnly": true,
       "name": "Warp to Firelink crow's nest",
     },
     {
       "areaId": "dukes_seath1",
+      "direction": "in",
       "id": "1702901_A",
-      "isExitOnly": false,
       "name": "To Duke's Archives prison",
     },
     {
       "areaId": "dukes_prison",
+      "direction": "out",
       "id": "1702901_B",
-      "isExitOnly": true,
       "name": "To Duke's Archives prison",
     },
     {
       "areaId": "firelink",
+      "direction": "in",
       "id": "1802110_A",
-      "isExitOnly": false,
       "name": "Frampt transport or falling from firelink to kiln",
     },
     {
       "areaId": "kiln_start",
+      "direction": "out",
       "id": "1802110_B",
-      "isExitOnly": true,
       "name": "Frampt transport or falling from firelink to kiln",
     },
     {
       "areaId": "newlondo_fourkings",
+      "direction": "in",
       "id": "160040_A",
-      "isExitOnly": false,
       "name": "Kaathe transport from abyss to kiln",
     },
     {
       "areaId": "kiln_start",
+      "direction": "out",
       "id": "160040_B",
-      "isExitOnly": true,
       "name": "Kaathe transport from abyss to kiln",
     },
     {
       "areaId": "kiln_start",
+      "direction": "in",
       "id": "1022110_A",
-      "isExitOnly": false,
       "name": "Frampt transport from kiln to firelink",
     },
     {
       "areaId": "firelink",
+      "direction": "out",
       "id": "1022110_B",
-      "isExitOnly": true,
       "name": "Frampt transport from kiln to firelink",
     },
     {
       "areaId": "kiln_start",
+      "direction": "in",
       "id": "1602110_A",
-      "isExitOnly": false,
       "name": "Kaathe transport from kiln to abyss",
     },
     {
       "areaId": "newlondo_fourkings",
+      "direction": "out",
       "id": "1602110_B",
-      "isExitOnly": true,
       "name": "Kaathe transport from kiln to abyss",
     },
     {
       "areaId": "asylum_outside",
+      "direction": "in",
       "id": "1022100_A",
-      "isExitOnly": false,
       "name": "First warp to Firelink Shrine",
     },
     {
       "areaId": "firelink",
+      "direction": "out",
       "id": "1022100_B",
-      "isExitOnly": true,
       "name": "First warp to Firelink Shrine",
     },
   ],
