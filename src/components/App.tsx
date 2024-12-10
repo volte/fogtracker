@@ -1,6 +1,7 @@
 import React, { createContext } from 'react';
 import ImportTrackerView from '@/components/ImportTrackerView';
 import TrackerListView from '@/components/TrackerListView';
+import ExportTrackerView from '@/components/ExportTrackerView';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '@/core/db/trackerDb';
 import styled from 'styled-components';
@@ -37,6 +38,11 @@ const AppTabs = () => {
           },
         ]
       : []),
+    ...(isInitialized ?
+    [{
+      title: 'Export',
+      content: <ExportTrackerView />
+    }] : [])
   ];
 
   return <Tabs activeIndex={selectedTab} onActiveIndexChange={setSelectedTab} tabs={tabs} />;

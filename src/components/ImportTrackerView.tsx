@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import DarkSoulsImporter from '@/components/game/DarkSoulsImporter';
 import { TrackerState } from '@/core/game/trackerState';
 import { db } from '@/core/db/trackerDb';
 import { Margin } from '@/components/styles/Spacing';
 import { FlexColumn } from '@/components/styles/FlexBox';
 import Select from 'react-select';
+import FileUploader from '@/components/util/FileUploader';
+import { Button } from '@/components/styles/Button';
 
 export interface Props {
   onImportComplete: () => void;
@@ -30,11 +32,25 @@ const supportedGames: SupportedGame[] = [
 
 const ImportTrackerView = (props: Props) => {
   const [selectedGame, setSelectedGame] = React.useState(supportedGames[0]!.id);
+  const [uploadedData, setUploadedData] = useState<string | null>(null);
   const importer = supportedGames.find(game => game.id === selectedGame)?.importer;
 
   const onImportTrackerState = async (trackerState: TrackerState) => {
     await db.initFromState(trackerState);
     props.onImportComplete();
+  };
+
+  const onImportJsonClick = async () => {
+    if (!uploadedData) {
+      return;
+    }
+
+    try {
+      await db.importFromJson(uploadedData);
+      props.onImportComplete();
+    } catch (err) {
+      console.error(`Error importing JSON: ${err}`);
+    }
   };
 
   return (
@@ -50,6 +66,12 @@ const ImportTrackerView = (props: Props) => {
         React.createElement<SupportedGameImporterProps>(importer, {
           onImportTrackerState,
         })}
+      <hr />
+      <h2>Import From Exported JSON</h2>
+      <FileUploader onUploadedDataChange={setUploadedData} />
+      <Button disabled={!uploadedData} onClick={onImportJsonClick}>
+        Import
+      </Button>
     </FlexColumn>
   );
 };

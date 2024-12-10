@@ -92,7 +92,7 @@ export class TrackerDatabase extends Dexie {
     );
   }
 
-  exportToJson(): string {
+  async exportToJson(): Promise<string> {
     const regions = await this.regions.toArray();
     const flagCategories = await this.flagCategories.toArray();
     const flags = await this.flags.toArray();
