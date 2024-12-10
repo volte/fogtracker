@@ -89,26 +89,36 @@ export const darkSoulsGameDefinition = {
       if (!entrance.ASide || !entrance.BSide) {
         continue;
       }
-      ports.push({
-        id: `${entrance.ID}_A`,
-        areaId: entrance.ASide.Area,
-        name: aSideAreaInfo?.EntranceInfo?.[entrance.ID]?.Name || entrance.Text,
-        direction: 'inout',
-      });
-      ports.push({
-        id: `${entrance.ID}_B`,
-        areaId: entrance.BSide.Area,
-        name: bSideAreaInfo?.EntranceInfo?.[entrance.ID]?.Name || entrance.Text,
-        direction: 'inout',
-      });
-      portNameToIdMap.set(
-        getPortNameKey({ areaName: entrance.ASide.Area, entrance: entrance.Text }),
-        `${entrance.ID}_A`
-      );
-      portNameToIdMap.set(
-        getPortNameKey({ areaName: entrance.BSide.Area, entrance: entrance.Text }),
-        `${entrance.ID}_B`
-      );
+      const needsABDisambiguation = entrance.ASide.Area === entrance.BSide.Area;
+
+      const aSideText = aSideAreaInfo?.EntranceInfo?.[entrance.ID]?.Name || entrance.Text;
+      const bSideText = bSideAreaInfo?.EntranceInfo?.[entrance.ID]?.Name || entrance.Text;
+
+      if (aSideText) {
+        ports.push({
+          id: `${entrance.ID}_A`,
+          areaId: entrance.ASide.Area,
+          name: bSideText + (needsABDisambiguation ? ' (A)' : ''),
+          direction: 'inout',
+        });
+        portNameToIdMap.set(
+          getPortNameKey({ areaName: entrance.ASide.Area, entrance: entrance.Text }),
+          `${entrance.ID}_A`
+        );
+      }
+
+      if (bSideText) {
+        ports.push({
+          id: `${entrance.ID}_B`,
+          areaId: entrance.BSide.Area,
+          name: bSideText + (needsABDisambiguation ? ' (B)' : ''),
+          direction: 'inout',
+        });
+        portNameToIdMap.set(
+          getPortNameKey({ areaName: entrance.BSide.Area, entrance: entrance.Text }),
+          `${entrance.ID}_B`
+        );
+      }
     }
 
     for (const warp of gameData.Warps || []) {
