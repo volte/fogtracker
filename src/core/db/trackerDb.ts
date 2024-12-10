@@ -73,6 +73,42 @@ export class TrackerDatabase extends Dexie {
       }
     );
   }
+
+  async importFromJson(json: string) {
+    await this.delete();
+    await this.open();
+    await this.transaction(
+      'rw',
+      [this.regions, this.flagCategories, this.flags, this.ports, this.connections, this.areas],
+      async () => {
+        const data = JSON.parse(json);
+        await this.regions.bulkPut(data.regions || []);
+        await this.flagCategories.bulkPut(data.flagCategories || []);
+        await this.flags.bulkPut(data.flags || []);
+        await this.ports.bulkPut(data.ports || []);
+        await this.connections.bulkPut(data.connections || []);
+        await this.areas.bulkPut(data.areas || []);
+      }
+    );
+  }
+
+  exportToJson(): string {
+    const regions = await this.regions.toArray();
+    const flagCategories = await this.flagCategories.toArray();
+    const flags = await this.flags.toArray();
+    const ports = await this.ports.toArray();
+    const connections = await this.connections.toArray();
+    const areas = await this.areas.toArray();
+
+    return JSON.stringify({
+      regions,
+      flagCategories,
+      flags,
+      ports,
+      connections,
+      areas,
+    });
+  }
 }
 
 export const db = new TrackerDatabase();
