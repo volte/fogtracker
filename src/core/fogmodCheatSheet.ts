@@ -5,6 +5,8 @@ export interface Transitions {
   otherEntrance: string;
   thisEntrance?: string;
   comment: string;
+  fromKey?: string;
+  toKey?: string;
 }
 
 export interface Area {
@@ -18,9 +20,12 @@ export interface Connection {
   toArea: string;
   toEntrance: string;
   comment: string;
+  fromKey?: string;
+  toKey?: string;
 }
 
 export interface FogModCheatSheet {
+  options: string[];
   connections: Connection[];
 }
 
@@ -33,9 +38,11 @@ export function parseFogModCheatSheet(cheatSheet: string): FogModCheatSheet {
     throw new Error(`FogMod cheat sheet error (line ${reader.lineNumber}): ${message}`);
   };
 
-  if (!reader.readLine()?.startsWith('Seed:')) {
+  const header = reader.readLine();
+  if (!header?.startsWith('Seed:')) {
     throw new Error('Invalid FogMod cheat sheet; expected Seed');
   }
+  const options = header.match(/Options: (.*)/)?.[1]?.split(' ') || [];
   reader.skipLines(2);
 
   const areas: Area[] = [];
@@ -52,14 +59,16 @@ export function parseFogModCheatSheet(cheatSheet: string): FogModCheatSheet {
       if (!currentArea) {
         return parseError('transition outside area');
       }
-      const matches = line.match(/^ {2}From (\S+) \((.*?)\) to (\S+)(?: \((.*?)\))?/);
+      const matches = line.match(/^ {2}From (\S+) \((.*?)\) to (\S+)(?: \((.*?)\))?(?:\s*\/\/ \[(.)] \[(.)])?/);
       if (!matches) {
         return parseError('invalid transition format');
       }
       currentArea.connections.push({
         otherArea: matches[1]!,
-        thisEntrance: matches[4]!,
+        thisEntrance: matches[4] || '',
         otherEntrance: matches[2]!,
+        fromKey: matches[5] || '',
+        toKey: matches[6] || '',
         comment: line.trim(),
       });
     } else {
@@ -78,19 +87,18 @@ export function parseFogModCheatSheet(cheatSheet: string): FogModCheatSheet {
   const connections: Connection[] = [];
   for (const area of areas) {
     for (const connection of area.connections) {
-      // Don't bother with non-entrance connections, they aren't randomized
-      if (!connection.thisEntrance) {
-        continue;
-      }
+      const toEntrance = connection.thisEntrance || connection.otherEntrance;
       connections.push({
         toArea: area.areaName,
-        toEntrance: connection.thisEntrance,
+        toEntrance,
         fromArea: connection.otherArea,
         fromEntrance: connection.otherEntrance,
         comment: connection.comment,
+        fromKey: connection.fromKey,
+        toKey: connection.toKey,
       });
     }
   }
 
-  return { connections };
+  return { options, connections };
 }

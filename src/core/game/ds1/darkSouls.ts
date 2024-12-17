@@ -33,8 +33,30 @@ export const darkSoulsGameDefinition = {
     const ports: TrackerPort[] = [];
 
     const portNameToIdMap = new Map<string, string>();
-    const getPortNameKey = ({ areaName, entrance }: { areaName: string; entrance: string }) =>
-      `${areaName}:${entrance}`;
+    const getPortNameKey = ({ areaName, entrance, index }: { areaName: string; entrance: string; index: number }) =>
+      `${areaName}:${entrance}:${index}`;
+    const getPort = (key: string) => {
+      const portId = portNameToIdMap.get(key);
+      if (!portId) {
+        console.log('Could not find port id for key:', key);
+        return null;
+      }
+      const port = ports.find(port => port.id === portId);
+      if (!port) {
+        console.log('Could not find port for key:', key);
+        return null;
+      }
+      return port;
+    };
+
+    const checkIfRandomized = (entranceName: string) => {
+      const entrance = gameData.Entrances.find(entrance => entrance.Name === entranceName);
+      if (!entrance) {
+        return false;
+      }
+      const tags = entrance.Tags?.split(' ') || [];
+      return tags.some(tag => cheatSheetData.options.includes(tag));
+    };
 
     const regions =
       gameData.Regions?.map(region => ({
@@ -89,6 +111,12 @@ export const darkSoulsGameDefinition = {
       if (!entrance.ASide || !entrance.BSide) {
         continue;
       }
+      if (entrance.ASide.ExcludeIfRandomized && checkIfRandomized(entrance.ASide.ExcludeIfRandomized)) {
+        continue;
+      }
+      if (entrance.BSide.ExcludeIfRandomized && checkIfRandomized(entrance.BSide.ExcludeIfRandomized)) {
+        continue;
+      }
       const needsABDisambiguation = entrance.ASide.Area === entrance.BSide.Area;
 
       const aSideText = aSideAreaInfo?.EntranceInfo?.[entrance.ID]?.Name || entrance.Text;
@@ -97,12 +125,14 @@ export const darkSoulsGameDefinition = {
       if (aSideText) {
         ports.push({
           id: `${entrance.ID}_A`,
+          entranceId: entrance.ID,
           areaId: entrance.ASide.Area,
-          name: bSideText + (needsABDisambiguation ? ' (A)' : ''),
+          name: aSideText + (needsABDisambiguation ? ' (A)' : ''),
+          index: 0,
           direction: 'inout',
         });
         portNameToIdMap.set(
-          getPortNameKey({ areaName: entrance.ASide.Area, entrance: entrance.Text }),
+          getPortNameKey({ areaName: entrance.ASide.Area, entrance: entrance.Text, index: 0 }),
           `${entrance.ID}_A`
         );
       }
@@ -110,12 +140,14 @@ export const darkSoulsGameDefinition = {
       if (bSideText) {
         ports.push({
           id: `${entrance.ID}_B`,
+          entranceId: entrance.ID,
           areaId: entrance.BSide.Area,
           name: bSideText + (needsABDisambiguation ? ' (B)' : ''),
+          index: 1,
           direction: 'inout',
         });
         portNameToIdMap.set(
-          getPortNameKey({ areaName: entrance.BSide.Area, entrance: entrance.Text }),
+          getPortNameKey({ areaName: entrance.BSide.Area, entrance: entrance.Text, index: 1 }),
           `${entrance.ID}_B`
         );
       }
@@ -129,45 +161,47 @@ export const darkSoulsGameDefinition = {
       const bSideAreaInfo = gameData.AreaInfo?.[warp.BSide.Area];
       ports.push({
         id: `${warp.ID}_A`,
+        entranceId: warp.ID,
         areaId: warp.ASide.Area,
         name: aSideAreaInfo?.WarpInfo?.[warp.ID]?.Name || warp.Text,
+        index: 0,
         direction: 'in',
       });
       ports.push({
         id: `${warp.ID}_B`,
+        entranceId: warp.ID,
         areaId: warp.BSide.Area,
         name: bSideAreaInfo?.WarpInfo?.[warp.ID]?.Name || warp.Text,
+        index: 1,
         direction: 'out',
       });
-      portNameToIdMap.set(getPortNameKey({ areaName: warp.ASide.Area, entrance: warp.Text }), `${warp.ID}_A`);
-      portNameToIdMap.set(getPortNameKey({ areaName: warp.BSide.Area, entrance: warp.Text }), `${warp.ID}_B`);
+      portNameToIdMap.set(getPortNameKey({ areaName: warp.ASide.Area, entrance: warp.Text, index: 0 }), `${warp.ID}_A`);
+      portNameToIdMap.set(getPortNameKey({ areaName: warp.BSide.Area, entrance: warp.Text, index: 1 }), `${warp.ID}_B`);
     }
 
     // Include entrance data from cheat sheet
     for (const connection of cheatSheetData.connections) {
-      const fromPortId = portNameToIdMap.get(
-        getPortNameKey({ areaName: connection.fromArea, entrance: connection.fromEntrance })
-      );
-      const toPortId = portNameToIdMap.get(
-        getPortNameKey({ areaName: connection.toArea, entrance: connection.toEntrance })
-      );
-
-      if (!fromPortId || !toPortId) {
-        console.warn('Could not find port for connection:', connection.comment);
+      if (connection.toEntrance === 'in map') {
         continue;
       }
 
-      const fromPort = ports.find(port => port.id === fromPortId);
-      const toPort = ports.find(port => port.id === toPortId);
+      const fromIndex = connection.fromKey === 'B' ? 1 : 0;
+      const toIndex = connection.toKey === 'A' ? 0 : 1;
+
+      const fromPort = getPort(
+        getPortNameKey({ areaName: connection.fromArea, entrance: connection.fromEntrance, index: fromIndex })
+      );
+      const toPort = getPort(
+        getPortNameKey({ areaName: connection.toArea, entrance: connection.toEntrance, index: toIndex })
+      );
 
       if (!fromPort || !toPort) {
-        console.warn('Could not find port for connection:', connection.comment);
         continue;
       }
 
       connections.push({
-        fromPortId,
-        toPortId,
+        fromPortId: fromPort.id,
+        toPortId: toPort.id,
         type: 'port',
         metadata: {
           comment: connection.comment,
@@ -175,8 +209,8 @@ export const darkSoulsGameDefinition = {
       });
       if (toPort.direction.includes('out')) {
         connections.push({
-          fromPortId: toPortId,
-          toPortId: fromPortId,
+          fromPortId: toPort.id,
+          toPortId: fromPort.id,
           type: 'port',
           metadata: {
             comment: connection.comment,

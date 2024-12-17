@@ -56,6 +56,7 @@ type EntranceSide = {
   Col?: string;
   ActionRegion?: string;
   Tags?: string;
+  ExcludeIfRandomized?: string;
 };
 
 interface Entrance {

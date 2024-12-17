@@ -29,9 +29,11 @@ export interface TrackerCondition {
 
 export interface TrackerPort {
   id: string;
+  entranceId: string;
   areaId: string;
   name: string;
   direction: 'in' | 'out' | 'inout';
+  index: number;
   metadata?: TrackerMetadata;
 }
 
