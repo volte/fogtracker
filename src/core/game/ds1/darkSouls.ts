@@ -108,6 +108,10 @@ export const darkSoulsGameDefinition = {
     for (const entrance of gameData.Entrances || []) {
       const aSideAreaInfo = gameData.AreaInfo?.[entrance.ASide.Area];
       const bSideAreaInfo = gameData.AreaInfo?.[entrance.BSide.Area];
+      const tags = entrance.Tags?.split(' ') || [];
+      if (!tags.every(tag => cheatSheetData.options.includes(tag))) {
+        continue;
+      }
       if (!entrance.ASide || !entrance.BSide) {
         continue;
       }
