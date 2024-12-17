@@ -103,7 +103,9 @@ const TrackerPortView = ({ port }: { port: Port }) => {
       );
     });
   };
-
+  if (!port || connections.length === 0) {
+    return null;
+  }
   return (
     <FlexColumn key={port.id}>
       <label>
